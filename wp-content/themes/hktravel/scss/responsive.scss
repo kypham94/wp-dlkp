@@ -1,0 +1,29 @@
+$color: #fe4e50;
+@media (min-width: 992px) and (max-width: 1199px) {
+	header nav ul li a {font-size: 13px;padding: 20px 18px;}
+	footer .menu-footer ul li a {padding: 12px 30px;}
+}
+@media (max-width: 991px) {
+
+}
+@media (max-width : 767px) {
+
+}
+@media (max-width : 600px) {
+	.time-line{display: none;}
+	#content .content-post .detail-post-main ul li .info-post{width: 100%;padding: 10px;border: 0px;}
+	#content .content-post .detail-post-main ul li .info-post .view{margin-bottom: 5px;}
+	.ft-menu{
+		display: none;
+	}
+}
+@media (max-width : 479px) {
+
+}
+@media (max-width : 420px) {
+	
+}
+
+@media (max-width : 320px) {
+
+}
