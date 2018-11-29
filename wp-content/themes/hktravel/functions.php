@@ -21,6 +21,19 @@ add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
 add_filter( 'wpseo_next_rel_link', '__return_false' );
 
 add_filter( 'wpseo_prev_rel_link', '__return_false' );
+
+remove_action('wp_head', 'rel_canonical');
+add_action('wp_head', 'my_rel_canonical');
+
+function my_rel_canonical() {
+    if (is_page('item') && isset($_GET['pubID'])) {
+        global $post;
+        $link = get_permalink($post->ID) . '?pubID=' . absint($_GET['pubID']);
+        echo "<link rel='canonical' href='$link' />\n";
+    } else {
+        rel_canonical();
+    }
+}
 /********************************************************************
 //Allow HTML tags in Widget title
 ********************************************************************/
