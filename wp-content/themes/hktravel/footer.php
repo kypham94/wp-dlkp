@@ -71,7 +71,6 @@
 					<div class="container">
 						<div class="copy-c">
 							<p><?php echo $hk_options[copyr]; ?></p>
-							<p class="by">Design By: <a href="https://huykira.net">Huy Kira</a></p>
 							<div class="clear"></div>
 						</div>
 					</div>
