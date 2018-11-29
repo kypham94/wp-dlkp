@@ -19,6 +19,8 @@
  */
 // ** MySQL settings - You can get this info from your web host ** //
 /** The name of the database for WordPress */
+define('WP_CACHE', true);
+
 define('DB_NAME', 'dulich');
 /** MySQL database username */
 define('DB_USER', 'root');
