@@ -34,7 +34,9 @@ function my_rel_canonical() {
 	    $categories = get_the_category();
 	    $category_id = $categories[0]->term_id;
 	    echo '<link rel="canonical" href="' .  get_category_link($category_id) . '" />';
-	}else {
+	}else if(is_home()) {
+		echo '<link rel="canonical" href="https://dulichkhampha.net" />';
+	} else {
         rel_canonical();
     }
 }
