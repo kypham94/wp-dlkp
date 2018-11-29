@@ -30,7 +30,11 @@ function my_rel_canonical() {
         global $post;
         $link = get_permalink($post->ID) . '?pubID=' . absint($_GET['pubID']);
         echo "<link rel='canonical' href='$link' />\n";
-    } else {
+    }else if(is_category()) {
+	    $categories = get_the_category();
+	    $category_id = $categories[0]->term_id;
+	    echo '<link rel="canonical" href="' .  get_category_link($category_id) . '" />';
+	}else {
         rel_canonical();
     }
 }
