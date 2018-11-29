@@ -10,6 +10,7 @@
 		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/libs/font-awesome/css/font-awesome.min.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/style.css">
 		<?php wp_head(); ?>
+		<link rel="canonical" href="https://dulichkhampha.net">
 	</head>
 	<body>
 	<?php global $hk_options; ?>
