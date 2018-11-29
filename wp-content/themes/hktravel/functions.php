@@ -17,6 +17,10 @@ function custom_excerpt_length( $length ) {
 	return 300;
 }
 add_filter( 'excerpt_length', 'custom_excerpt_length', 999 );
+
+add_filter( 'wpseo_next_rel_link', '__return_false' );
+
+add_filter( 'wpseo_prev_rel_link', '__return_false' );
 /********************************************************************
 //Allow HTML tags in Widget title
 ********************************************************************/
