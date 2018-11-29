@@ -5,12 +5,12 @@
 		<meta http-equiv="X-UA-Compatible" content="IE=edge">
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" href='https://fonts.googleapis.com/css?family=Lobster&subset=latin,vietnamese,latin-ext' rel='stylesheet' type='text/css'>
+		<link rel="canonical" href="https://dulichkhampha.net">
 		<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,700,500&subset=latin,vietnamese,latin-ext">
 		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/libs/bootstrap/css/bootstrap.min.css"> 
 		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/libs/font-awesome/css/font-awesome.min.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/style.css">
 		<?php wp_head(); ?>
-		<link rel="canonical" href="https://dulichkhampha.net">
 	</head>
 	<body>
 	<?php global $hk_options; ?>
