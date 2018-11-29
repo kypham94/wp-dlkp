@@ -7,3 +7,7 @@ Description: HK Travel themes By Huy Kira
 Version: 1.0
 Text Domain: hktravel
 */
+
+#content {
+	margin-top: 30px; 
+}
