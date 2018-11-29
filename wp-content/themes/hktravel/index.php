@@ -770,7 +770,6 @@
 									<a href="<?php the_permalink();?>">
 										<?php echo get_the_post_thumbnail( get_the_id(), 'video-thumb', array( 'class' =>'thumnail') ); ?>
 									</a>
-									<a href="<?php the_permalink();?>"><span><i class="fa fa-play"></i></span></a>
 								</div>
 								<h4><a href="<?php the_permalink();?>"><?php the_title(); ?></a></h4>
 							</div>
