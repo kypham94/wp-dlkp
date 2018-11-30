@@ -754,50 +754,5 @@
 				</div>
 			</div>
 		</div>
-		<!-- <div class="content-video">
-			<div class="container">
-				<h2 class="title-video">
-					Video mới
-				</h2>
-				<div class="list-video">
-					<div class="row">
-					<?php// $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=10&post_type=video'); ?>
-					<?php// global $wp_query; $wp_query->in_the_loop = true; ?>
-					<?php// while ($getposts->have_posts()) : $getposts->the_post(); ?>
-						<div class="col-xs-6 col-sm-4 col-md-5ths">
-							<div class="list-v">
-								<div class="detail-video">
-									<a href="<?php// the_permalink();?>">
-										<?php// echo get_the_post_thumbnail( get_the_id(), 'video-thumb', array( 'class' =>'thumnail') ); ?>
-									</a>
-								</div>
-								<h4><a href="<?php// the_permalink();?>"><?php the_title(); ?></a></h4>
-							</div>
-						</div>
-					<?php// endwhile; wp_reset_postdata(); ?>
-					</div>
-				</div>
-			</div>
-		</div>
-		<div class="content-location">
-			<div class="container">
-				<h2>Địa điểm du lịch</h2>
-				<div class="list-location">
-					<ul class="row">
-						<?php// $args = array( 
-						    //'hide_empty' => 0,
-						    //'taxonomy' => 'dia-diem-du-lich',
-						    //'orderby' => id,
-						    //); 
-						    //$cates = get_categories( $args ); 
-						    //foreach ( $cates as $cate ) {  ?>
-								<li class="col-xs-6 col-sm-3 col-md-2" >
-									<a href="<?php// echo get_term_link($cate->slug, 'dia-diem-du-lich'); ?>"><?php// echo $cate->name ?></a>
-								</li>
-						<?php } ?>
-            		</ul>
-				</div>
-			</div>
-		</div> -->
 	</div>
 <?php get_footer(); ?>
