@@ -3,13 +3,13 @@
 	<?php while (have_posts()) : the_post(); ?>
 		<?php setpostview(get_the_id()); ?>
 		<div id="content">
-			<div class="container">
+			<div class="container"><!-- 
 				<div class="col-xs-12 col-sm-12 col-md-2 hidden-sm hidden-xs">
 					<div class="sidebar-left">
 						<?php get_sidebar('left'); ?>
 					</div>
-				</div>
-				<div class="col-xs-12 col-sm-12 col-md-7">
+				</div> -->
+				<div class="col-xs-12 col-sm-12 col-md-9">
 					<div class="single-post">
 						<h1><?php the_title(); ?></h1>
 						<div class="meta">
