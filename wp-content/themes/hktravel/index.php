@@ -131,134 +131,19 @@
 							<div role="tabpanel" class="tab-pane active" id="dulich">
 								<div class="content-tour-list">
 									<div class="row">
-										<div class="col-xs-12 col-sm-4 col-md-3">
-											<div class="detail-tour">
-												<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/tour.jpg"></a>
-												<div class="info-tour">
-													<h4><a href="#">Tour du lịch Đà Nẵng 2N3Đ</a></h4>
-													<div class="meta">
-														<span>Hà Nội <span class="fa fa-long-arrow-right"></span> Đà Nẵng</span>
-													</div>
-													<div class="price">
-														<span>3.000.000 VNĐ</span>
-														<i>Hải Thanh Travel</i>
-														<div class="clear"></div>
-													</div>
+										<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=8&post_type=post&cat=5'); ?>
+										<?php global $wp_query; $wp_query->in_the_loop = true; ?>
+										<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
+											<div class="col-xs-6 col-sm-4 col-md-3">
+												<div class="detail-post">
+													<span class="line"></span>
+													<a href="<?php the_permalink(); ?>">
+														<?php echo get_the_post_thumbnail( get_the_id(), 'post-thumb', array("alt"=>get_the_title(), 'class' => 'img-post') ); ?>
+													</a>
+													<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
 												</div>
 											</div>
-										</div>
-										<div class="col-xs-12 col-sm-4 col-md-3">
-											<div class="detail-tour">
-												<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/tour2.jpg"></a>
-												<div class="info-tour">
-													<h4><a href="#">Tour du lịch Đà Nẵng 2N3Đ</a></h4>
-													<div class="meta">
-														<span>Hà Nội <span class="fa fa-long-arrow-right"></span> Đà Nẵng</span>
-													</div>
-													<div class="price">
-														<span>3.000.000 VNĐ</span>
-														<i>Hải Thanh Travel</i>
-														<div class="clear"></div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="col-xs-12 col-sm-4 col-md-3">
-											<div class="detail-tour">
-												<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/tour3.jpg"></a>
-												<div class="info-tour">
-													<h4><a href="#">Tour du lịch Đà Nẵng 2N3Đ</a></h4>
-													<div class="meta">
-														<span>Hà Nội <span class="fa fa-long-arrow-right"></span> Đà Nẵng</span>
-													</div>
-													<div class="price">
-														<span>3.000.000 VNĐ</span>
-														<i>Hải Thanh Travel</i>
-														<div class="clear"></div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="col-xs-12 col-sm-4 col-md-3">
-											<div class="detail-tour">
-												<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/tour4.jpg"></a>
-												<div class="info-tour">
-													<h4><a href="#">Tour du lịch Đà Nẵng 2N3Đ</a></h4>
-													<div class="meta">
-														<span>Hà Nội <span class="fa fa-long-arrow-right"></span> Đà Nẵng</span>
-													</div>
-													<div class="price">
-														<span>3.000.000 VNĐ</span>
-														<i>Hải Thanh Travel</i>
-														<div class="clear"></div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="col-xs-12 col-sm-4 col-md-3">
-											<div class="detail-tour">
-												<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/tour5.jpg"></a>
-												<div class="info-tour">
-													<h4><a href="#">Tour du lịch Đà Nẵng 2N3Đ</a></h4>
-													<div class="meta">
-														<span>Hà Nội <span class="fa fa-long-arrow-right"></span> Đà Nẵng</span>
-													</div>
-													<div class="price">
-														<span>3.000.000 VNĐ</span>
-														<i>Hải Thanh Travel</i>
-														<div class="clear"></div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="col-xs-12 col-sm-4 col-md-3">
-											<div class="detail-tour">
-												<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/tour6.jpg"></a>
-												<div class="info-tour">
-													<h4><a href="#">Tour du lịch Đà Nẵng 2N3Đ</a></h4>
-													<div class="meta">
-														<span>Hà Nội <span class="fa fa-long-arrow-right"></span> Đà Nẵng</span>
-													</div>
-													<div class="price">
-														<span>3.000.000 VNĐ</span>
-														<i>Hải Thanh Travel</i>
-														<div class="clear"></div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="col-xs-12 col-sm-4 col-md-3">
-											<div class="detail-tour">
-												<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/tour7.jpg"></a>
-												<div class="info-tour">
-													<h4><a href="#">Tour du lịch Đà Nẵng 2N3Đ</a></h4>
-													<div class="meta">
-														<span>Hà Nội <span class="fa fa-long-arrow-right"></span> Đà Nẵng</span>
-													</div>
-													<div class="price">
-														<span>3.000.000 VNĐ</span>
-														<i>Hải Thanh Travel</i>
-														<div class="clear"></div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="col-xs-12 col-sm-4 col-md-3">
-											<div class="detail-tour">
-												<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/tour8.jpg"></a>
-												<div class="info-tour">
-													<h4><a href="#">Tour du lịch Đà Nẵng 2N3Đ</a></h4>
-													<div class="meta">
-														<span>Hà Nội <span class="fa fa-long-arrow-right"></span> Đà Nẵng</span>
-													</div>
-													<div class="price">
-														<span>3.000.000 VNĐ</span>
-														<i>Hải Thanh Travel</i>
-														<div class="clear"></div>
-													</div>
-												</div>
-											</div>
-										</div>
+										<?php endwhile; wp_reset_postdata(); ?>	
 									</div>
 								</div>
 							</div>
