@@ -111,6 +111,12 @@
 				<div class="container">
 					<div role="tabpanel">
 						<ul class="nav nav-tabs post-tabs" role="tablist">
+							<?php $categories = get_terms(
+							    array( 'category' ), // Taxonomies
+							    array( 'name' => 'ids' ) // Fields
+							);
+							var_dump($categories)
+							 ?>
 							<li role="presentation" class="active">
 								<a href="#tour" aria-controls="tour" role="tab" data-toggle="tab">Tour du lịch</a>
 							</li>
