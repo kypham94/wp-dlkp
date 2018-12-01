@@ -14,7 +14,7 @@
 						<h1><?php the_title(); ?></h1>
 						<div class="meta">
 							<span>Ngày đăng: <strong><?php echo get_the_date('d/m/Y'); ?></strong></span>
-							<span>Chia sẽ bởi: <strong><?php the_author(); ?></strong></span>
+							<span>Chia sẻ bởi: <strong><?php the_author(); ?></strong></span>
 							<span>Chuyên mục: <strong><?php the_category(','); ?></strong></span>
 							<span>Lượt xem: <strong><?php echo getpostviews(get_the_id()); ?> lượt</strong></span>
 						</div>
