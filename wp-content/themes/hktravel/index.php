@@ -262,7 +262,7 @@
 									</div>
 								</div>
 							</div>
-							<div role="tabpanel" class="tab-pane" id="hotel">
+							<div role="tabpanel" class="tab-pane" id="vanhoa">
 								<div class="content-tour-list">
 									<div class="row">
 										<div class="col-xs-12 col-sm-4 col-md-3">
@@ -428,7 +428,7 @@
 									</div>
 								</div>
 							</div>
-							<div role="tabpanel" class="tab-pane" id="restaurent">
+							<div role="tabpanel" class="tab-pane" id="amthuc">
 								<div class="content-tour-list">
 									<div class="row">
 										<div class="col-xs-12 col-sm-4 col-md-3">
