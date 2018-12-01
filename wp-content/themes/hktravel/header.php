@@ -7,7 +7,7 @@
 		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/libs/bootstrap/css/bootstrap.min.css"> 
 		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/libs/font-awesome/css/font-awesome.min.css">
 		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/style.css">
-		<link rel="shortcut icon" href="https://dulichkhampha.net/wp-content/uploads/2018/12/favicon.png" />
+		<link rel="shortcut icon" href="https://dulichkhampha.net/wp-content/uploads/2018/12/z6.jpg" />
 		<?php wp_head(); ?>
 	</head>
 	<body>
