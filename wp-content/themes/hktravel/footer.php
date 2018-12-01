@@ -96,5 +96,26 @@
 		  fjs.parentNode.insertBefore(js, fjs);
 		}(document, 'script', 'facebook-jssdk'));
 		</script>
+		<div id="backtotop"> 
+		<a href="javascript:void(0)" class="backtotop"></a> 
+		</div>                 
+		<script type="text/javascript"> 
+		$(function () { 
+		    $("#backtotop").hide(); 
+		    $(window).scroll(function () { 
+		        if ($(this).scrollTop() > 500) { 
+		            $('#backtotop').fadeIn(); 
+		        } else { 
+		            $('#backtotop').fadeOut(); 
+		        } 
+		    }); 
+		}); 
+		jQuery('.backtotop').click(function () { 
+		    jQuery('html, body').animate({ 
+		        scrollTop: 0 
+		    }, 'slow'); 
+		}); 
+		</script>
+<!-- End of Scroll back to top --> 
 	</body>
 </html>
