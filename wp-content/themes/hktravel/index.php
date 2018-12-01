@@ -131,7 +131,7 @@
 							<div role="tabpanel" class="tab-pane active" id="dulich">
 								<div class="content-tour-list">
 									<div class="row">
-										<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=8&post_type=post&cat=5'); ?>
+										<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=8&post_type=post&cat=1'); ?>
 										<?php global $wp_query; $wp_query->in_the_loop = true; ?>
 										<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
 											<div class="col-xs-6 col-sm-4 col-md-3">
@@ -150,490 +150,76 @@
 							<div role="tabpanel" class="tab-pane" id="vanhoa">
 								<div class="content-tour-list">
 									<div class="row">
-										<div class="col-xs-12 col-sm-4 col-md-3">
-											<div class="detail-tour detail-hotel">
-												<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/h1.jpg"></a>
-												<div class="info-tour info-hotel">
-													<div class="star"><span>5</span></div>
-													<div class="h-info">
-														<h4><a href="#">Khách sạn Novotel Đà Nẵng</a></h4>
-														<div class="meta">
-															<span>02 Trần phú, Đà Nẵng</span>
-														</div>
-													</div>
-													<div class="clear"></div>
-													<div class="price">
-														<span style="color: #e00;">3.000.000 VNĐ</span>
-														<i>12 Đánh giá</i>
-														<div class="clear"></div>
-													</div>
+										<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=8&post_type=post&cat=2'); ?>
+										<?php global $wp_query; $wp_query->in_the_loop = true; ?>
+										<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
+											<div class="col-xs-6 col-sm-4 col-md-3">
+												<div class="detail-post">
+													<span class="line"></span>
+													<a href="<?php the_permalink(); ?>">
+														<?php echo get_the_post_thumbnail( get_the_id(), 'post-thumb', array("alt"=>get_the_title(), 'class' => 'img-post') ); ?>
+													</a>
+													<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
 												</div>
 											</div>
-										</div>
-										<div class="col-xs-12 col-sm-4 col-md-3">
-											<div class="detail-tour detail-hotel">
-												<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/h2.jpg"></a>
-												<div class="info-tour info-hotel">
-													<div class="star"><span>5</span></div>
-													<div class="h-info">
-														<h4><a href="#">Khách sạn Novotel Đà Nẵng</a></h4>
-														<div class="meta">
-															<span>02 Trần phú, Đà Nẵng</span>
-														</div>
-													</div>
-													<div class="clear"></div>
-													<div class="price">
-														<span style="color: #e00;">3.000.000 VNĐ</span>
-														<i>12 Đánh giá</i>
-														<div class="clear"></div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="col-xs-12 col-sm-4 col-md-3">
-											<div class="detail-tour detail-hotel">
-												<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/h3.jpg"></a>
-												<div class="info-tour info-hotel">
-													<div class="star"><span>5</span></div>
-													<div class="h-info">
-														<h4><a href="#">Khách sạn Novotel Đà Nẵng</a></h4>
-														<div class="meta">
-															<span>02 Trần phú, Đà Nẵng</span>
-														</div>
-													</div>
-													<div class="clear"></div>
-													<div class="price">
-														<span style="color: #e00;">3.000.000 VNĐ</span>
-														<i>12 Đánh giá</i>
-														<div class="clear"></div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="col-xs-12 col-sm-4 col-md-3">
-											<div class="detail-tour detail-hotel">
-												<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/h4.jpg"></a>
-												<div class="info-tour info-hotel">
-													<div class="star"><span>5</span></div>
-													<div class="h-info">
-														<h4><a href="#">Khách sạn Novotel Đà Nẵng</a></h4>
-														<div class="meta">
-															<span>02 Trần phú, Đà Nẵng</span>
-														</div>
-													</div>
-													<div class="clear"></div>
-													<div class="price">
-														<span style="color: #e00;">3.000.000 VNĐ</span>
-														<i>12 Đánh giá</i>
-														<div class="clear"></div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="col-xs-12 col-sm-4 col-md-3">
-											<div class="detail-tour detail-hotel">
-												<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/h5.jpg"></a>
-												<div class="info-tour info-hotel">
-													<div class="star"><span>5</span></div>
-													<div class="h-info">
-														<h4><a href="#">Khách sạn Novotel Đà Nẵng</a></h4>
-														<div class="meta">
-															<span>02 Trần phú, Đà Nẵng</span>
-														</div>
-													</div>
-													<div class="clear"></div>
-													<div class="price">
-														<span style="color: #e00;">3.000.000 VNĐ</span>
-														<i>12 Đánh giá</i>
-														<div class="clear"></div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="col-xs-12 col-sm-4 col-md-3">
-											<div class="detail-tour detail-hotel">
-												<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/h6.jpg"></a>
-												<div class="info-tour info-hotel">
-													<div class="star"><span>5</span></div>
-													<div class="h-info">
-														<h4><a href="#">Khách sạn Novotel Đà Nẵng</a></h4>
-														<div class="meta">
-															<span>02 Trần phú, Đà Nẵng</span>
-														</div>
-													</div>
-													<div class="clear"></div>
-													<div class="price">
-														<span style="color: #e00;">3.000.000 VNĐ</span>
-														<i>12 Đánh giá</i>
-														<div class="clear"></div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="col-xs-12 col-sm-4 col-md-3">
-											<div class="detail-tour detail-hotel">
-												<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/h7.jpg"></a>
-												<div class="info-tour info-hotel">
-													<div class="star"><span>5</span></div>
-													<div class="h-info">
-														<h4><a href="#">Khách sạn Novotel Đà Nẵng</a></h4>
-														<div class="meta">
-															<span>02 Trần phú, Đà Nẵng</span>
-														</div>
-													</div>
-													<div class="clear"></div>
-													<div class="price">
-														<span style="color: #e00;">3.000.000 VNĐ</span>
-														<i>12 Đánh giá</i>
-														<div class="clear"></div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="col-xs-12 col-sm-4 col-md-3">
-											<div class="detail-tour detail-hotel">
-												<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/h8.jpg"></a>
-												<div class="info-tour info-hotel">
-													<div class="star"><span>5</span></div>
-													<div class="h-info">
-														<h4><a href="#">Khách sạn Novotel Đà Nẵng</a></h4>
-														<div class="meta">
-															<span>02 Trần phú, Đà Nẵng</span>
-														</div>
-													</div>
-													<div class="clear"></div>
-													<div class="price">
-														<span style="color: #e00;">3.000.000 VNĐ</span>
-														<i>12 Đánh giá</i>
-														<div class="clear"></div>
-													</div>
-												</div>
-											</div>
-										</div>
+										<?php endwhile; wp_reset_postdata(); ?>	
 									</div>
 								</div>
 							</div>
 							<div role="tabpanel" class="tab-pane" id="amthuc">
 								<div class="content-tour-list">
 									<div class="row">
-										<div class="col-xs-12 col-sm-4 col-md-3">
-											<div class="detail-tour detail-hotel">
-												<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/r1.jpg"></a>
-												<div class="info-tour info-hotel">
-													<div class="star" style="background: #FF5722;"><span>5</span></div>
-													<div class="h-info">
-														<h4><a href="#">Nhà hàng Phương Đông</a></h4>
-														<div class="meta">
-															<span>02 Trần phú, Đà Nẵng</span>
-														</div>
-													</div>
-													<div class="clear"></div>
-													<div class="price">
-														<span>Xem chi tiết</span>
-														<i>12 Đánh giá</i>
-														<div class="clear"></div>
-													</div>
+										<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=8&post_type=post&cat=3'); ?>
+										<?php global $wp_query; $wp_query->in_the_loop = true; ?>
+										<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
+											<div class="col-xs-6 col-sm-4 col-md-3">
+												<div class="detail-post">
+													<span class="line"></span>
+													<a href="<?php the_permalink(); ?>">
+														<?php echo get_the_post_thumbnail( get_the_id(), 'post-thumb', array("alt"=>get_the_title(), 'class' => 'img-post') ); ?>
+													</a>
+													<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
 												</div>
 											</div>
-										</div>
-										<div class="col-xs-12 col-sm-4 col-md-3">
-											<div class="detail-tour detail-hotel">
-												<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/r2.jpg"></a>
-												<div class="info-tour info-hotel">
-													<div class="star" style="background: #FF5722;"><span>5</span></div>
-													<div class="h-info">
-														<h4><a href="#">Nhà hàng Phương Đông</a></h4>
-														<div class="meta">
-															<span>02 Trần phú, Đà Nẵng</span>
-														</div>
-													</div>
-													<div class="clear"></div>
-													<div class="price">
-														<span>Xem chi tiết</span>
-														<i>12 Đánh giá</i>
-														<div class="clear"></div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="col-xs-12 col-sm-4 col-md-3">
-											<div class="detail-tour detail-hotel">
-												<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/r3.jpg"></a>
-												<div class="info-tour info-hotel">
-													<div class="star" style="background: #FF5722;"><span>5</span></div>
-													<div class="h-info">
-														<h4><a href="#">Nhà hàng Phương Đông</a></h4>
-														<div class="meta">
-															<span>02 Trần phú, Đà Nẵng</span>
-														</div>
-													</div>
-													<div class="clear"></div>
-													<div class="price">
-														<span>Xem chi tiết</span>
-														<i>12 Đánh giá</i>
-														<div class="clear"></div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="col-xs-12 col-sm-4 col-md-3">
-											<div class="detail-tour detail-hotel">
-												<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/r4.jpg"></a>
-												<div class="info-tour info-hotel">
-													<div class="star" style="background: #FF5722;"><span>5</span></div>
-													<div class="h-info">
-														<h4><a href="#">Nhà hàng Phương Đông</a></h4>
-														<div class="meta">
-															<span>02 Trần phú, Đà Nẵng</span>
-														</div>
-													</div>
-													<div class="clear"></div>
-													<div class="price">
-														<span>Xem chi tiết</span>
-														<i>12 Đánh giá</i>
-														<div class="clear"></div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="col-xs-12 col-sm-4 col-md-3">
-											<div class="detail-tour detail-hotel">
-												<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/r5.jpg"></a>
-												<div class="info-tour info-hotel">
-													<div class="star" style="background: #FF5722;"><span>5</span></div>
-													<div class="h-info">
-														<h4><a href="#">Nhà hàng Phương Đông</a></h4>
-														<div class="meta">
-															<span>02 Trần phú, Đà Nẵng</span>
-														</div>
-													</div>
-													<div class="clear"></div>
-													<div class="price">
-														<span>Xem chi tiết</span>
-														<i>12 Đánh giá</i>
-														<div class="clear"></div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="col-xs-12 col-sm-4 col-md-3">
-											<div class="detail-tour detail-hotel">
-												<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/r6.jpg"></a>
-												<div class="info-tour info-hotel">
-													<div class="star" style="background: #FF5722;"><span>5</span></div>
-													<div class="h-info">
-														<h4><a href="#">Nhà hàng Phương Đông</a></h4>
-														<div class="meta">
-															<span>02 Trần phú, Đà Nẵng</span>
-														</div>
-													</div>
-													<div class="clear"></div>
-													<div class="price">
-														<span>Xem chi tiết</span>
-														<i>12 Đánh giá</i>
-														<div class="clear"></div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="col-xs-12 col-sm-4 col-md-3">
-											<div class="detail-tour detail-hotel">
-												<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/r7.jpg"></a>
-												<div class="info-tour info-hotel">
-													<div class="star" style="background: #FF5722;"><span>5</span></div>
-													<div class="h-info">
-														<h4><a href="#">Nhà hàng Phương Đông</a></h4>
-														<div class="meta">
-															<span>02 Trần phú, Đà Nẵng</span>
-														</div>
-													</div>
-													<div class="clear"></div>
-													<div class="price">
-														<span>Xem chi tiết</span>
-														<i>12 Đánh giá</i>
-														<div class="clear"></div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="col-xs-12 col-sm-4 col-md-3">
-											<div class="detail-tour detail-hotel">
-												<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/r8.jpg"></a>
-												<div class="info-tour info-hotel">
-													<div class="star" style="background: #FF5722;"><span>5</span></div>
-													<div class="h-info">
-														<h4><a href="#">Nhà hàng Phương Đông</a></h4>
-														<div class="meta">
-															<span>02 Trần phú, Đà Nẵng</span>
-														</div>
-													</div>
-													<div class="clear"></div>
-													<div class="price">
-														<span>Xem chi tiết</span>
-														<i>12 Đánh giá</i>
-														<div class="clear"></div>
-													</div>
-												</div>
-											</div>
-										</div>
+										<?php endwhile; wp_reset_postdata(); ?>	
 									</div>
 								</div>
 							</div>
-							<div role="tabpanel" class="tab-pane" id="rent">
+							<div role="tabpanel" class="tab-pane" id="lamdep">
 								<div class="content-tour-list">
 									<div class="row">
-										<div class="col-xs-12 col-sm-4 col-md-3">
-											<div class="detail-tour detail-hotel detail-rent">
-												<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/t1.jpg"></a>
-												<div class="info-tour info-hotel info-rent">
-													<div class="h-info">
-														<h4><a href="#">Thuê xe Hyundai County </a></h4>
-														<div class="meta">
-															<span>Nói đến dòng xe phục vụ khách...</span>
-														</div>
-													</div>
-													<div class="clear"></div>
-													<div class="price">
-														<span>Xem chi tiết</span>
-														<i>12 Lượt xem</i>
-														<div class="clear"></div>
-													</div>
+										<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=8&post_type=post&cat=35'); ?>
+										<?php global $wp_query; $wp_query->in_the_loop = true; ?>
+										<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
+											<div class="col-xs-6 col-sm-4 col-md-3">
+												<div class="detail-post">
+													<span class="line"></span>
+													<a href="<?php the_permalink(); ?>">
+														<?php echo get_the_post_thumbnail( get_the_id(), 'post-thumb', array("alt"=>get_the_title(), 'class' => 'img-post') ); ?>
+													</a>
+													<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
 												</div>
 											</div>
-										</div>
-										<div class="col-xs-12 col-sm-4 col-md-3">
-											<div class="detail-tour detail-hotel detail-rent">
-												<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/t2.jpg"></a>
-												<div class="info-tour info-hotel info-rent">
-													<div class="h-info">
-														<h4><a href="#">Thuê xe Hyundai County </a></h4>
-														<div class="meta">
-															<span>Nói đến dòng xe phục vụ khách...</span>
-														</div>
-													</div>
-													<div class="clear"></div>
-													<div class="price">
-														<span>Xem chi tiết</span>
-														<i>12 Lượt xem</i>
-														<div class="clear"></div>
-													</div>
+										<?php endwhile; wp_reset_postdata(); ?>	
+									</div>
+								</div>
+							</div>
+							<div role="tabpanel" class="tab-pane" id="suckhoe">
+								<div class="content-tour-list">
+									<div class="row">
+										<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=8&post_type=post&cat=37'); ?>
+										<?php global $wp_query; $wp_query->in_the_loop = true; ?>
+										<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
+											<div class="col-xs-6 col-sm-4 col-md-3">
+												<div class="detail-post">
+													<span class="line"></span>
+													<a href="<?php the_permalink(); ?>">
+														<?php echo get_the_post_thumbnail( get_the_id(), 'post-thumb', array("alt"=>get_the_title(), 'class' => 'img-post') ); ?>
+													</a>
+													<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
 												</div>
 											</div>
-										</div>
-										<div class="col-xs-12 col-sm-4 col-md-3">
-											<div class="detail-tour detail-hotel detail-rent">
-												<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/t3.jpg"></a>
-												<div class="info-tour info-hotel info-rent">
-													<div class="h-info">
-														<h4><a href="#">Thuê xe Hyundai County </a></h4>
-														<div class="meta">
-															<span>Nói đến dòng xe phục vụ khách...</span>
-														</div>
-													</div>
-													<div class="clear"></div>
-													<div class="price">
-														<span>Xem chi tiết</span>
-														<i>12 Lượt xem</i>
-														<div class="clear"></div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="col-xs-12 col-sm-4 col-md-3">
-											<div class="detail-tour detail-hotel detail-rent">
-												<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/t4.jpg"></a>
-												<div class="info-tour info-hotel info-rent">
-													<div class="h-info">
-														<h4><a href="#">Thuê xe Hyundai County </a></h4>
-														<div class="meta">
-															<span>Nói đến dòng xe phục vụ khách...</span>
-														</div>
-													</div>
-													<div class="clear"></div>
-													<div class="price">
-														<span>Xem chi tiết</span>
-														<i>12 Lượt xem</i>
-														<div class="clear"></div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="col-xs-12 col-sm-4 col-md-3">
-											<div class="detail-tour detail-hotel detail-rent">
-												<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/t5.jpg"></a>
-												<div class="info-tour info-hotel info-rent">
-													<div class="h-info">
-														<h4><a href="#">Thuê xe Hyundai County </a></h4>
-														<div class="meta">
-															<span>Nói đến dòng xe phục vụ khách...</span>
-														</div>
-													</div>
-													<div class="clear"></div>
-													<div class="price">
-														<span>Xem chi tiết</span>
-														<i>12 Lượt xem</i>
-														<div class="clear"></div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="col-xs-12 col-sm-4 col-md-3">
-											<div class="detail-tour detail-hotel detail-rent">
-												<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/t6.jpg"></a>
-												<div class="info-tour info-hotel info-rent">
-													<div class="h-info">
-														<h4><a href="#">Thuê xe Hyundai County </a></h4>
-														<div class="meta">
-															<span>Nói đến dòng xe phục vụ khách...</span>
-														</div>
-													</div>
-													<div class="clear"></div>
-													<div class="price">
-														<span>Xem chi tiết</span>
-														<i>12 Lượt xem</i>
-														<div class="clear"></div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="col-xs-12 col-sm-4 col-md-3">
-											<div class="detail-tour detail-hotel detail-rent">
-												<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/t7.jpg"></a>
-												<div class="info-tour info-hotel info-rent">
-													<div class="h-info">
-														<h4><a href="#">Thuê xe Hyundai County </a></h4>
-														<div class="meta">
-															<span>Nói đến dòng xe phục vụ khách...</span>
-														</div>
-													</div>
-													<div class="clear"></div>
-													<div class="price">
-														<span>Xem chi tiết</span>
-														<i>12 Lượt xem</i>
-														<div class="clear"></div>
-													</div>
-												</div>
-											</div>
-										</div>
-										<div class="col-xs-12 col-sm-4 col-md-3">
-											<div class="detail-tour detail-hotel detail-rent">
-												<a href="#"><img src="<?php bloginfo('template_directory'); ?>/images/t8.jpg"></a>
-												<div class="info-tour info-hotel info-rent">
-													<div class="h-info">
-														<h4><a href="#">Thuê xe Hyundai County </a></h4>
-														<div class="meta">
-															<span>Nói đến dòng xe phục vụ khách...</span>
-														</div>
-													</div>
-													<div class="clear"></div>
-													<div class="price">
-														<span>Xem chi tiết</span>
-														<i>12 Lượt xem</i>
-														<div class="clear"></div>
-													</div>
-												</div>
-											</div>
-										</div>
+										<?php endwhile; wp_reset_postdata(); ?>	
 									</div>
 								</div>
 							</div>
