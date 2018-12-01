@@ -111,27 +111,24 @@
 				<div class="container">
 					<div role="tabpanel">
 						<ul class="nav nav-tabs post-tabs" role="tablist">
-							<?php $categories = get_terms(
-							    array( 'category' ), // Taxonomies
-							    array( 'name' => 'ids' ) // Fields
-							);
-							var_dump($categories)
-							 ?>
 							<li role="presentation" class="active">
-								<a href="#tour" aria-controls="tour" role="tab" data-toggle="tab">Tour du lịch</a>
+								<a href="#dulich" aria-controls="dulich" role="tab" data-toggle="tab">Du lịch - Phượt</a>
 							</li>
 							<li role="presentation">
-								<a href="#hotel" aria-controls="hotel" role="tab" data-toggle="tab">Khách sạn</a>
+								<a href="#vanhoa" aria-controls="vanhoa" role="tab" data-toggle="tab">Văn hóa</a>
 							</li>
 							<li role="presentation">
-								<a href="#restaurent" aria-controls="restaurent" role="tab" data-toggle="tab">Nhà hàng</a>
+								<a href="#amthuc" aria-controls="amthuc" role="tab" data-toggle="tab">Ẩm thực</a>
 							</li>
 							<li role="presentation">
-								<a href="#rent" aria-controls="rent" role="tab" data-toggle="tab">Thuê xe</a>
+								<a href="#lamdep" aria-controls="lamdep" role="tab" data-toggle="tab">Làm đẹp</a>
+							</li>
+							<li role="presentation">
+								<a href="#suckhoe" aria-controls="suckhoe" role="tab" data-toggle="tab">Sức khỏe</a>
 							</li>
 						</ul>
 						<div class="tab-content">
-							<div role="tabpanel" class="tab-pane active" id="tour">
+							<div role="tabpanel" class="tab-pane active" id="dulich">
 								<div class="content-tour-list">
 									<div class="row">
 										<div class="col-xs-12 col-sm-4 col-md-3">
