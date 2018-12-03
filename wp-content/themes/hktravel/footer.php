@@ -117,9 +117,6 @@
 		});
 		
 		$('#search').hide();
-		$('#menu-item-299').click(function(){
-			$('#search').fadeToggle("slow", "linear");
-		});
 		$('.menu-item-299').click(function(){
 			$('#search').fadeToggle("slow", "linear");
 		});
