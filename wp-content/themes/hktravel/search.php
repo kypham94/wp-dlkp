@@ -1,3 +1,4 @@
+<?php get_header(); ?>
 <div id="content" role="main">
     <div id="searchResults">       
         <h2>Kết Quả Tìm</h2>
@@ -13,3 +14,5 @@
             <?php endif; ?>
     </div>
 </div>
+
+<?php get_footer(); ?>
