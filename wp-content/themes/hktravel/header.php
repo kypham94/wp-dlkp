@@ -38,6 +38,11 @@
 									); ?>
 									<div class="clear"></div>
 								</nav>
+								<div title="Tìm kiếm" id="search">
+								    <form action="https://dulichkhampha.net" id="searchform" method="get"> 
+								        <input type="text" onfocus="if (this.value == 'Search') {this.value = '';}" onblur="if (this.value == '')  {this.value = 'Search';}" id="s" name="s" value="Search" />
+								    </form>
+								</div>
 								<div class="hidden-bar hidden-md hidden-lg"><a href="#menu-mobile" class="menu-mobile"><i class="fa fa-bars" aria-hidden="true"></i></a></div>
 								<div class="clear"></div>
 							</div>
