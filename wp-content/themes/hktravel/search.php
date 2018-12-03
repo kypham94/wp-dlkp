@@ -6,9 +6,6 @@
 				<div role="tabpanel" class="tab-pane active" id="home1">
 					<div class="detail-post-main">
 						<ul>
-						<div class="panel panel-default">       
-							<h2 style=>Kết Quả Tìm</h2>
-						</div>
 							<?php if(have_posts()) : while(have_posts()) : the_post() ?>
 								<li>
 									<div class="time-line">
