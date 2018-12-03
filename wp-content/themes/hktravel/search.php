@@ -1,6 +1,6 @@
 <?php get_header(); ?>
 <div id="content" role="main">
-    <div id="searchResults">       
+    <div class="row">       
         <h2>Kết Quả Tìm</h2>
         <?php if(have_posts()) : while(have_posts()) : the_post() ?>
         <div class="col-xs-12 col-sm-12 col-md-12">
