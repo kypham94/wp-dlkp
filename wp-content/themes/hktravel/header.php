@@ -36,9 +36,6 @@
 									      	'menu_class' => 'menu-main'
 									   	) 
 									); ?>
-									<a href="#" class="btn btn-info btn-lg">
-							          <span class="glyphicon glyphicon-search"></span> Search 
-							        </a>
 									<div class="clear"></div>
 								</nav>
 								<div class="hidden-bar hidden-md hidden-lg"><a href="#menu-mobile" class="menu-mobile"><i class="fa fa-bars" aria-hidden="true"></i></a></div>
