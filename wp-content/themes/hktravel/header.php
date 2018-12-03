@@ -47,7 +47,7 @@
 		</header>
 		<div class="container">
 		<div class="row">
-			<div style="padding: 5px" class="bs-example bs-example-form" title="Tìm kiếm" id="search">
+			<div style="padding: 5px" title="Tìm kiếm" id="search">
 				<form action="https://dulichkhampha.net" id="searchform" method="get">
 				<div class="col-md-6"> 
 					<input class="form-control" type="text" onfocus="if (this.value == 'Search') {this.value = '';}" onblur="if (this.value == '')  {this.value = 'Search';}" id="s" name="s" value="Search" />
