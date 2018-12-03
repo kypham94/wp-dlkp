@@ -114,6 +114,11 @@
 		    jQuery('html, body').animate({ 
 		        scrollTop: 0 
 		    }, 'slow'); 
+		});
+		
+		$('#search').hide();
+		$('#menu-item-299').click(function(){
+			$('#search').toggle();
 		}); 
 		</script>
 <!-- End of Scroll back to top --> 
