@@ -47,12 +47,12 @@
 		</header>
 		<div class="container">
 		<div class="row">
-			<div class="bs-example bs-example-form" title="Tìm kiếm" id="search">
+			<div style="padding: 5px" class="bs-example bs-example-form" title="Tìm kiếm" id="search">
 				<form action="https://dulichkhampha.net" id="searchform" method="get">
-				<div class="col-md-8 input-group"> 
+				<div class="col-md-6"> 
 					<input class="form-control" type="text" onfocus="if (this.value == 'Search') {this.value = '';}" onblur="if (this.value == '')  {this.value = 'Search';}" id="s" name="s" value="Search" />
 				</div>
-				<div class="col-md-4 input-group"> 
+				<div class="col-md-4"> 
 					<button type="submit" class="btn btn-primary mb-2">Tìm kiếm</button>
 				</div>
 				</form>
