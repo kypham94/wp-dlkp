@@ -48,8 +48,8 @@
 		<div class="container">
 		<div class="row">
 			<div class="col-md-12" title="Tìm kiếm" id="search">
-				<form class="form-control-plaintext" action="https://dulichkhampha.net" id="searchform" method="get"> 
-					<input type="text" onfocus="if (this.value == 'Search') {this.value = '';}" onblur="if (this.value == '')  {this.value = 'Search';}" id="s" name="s" value="Search" />
+				<form action="https://dulichkhampha.net" id="searchform" method="get"> 
+					<input class="form-control-plaintext" type="text" onfocus="if (this.value == 'Search') {this.value = '';}" onblur="if (this.value == '')  {this.value = 'Search';}" id="s" name="s" value="Search" />
 					<button type="submit" class="btn btn-primary mb-2">Tìm kiếm</button>
 				</form>
 			</div>
