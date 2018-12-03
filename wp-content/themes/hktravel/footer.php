@@ -118,7 +118,7 @@
 		
 		$('#search').hide();
 		$('#menu-item-299').click(function(){
-			$('#search').toggle();
+			$('#search').fadeToggle("slow", "linear");
 		}); 
 		</script>
 <!-- End of Scroll back to top --> 
