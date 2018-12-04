@@ -36,7 +36,7 @@
 										'menu_class' => 'menu-main'
 									) 
 								); ?>
-								<i class="fa fa-search search-top"></i>
+								<i class="fa fa-search search-top"> </i>
 								<div class="clear"></div>
 							</nav>
 							<div class="hidden-bar hidden-md hidden-lg"><a href="#menu-mobile" class="menu-mobile"><i class="fa fa-bars" aria-hidden="true"></i></a></div>
