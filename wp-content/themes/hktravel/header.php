@@ -46,7 +46,7 @@
 			</div>
 		</header>
 		<div class="container">
-		<div class="row" style="margin-top: 30px">
+		<div class="row" style="margin-top:30px">
 			<div style="padding: 5px" title="Tìm kiếm" id="search">
 				<form action="https://dulichkhampha.net" id="searchform" method="get">
 				<div class="col-md-6 col-sm-6"> 
