@@ -37,6 +37,7 @@
 									) 
 								); ?>
 								<div class="clear"></div>
+								<i class="fa fa-search search-top"></i>
 							</nav>
 							<div class="hidden-bar hidden-md hidden-lg"><a href="#menu-mobile" class="menu-mobile"><i class="fa fa-bars" aria-hidden="true"></i></a></div>
 							<div class="clear"></div>
