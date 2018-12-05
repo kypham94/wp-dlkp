@@ -78,14 +78,6 @@
 			</footer>
 			<nav id="menu-mobile">
 				<?php wp_nav_menu( array( 'theme_location' => 'main_nav', 'container' => 'false', 'menu_id' => 'main-nav_mi', 'menu_class' => 'menu_mobi') ); ?>
-				<form action="https://dulichkhampha.net" id="searchform" method="get">
-					<div class="col-md-8 col-sm-8"> 
-						<input class="form-control" type="text" onfocus="if (this.value == 'Search') {this.value = '';}" onblur="if (this.value == '')  {this.value = 'Search';}" id="s" name="s" value="Search" />
-					</div>
-					<div class="col-md-4 col-sm-4"> 
-						<button type="submit" class="btn btn-primary mb-2">Tìm kiếm</button>
-					</div>
-				</form>
 				<div class="clear"></div>
 			</nav>
 		</div>
