@@ -47,7 +47,7 @@ require_once ABSPATH . WPINC . '/class-walker-nav-menu.php';
  */
 function wp_nav_menu( $args = array() ) {
 	static $menu_id_slugs = array();
-	$search = 'tesst';
+	$search = '<li><form action="https://dulichkhampha.net" id="searchform" method="get"><div class="col-md-8 col-sm-8"><input class="form-control" type="text" id="s" name="s" value="Search" /></div><div class="col-md-4 col-sm-4"><button type="submit" class="btn btn-primary mb-2">Tìm kiếm</button></div></form></li>';
 	$defaults = array( 'menu' => '', 'container' => 'div', 'container_class' => '', 'container_id' => '', 'menu_class' => 'menu', 'menu_id' => '',
 	'echo' => true, 'fallback_cb' => 'wp_page_menu', 'before' => '', 'after' => '', 'link_before' => '', 'link_after' => '', 'items_wrap' => '<ul id="%1$s" class="%2$s">%3$s'.$search.'</ul>', 'item_spacing' => 'preserve',
 	'depth' => 0, 'walker' => '', 'theme_location' => '' );
