@@ -78,7 +78,6 @@
 			</footer>
 			<nav id="menu-mobile">
 				<?php wp_nav_menu( array( 'theme_location' => 'main_nav', 'container' => 'false', 'menu_id' => 'main-nav_mi', 'menu_class' => 'menu_mobi') ); ?>
-				<div class="clear"></div>
 				<div class="row">
 				<form action="https://dulichkhampha.net" id="searchform" method="get">
 					<div class="col-md-8 col-sm-8"> 
