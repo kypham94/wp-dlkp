@@ -50,10 +50,10 @@
 		<div class="row" style="margin-top:30px">
 			<div style="padding: 5px" title="Tìm kiếm" id="search">
 				<form action="https://dulichkhampha.net" id="searchform" method="get">
-				<div class="col-md-8 col-sm-8"> 
+				<div class="col-md-9 col-sm-9"> 
 					<input class="form-control" type="text" onfocus="if (this.value == 'Search') {this.value = '';}" onblur="if (this.value == '')  {this.value = 'Search';}" id="s" name="s" value="Search" />
 				</div>
-				<div class="col-md-4 col-sm-4"> 
+				<div class="col-md-3 col-sm-3"> 
 					<button type="submit" class="btn btn-primary mb-2">Tìm kiếm</button>
 				</div>
 				</form>
