@@ -47,18 +47,20 @@
 			</div>
 		</header>
 		<div class="container">
-		<div class="row" style="margin-top:30px">
-			<div style="padding: 5px" title="Tìm kiếm" id="search">
-				<form action="https://dulichkhampha.net" id="searchform" method="get">
-				<div class="col-md-6 col-sm-6"> 
-					<input class="form-control" type="text" onfocus="if (this.value == 'Search') {this.value = '';}" onblur="if (this.value == '')  {this.value = 'Search';}" id="s" name="s" value="Search" />
+			<div class="row" style="margin-top:30px">
+				<div style="padding: 5px" title="Tìm kiếm" id="search">
+					<form action="https://dulichkhampha.net" id="searchform" method="get">
+						<div class="row" style="width:100%; border: 1px solid #eaeaea;">
+							<div class="col-md-8 col-sm-8" > 
+								<input class="form-control" type="text" onfocus="if (this.value == 'Search') {this.value = '';}" onblur="if (this.value == '')  {this.value = 'Search';}" id="s" name="s" value="Search" />
+							</div>
+							<div class="col-md-4 col-sm-4" > 
+								<button type="submit" class="btn btn-primary mb-2">Tìm kiếm</button>
+							</div>
+						</div>	
+					</form>
 				</div>
-				<div class="col-md-4 col-sm-4"> 
-					<button type="submit" class="btn btn-primary mb-2">Tìm kiếm</button>
-				</div>
-				</form>
 			</div>
-		</div>
 		</div>	
 		<?php if(!is_home()) { ?>
 			<div class="container">
