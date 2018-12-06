@@ -1,6 +1,6 @@
 ## Redux Options Framework [![WordPress plugin](https://img.shields.io/wordpress/plugin/v/redux-framework.svg?maxAge=2592000)]() [![WordPress](https://img.shields.io/wordpress/v/redux-framework.svg?maxAge=2592000)]() [![Build Status](https://travis-ci.org/reduxframework/redux-framework.png?branch=master)](https://travis-ci.org/reduxframework/redux-framework) [![Built with Grunt](https://cdn.gruntjs.com/builtwith.png)](http://gruntjs.com/) [![Slack](https://redux-slackin.herokuapp.com/badge.svg)](https://redux-slackin.herokuapp.com) 
 
-[Get it in the WordPress plugin repo](https://dulichkhampha.net/wordpress/plugins/redux-framework/)
+[Get it in the WordPress plugin repo](https://wordpress.org/plugins/redux-framework/)
 
 [Generate your own Underscores + Redux Framework based WordPress theme](http://build.reduxframework.com)
 

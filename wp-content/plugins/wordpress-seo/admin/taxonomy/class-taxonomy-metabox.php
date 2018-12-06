@@ -67,7 +67,7 @@ class WPSEO_Taxonomy_Metabox {
 		echo '<div class="inside">';
 
 		$helpcenter_tab = new WPSEO_Option_Tab( 'tax-metabox', __( 'Meta box', 'wordpress-seo' ),
-			array( 'video_url' => WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/metabox-taxonomy-screencast' ) ) );
+			array( 'video_url' => WPSEO_Shortlinker::get( 'https://yoa.st/metabox-taxonomy-screencast' ) ) );
 
 		$helpcenter = new WPSEO_Help_Center( 'tax-metabox', $helpcenter_tab, WPSEO_Utils::is_yoast_seo_premium() );
 		$helpcenter->localize_data();
@@ -285,10 +285,10 @@ class WPSEO_Taxonomy_Metabox {
 			__( 'Check what your Facebook or Twitter post will look like.', 'wordpress-seo' ),
 			__( 'Premium support', 'wordpress-seo' ),
 			__( 'Gain access to our 24/7 support team.', 'wordpress-seo' ),
-			WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/pe-buy-premium' ),
+			WPSEO_Shortlinker::get( 'https://yoa.st/pe-buy-premium' ),
 			/* translators: %s expands to Yoast SEO Premium. */
 			sprintf( __( 'Get %s', 'wordpress-seo' ), 'Yoast SEO Premium' ),
-			WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/pe-premium-page' ),
+			WPSEO_Shortlinker::get( 'https://yoa.st/pe-premium-page' ),
 			__( 'More info', 'wordpress-seo' )
 		);
 

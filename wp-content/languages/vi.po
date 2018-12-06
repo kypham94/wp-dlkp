@@ -6568,8 +6568,8 @@ msgid "Comments"
 msgstr "Bình luận"
 
 #: wp-includes/customize/class-wp-customize-themes-section.php:84
-msgid "An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href=\"https://dulichkhampha.net/wordpress/support/\">support forums</a>."
-msgstr "Đã xảy ra lỗi xảy ra, có thể là do WordPress.org hoặc do cấu hình máy chủ. Nếu bạn tiếp tục gặp vấn đề này, hãy thử tìm hỗ trợ tại <a href=\"https://dulichkhampha.net/wordpress/support/\">diễn đàn hỗ trợ</a>."
+msgid "An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href=\"https://wordpress.org/support/\">support forums</a>."
+msgstr "Đã xảy ra lỗi xảy ra, có thể là do WordPress.org hoặc do cấu hình máy chủ. Nếu bạn tiếp tục gặp vấn đề này, hãy thử tìm hỗ trợ tại <a href=\"https://wordpress.org/support/\">diễn đàn hỗ trợ</a>."
 
 #: wp-includes/comment-template.php:2200
 msgid "Name"
@@ -10930,19 +10930,19 @@ msgstr "Menu"
 
 #: wp-login.php:117 wp-includes/admin-bar.php:148
 #: wp-includes/widgets/class-wp-widget-meta.php:72
-msgid "https://dulichkhampha.net/wordpress/"
-msgstr "https://dulichkhampha.net/wordpress/"
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"
 
 #: wp-login.php:921 wp-includes/admin-bar.php:164 wp-includes/wp-db.php:1062
 #: wp-includes/wp-db.php:1595 wp-includes/wp-db.php:1753
 #: wp-includes/update.php:153 wp-includes/update.php:345
 #: wp-includes/update.php:527
-msgid "https://dulichkhampha.net/wordpress/support/"
-msgstr "https://dulichkhampha.net/wordpress/support/"
+msgid "https://wordpress.org/support/"
+msgstr "https://wordpress.org/support/"
 
 #: wp-includes/admin-bar.php:172
-msgid "https://dulichkhampha.net/wordpress/support/forum/requests-and-feedback"
-msgstr "https://dulichkhampha.net/wordpress/support/forum/requests-and-feedback"
+msgid "https://wordpress.org/support/forum/requests-and-feedback"
+msgstr "https://wordpress.org/support/forum/requests-and-feedback"
 
 #: wp-includes/class-wp-customize-widgets.php:683
 msgid "Move to another area&hellip;"

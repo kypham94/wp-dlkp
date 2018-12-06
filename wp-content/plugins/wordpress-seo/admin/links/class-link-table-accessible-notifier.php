@@ -42,7 +42,7 @@ class WPSEO_Link_Table_Accessible_Notifier {
 				),
 				'Yoast SEO',
 				'5.0',
-				'<a href="' . WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/15o' ) . '">',
+				'<a href="' . WPSEO_Shortlinker::get( 'https://yoa.st/15o' ) . '">',
 				'</a>'
 			),
 			array(

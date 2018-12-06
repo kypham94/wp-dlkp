@@ -25,7 +25,7 @@ class WPSEO_Config_Field_Success_Message extends WPSEO_Config_Field {
 		$this->set_property( 'title', __( 'You\'ve done it!', 'wordpress-seo' ) );
 		$this->set_property( 'message', $success_message );
 		$this->set_property( 'video', array(
-				'url'   => WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/metabox-screencast' ),
+				'url'   => WPSEO_Shortlinker::get( 'https://yoa.st/metabox-screencast' ),
 				'title' => sprintf(
 					/* translators: %1$s expands to Yoast SEO. */
 					__( '%1$s video tutorial', 'wordpress-seo' ),

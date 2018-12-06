@@ -531,13 +531,13 @@ Additionally, Types is the only plugin that lets you define parent/child relatio
 = 1.7.2 =
 
 * Release date: 2015-06-23
-* Field a problem with "file type" field on post edit screen when is no WYSIWYG editor. https://dulichkhampha.net/wordpress/support/topic/image-field-not-working-1
+* Field a problem with "file type" field on post edit screen when is no WYSIWYG editor. https://wordpress.org/support/topic/image-field-not-working-1
 
 = 1.7.1 =
 
 * Release date: 2015-06-22
-* Fixed a problem with constant ICL_SITEPRESS_VERSION https://dulichkhampha.net/wordpress/support/topic/types-17-notice-undefined-constant-icl_sitepress_version
-* Field a problem with "file type" field on user profile screen. https://dulichkhampha.net/wordpress/support/topic/image-field-not-working-1
+* Fixed a problem with constant ICL_SITEPRESS_VERSION https://wordpress.org/support/topic/types-17-notice-undefined-constant-icl_sitepress_version
+* Field a problem with "file type" field on user profile screen. https://wordpress.org/support/topic/image-field-not-working-1
 * Types and Access integration - You can define roles and control who can add, edit or change Custom Post Types, Custom Taxonomies, Custom Field Groups and User Meta Groups.
 
 = 1.7 =
@@ -645,7 +645,7 @@ Additionally, Types is the only plugin that lets you define parent/child relatio
 * Fixed a problem with duplicate slugs on "Edit Group" screen. https://icanlocalize.basecamphq.com/projects/7393061-toolset/todo_items/187118123/comments http://wp-types.com/forums/topic/cant-add-more-custom-fields/
 * Fixed a problem with default description not disappearing for non-English placeholders. https://icanlocalize.basecamphq.com/projects/7393061-toolset/todo_items/189787190/comments
 * Fixed a problem with Custom Taxonomy metaboxes still appearing on the Custom Post editing page even after removing a Custom Taxonomy from a Custom Post Type.
-* Fixed embedding OTGS CSS for the admin area. https://dulichkhampha.net/wordpress/support/topic/four-stylesheets-being-loaded-at-frontend
+* Fixed embedding OTGS CSS for the admin area. https://wordpress.org/support/topic/four-stylesheets-being-loaded-at-frontend
 * Fixed a problem with Checkbox field value not being saved. https://wp-types.com/forums/topic/checkbox-value-not-saved/
 * Added the option to select posts with the "Private" post status as parents in a parent-child Custom Post Types relationships. http://wp-types.com/forums/topic/cred-child-form-not-working-with-private-ctp/
 * Fixed a problem with the date-picker. https://icanlocalize.basecamphq.com/projects/7393061-toolset/todo_items/191190651/comments
@@ -666,7 +666,7 @@ Additionally, Types is the only plugin that lets you define parent/child relatio
 * Fixed a problem where the value of date field couldn’t be cleared and added new button which clears the date field value. http://wp-types.com/forums/topic/problem-2-after-update/
 * Replaced the deprecated like_escape function with the wpdb::esc_like function.
 * Fixed a problem where the parent-child relations between custom post types persisted after deleting and re-creating a custom post type.
-* Fixed a problem where date picker scripts were being enqueued in the front end. https://dulichkhampha.net/wordpress/support/topic/datepicker-css-enqueued-on-public
+* Fixed a problem where date picker scripts were being enqueued in the front end. https://wordpress.org/support/topic/datepicker-css-enqueued-on-public
 
 
 = 1.6.2 =
@@ -714,7 +714,7 @@ Additionally, Types is the only plugin that lets you define parent/child relatio
 
 = 1.5.7 =
 
-* Fixed action "admin_header" to "admin_head" thx for (anarchocoder)[https://dulichkhampha.net/wordpress/support/profile/anarchocoder]
+* Fixed action "admin_header" to "admin_head" thx for (anarchocoder)[https://wordpress.org/support/profile/anarchocoder]
 * Fixed english suggests in non-english sites.
 * Fixed missing icons in WordPress menu on custom fields edit screen.
 * Fixed problem with posts relations if post has no parent.

@@ -3865,8 +3865,8 @@ msgid "<strong>Box Controls</strong> &mdash; Click the title bar of the box to e
 msgstr "<strong>Các hộp điển khiển</strong> - Click vào thanh tiêu đề của hộp để mở rộng hoặc thu nhỏ nó. Một số hộp được thêm bởi plugins có thể có nội dung có thể thiết lập được và sẽ hiển thị một liên kết &#8220;Configure&#8221; trong thanh tiêu đề nếu bạn thao tác gần nó."
 
 #: wp-admin/maint/repair.php:147
-msgid "https://dulichkhampha.net/wordpress/support/forum/how-to-and-troubleshooting"
-msgstr "https://dulichkhampha.net/wordpress/support/forum/how-to-and-troubleshooting"
+msgid "https://wordpress.org/support/forum/how-to-and-troubleshooting"
+msgstr "https://wordpress.org/support/forum/how-to-and-troubleshooting"
 
 #: wp-admin/index.php:67
 msgid "<strong>At A Glance</strong> &mdash; Displays a summary of the content on your site and identifies which theme and version of WordPress you are using."
@@ -4510,7 +4510,7 @@ msgid ""
 "We hope you enjoy your new site. Thanks!\n"
 "\n"
 "--The WordPress Team\n"
-"https://dulichkhampha.net/wordpress/\n"
+"https://wordpress.org/\n"
 msgstr ""
 "Website WordPress của bạn đã được cài đặt thành công tại:\n"
 "\n"
@@ -4913,8 +4913,8 @@ msgid "Customization Draft"
 msgstr "Bản nháp tạo khi Tuỳ chỉnh"
 
 #: wp-admin/includes/ms.php:997
-msgid "<a href=\"https://dulichkhampha.net/wordpress/support/forum/multisite/\">Support Forums</a>"
-msgstr "<a href=\"https://dulichkhampha.net/wordpress/support/forum/multisite/\">Forum hỗ trợ</a>"
+msgid "<a href=\"https://wordpress.org/support/forum/multisite/\">Support Forums</a>"
+msgstr "<a href=\"https://wordpress.org/support/forum/multisite/\">Forum hỗ trợ</a>"
 
 #. translators: 1: Widgets admin screen URL, 2 and 3: The name of the default
 #. themes
@@ -6462,7 +6462,7 @@ msgid "Update to version %s"
 msgstr "Cập nhật phiên bản %s"
 
 #: wp-admin/includes/dashboard.php:1300
-msgid "https://dulichkhampha.net/wordpress/news/"
+msgid "https://wordpress.org/news/"
 msgstr "http://wordpress.org/news/"
 
 #. translators: xfn: http://gmpg.org/xfn
@@ -8157,7 +8157,7 @@ msgstr "<strong>Không tương thích</strong> với phiên bản WordPress củ
 #. then use that. Otherwise, leave untranslated.
 #: wp-admin/includes/dashboard.php:1129
 msgctxt "Events and News dashboard widget"
-msgid "https://dulichkhampha.net/wordpress/news/"
+msgid "https://wordpress.org/news/"
 msgstr "https://vi.wordpress.org/news/"
 
 #: wp-admin/includes/dashboard.php:63 wp-admin/includes/dashboard.php:582
@@ -8618,7 +8618,7 @@ msgstr "Nếu trang web của bạn cung cấp dịch vụ bao gồm đưa ra qu
 msgid "Gutenberg"
 msgstr "Gutenberg"
 
-#. translators: Link to https://dulichkhampha.net/wordpress/gutenberg
+#. translators: Link to https://wordpress.org/gutenberg
 #: wp-admin/includes/dashboard.php:1723
 msgid "<a href=\"%s\">Learn more about Gutenberg</a>"
 msgstr "<a href=\"%s\">Tìm hiểu thêm về Gutenberg</a>"
@@ -8732,12 +8732,12 @@ msgstr ""
 "###SITEURL###"
 
 #: wp-admin/includes/dashboard.php:1755
-msgid "https://dulichkhampha.net/wordpress/plugins/classic-editor"
+msgid "https://wordpress.org/plugins/classic-editor"
 msgstr "https://vi.wordpress.org/plugins/classic-editor/"
 
 #: wp-admin/includes/dashboard.php:1724
-msgid "https://dulichkhampha.net/wordpress/gutenberg/"
-msgstr "https://dulichkhampha.net/wordpress/gutenberg/"
+msgid "https://wordpress.org/gutenberg/"
+msgstr "https://wordpress.org/gutenberg/"
 
 #. translators: Header for the About section in a personal data export.
 #: wp-admin/includes/file.php:1955
@@ -10206,7 +10206,7 @@ msgstr "Công Tác Viên Lõi Cho WordPress %s"
 msgid "Want to see your name in lights on this page? <a href=\"%s\">Get involved in WordPress</a>."
 msgstr "Bạn có muốn tên bạn được liệt kê tại trang này? <a href=\"%s\">Dồn tâm trí cho WordPress</a>."
 
-#. translators: 1: https://dulichkhampha.net/wordpress/about/, 2: https://make.wordpress.org
+#. translators: 1: https://wordpress.org/about/, 2: https://make.wordpress.org
 #: wp-admin/credits.php:42
 msgid "WordPress is created by a <a href=\"%1$s\">worldwide team</a> of passionate individuals. <a href=\"%2$s\">Get involved in WordPress</a>."
 msgstr "WordPress được tạo bởi một <a href=\"%1$s\">nhóm toàn cầu</a> của những người có chung đam mê. <a href=\"%2$s\">Dồn tâm trí cho WordPress</a>."
@@ -10810,7 +10810,7 @@ msgid ""
 "This debugging email is sent when you are using a development version of WordPress.\n"
 "\n"
 "If you think these failures might be due to a bug in WordPress, could you report it?\n"
-" * Open a thread in the support forums: https://dulichkhampha.net/wordpress/support/forum/alphabeta\n"
+" * Open a thread in the support forums: https://wordpress.org/support/forum/alphabeta\n"
 " * Or, if you're comfortable writing a bug report: https://core.trac.wordpress.org/\n"
 "\n"
 "Thanks! -- The WordPress Team"
@@ -10821,7 +10821,7 @@ msgstr ""
 "Lá thư gỡ rối này được gửi khi bạn đang sử dụng phiên bản đang phát triển của WordPress.\n"
 "\n"
 "Nếu bạn nghĩ rằng đây là lỗi của WordPress, vui lòng thông báo chúng bằng cách:\n"
-"* Mở một chủ đề trên diễn đàn hỗ trợ: https://dulichkhampha.net/wordpress/support/forum/alphabeta\n"
+"* Mở một chủ đề trên diễn đàn hỗ trợ: https://wordpress.org/support/forum/alphabeta\n"
 "* Hoặc viết một báo cáo lỗi tại https://core.trac.wordpress.org/\n"
 "\n"
 "Cám ơn! - Nhóm WordPress"
@@ -11032,8 +11032,8 @@ msgstr "Chỉnh sửa nhanh phản hồi này"
 
 #: wp-admin/freedoms.php:62 wp-admin/themes.php:92
 #: wp-admin/theme-install.php:92
-msgid "https://dulichkhampha.net/wordpress/themes/"
-msgstr "https://dulichkhampha.net/wordpress/themes/"
+msgid "https://wordpress.org/themes/"
+msgstr "https://wordpress.org/themes/"
 
 #. translators: %s: comment link
 #: wp-admin/includes/class-wp-comments-list-table.php:653
@@ -11346,7 +11346,7 @@ msgstr "Email:"
 #: wp-admin/includes/plugin-install.php:239
 #: wp-admin/includes/plugin-install.php:612 wp-admin/freedoms.php:61
 #: wp-admin/plugins.php:424 wp-admin/plugin-install.php:82
-msgid "https://dulichkhampha.net/wordpress/plugins/"
+msgid "https://wordpress.org/plugins/"
 msgstr "https://vi.wordpress.org/plugins/"
 
 #: wp-admin/import.php:197
@@ -11600,7 +11600,7 @@ msgid "Want to add media to your text widget? Embed images, video, and audio dir
 msgstr "Muốn thêm đa phương tiện vào trong widget HTML? Nhúng ảnh, video và audio trực tiếp với nút \"Thêm media\" đơn giản mà hữu dụng."
 
 #: wp-admin/about.php:336
-msgid "https://dulichkhampha.net/wordpress/plugins/gutenberg/"
+msgid "https://wordpress.org/plugins/gutenberg/"
 msgstr "https://vi.wordpress.org/plugins/gutenberg/"
 
 #: wp-admin/about.php:368
@@ -11843,7 +11843,7 @@ msgstr "Trường tùy biến"
 
 #: wp-admin/edit-link-form.php:111
 msgid "Example: <code>http://wordpress.org/</code> &#8212; don&#8217;t forget the <code>http://</code>"
-msgstr "Ví dụ: <code>https://dulichkhampha.net/wordpress/</code> &#8212; đừng quên bắt đầu bằng <code>https://</code>"
+msgstr "Ví dụ: <code>https://wordpress.org/</code> &#8212; đừng quên bắt đầu bằng <code>https://</code>"
 
 #: wp-admin/includes/class-walker-nav-menu-edit.php:206
 msgid "To the top"
@@ -11878,8 +11878,8 @@ msgstr "Di chuyển"
 #: wp-admin/theme-install.php:121 wp-admin/options-discussion.php:29
 #: wp-admin/edit.php:229 wp-admin/edit.php:250 wp-admin/plugin-install.php:99
 #: wp-admin/export.php:55 wp-admin/custom-header.php:124
-msgid "<a href=\"https://dulichkhampha.net/wordpress/support/\">Support Forums</a>"
-msgstr "<a href=\"https://dulichkhampha.net/wordpress/support/\">Diễn đàn hỗ trợ</a>"
+msgid "<a href=\"https://wordpress.org/support/\">Support Forums</a>"
+msgstr "<a href=\"https://wordpress.org/support/\">Diễn đàn hỗ trợ</a>"
 
 #: wp-admin/includes/class-walker-nav-menu-edit.php:148
 msgid "Edit menu item"

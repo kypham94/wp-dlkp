@@ -1,6 +1,6 @@
 === Yoast SEO ===
 Contributors: yoast, joostdevalk, tacoverdo, omarreiss, atimmer, jipmoors
-Donate link: https://dulichkhampha.net/yoa/1up
+Donate link: https://yoa.st/1up
 License: GPLv3
 License URI: http://www.gnu.org/licenses/gpl.html
 Tags: SEO, XML sitemap, Google Search Console, Content analysis, Readability
@@ -28,7 +28,7 @@ Yoast SEO does everything in its power to please both visitors and search engine
 * **[Premium]** Expand Yoast SEO with the News SEO, Video SEO, Local SEO and WooCommerce SEO extensions.
 * **[Premium]** Need help? Yoast SEO Premium users get 1 year free access to our awesome support team.
 
-> Note: some features are Premium. Which means you need Yoast SEO Premium to unlock those features. You can [get Yoast SEO Premium here](https://dulichkhampha.net/yoa/1v8)!
+> Note: some features are Premium. Which means you need Yoast SEO Premium to unlock those features. You can [get Yoast SEO Premium here](https://yoa.st/1v8)!
 
 #### Write killer content with Yoast SEO
 
@@ -50,11 +50,11 @@ Yoast SEO does everything in its power to please both visitors and search engine
 
 ### Premium support
 
-The Yoast team does not always provide active support for the Yoast SEO plugin on the WordPress.org forums, as we prioritize our email support. One-on-one email support is available to people who [bought Yoast SEO Premium](https://dulichkhampha.net/yoa/1v8) only.
+The Yoast team does not always provide active support for the Yoast SEO plugin on the WordPress.org forums, as we prioritize our email support. One-on-one email support is available to people who [bought Yoast SEO Premium](https://yoa.st/1v8) only.
 
-Note that the [Yoast SEO Premium](https://dulichkhampha.net/yoa/1v8) also has several extra features too, including the option to have synonyms and related keyphrases, internal linking suggestions, cornerstone content checks and a redirect manager, so it is well worth your investment!
+Note that the [Yoast SEO Premium](https://yoa.st/1v8) also has several extra features too, including the option to have synonyms and related keyphrases, internal linking suggestions, cornerstone content checks and a redirect manager, so it is well worth your investment!
 
-You should also check out the [Yoast Local SEO](https://dulichkhampha.net/yoa/1uu), [Yoast News SEO](https://dulichkhampha.net/yoa/1uv) and [Yoast Video SEO](https://dulichkhampha.net/yoa/1uw) extensions to Yoast SEO. They work with the free version of Yoast SEO already, and these premium extensions of course come with support too.
+You should also check out the [Yoast Local SEO](https://yoa.st/1uu), [Yoast News SEO](https://yoa.st/1uv) and [Yoast Video SEO](https://yoa.st/1uw) extensions to Yoast SEO. They work with the free version of Yoast SEO already, and these premium extensions of course come with support too.
 
 ### Bug reports
 
@@ -64,10 +64,10 @@ Bug reports for Yoast SEO are [welcomed on GitHub](https://github.com/Yoast/word
 
 For more info on search engine optimization, check out the following:
 
-* The [Yoast SEO Plugin](https://dulichkhampha.net/yoa/1v8) official homepage.
-* The [Yoast SEO Knowledgebase](https://dulichkhampha.net/yoa/1va).
-* [WordPress SEO - The definitive Guide by Yoast](https://dulichkhampha.net/yoa/1v6).
-* Other [WordPress Plugins](https://dulichkhampha.net/yoa/1v9) by the same team.
+* The [Yoast SEO Plugin](https://yoa.st/1v8) official homepage.
+* The [Yoast SEO Knowledgebase](https://yoa.st/1va).
+* [WordPress SEO - The definitive Guide by Yoast](https://yoa.st/1v6).
+* Other [WordPress Plugins](https://yoa.st/1v9) by the same team.
 * Follow Yoast on [Facebook](https://facebook.com/yoast) & [Twitter](https://twitter.com/yoast).
 
 == Installation ==
@@ -93,7 +93,7 @@ For more info on search engine optimization, check out the following:
 
 == Frequently Asked Questions ==
 
-You'll find answers to many of your questions on [kb.yoast.com](https://dulichkhampha.net/yoa/1va).
+You'll find answers to many of your questions on [kb.yoast.com](https://yoa.st/1va).
 
 == Screenshots ==
 
@@ -180,4 +180,4 @@ Other:
 
 = Earlier versions =
 
-For the changelog of earlier versions, please refer to https://dulichkhampha.net/yoa/yoast-seo-changelog
+For the changelog of earlier versions, please refer to https://yoa.st/yoast-seo-changelog

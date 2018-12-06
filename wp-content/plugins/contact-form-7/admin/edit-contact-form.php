@@ -184,7 +184,7 @@ if ( $post ) :
 			)
 		); ?></li>
 		<li><?php echo wpcf7_link(
-			__( 'https://dulichkhampha.net/wordpress/support/plugin/contact-form-7/', 'contact-form-7' ),
+			__( 'https://wordpress.org/support/plugin/contact-form-7/', 'contact-form-7' ),
 			__( 'Support Forums', 'contact-form-7' )
 		); ?></li>
 		<li><?php echo wpcf7_link(

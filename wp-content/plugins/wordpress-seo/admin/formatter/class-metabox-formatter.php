@@ -189,12 +189,12 @@ class WPSEO_Metabox_Formatter {
 				__( 'Great news: you can, with %1$s!', 'wordpress-seo' ),
 				'{{link}}Yoast SEO Premium{{/link}}'
 			),
-			'link'                     => WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/pe-premium-page' ),
+			'link'                     => WPSEO_Shortlinker::get( 'https://yoa.st/pe-premium-page' ),
 			'other'                    => sprintf(
 				/* translators: %s expands to 'Yoast SEO Premium'. */
 				__( 'Other benefits of %s for you:', 'wordpress-seo' ), 'Yoast SEO Premium'
 			),
-			'buylink'                  => WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/add-keywords-popup' ),
+			'buylink'                  => WPSEO_Shortlinker::get( 'https://yoa.st/add-keywords-popup' ),
 			'buy'                      => sprintf(
 				/* translators: %s expands to 'Yoast SEO Premium'. */
 				__( 'Get %s', 'wordpress-seo' ), 'Yoast SEO Premium'

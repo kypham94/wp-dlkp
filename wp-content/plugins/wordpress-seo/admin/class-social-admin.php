@@ -178,7 +178,7 @@ class WPSEO_Social_Admin extends WPSEO_Metabox {
 				esc_html( $network_name ),
 				'<strong>Yoast SEO Premium</strong>'
 			),
-			esc_url( WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/179' ) ),
+			esc_url( WPSEO_Shortlinker::get( 'https://yoa.st/179' ) ),
 			sprintf(
 				/* translators: %s expands to Yoast SEO Premium. */
 				esc_html__( 'Find out why you should upgrade to %s', 'wordpress-seo' ),

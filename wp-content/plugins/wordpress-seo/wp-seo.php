@@ -9,10 +9,10 @@
  * @wordpress-plugin
  * Plugin Name: Yoast SEO
  * Version:     9.2.1
- * Plugin URI:  https://dulichkhampha.net/yoa/1uj
+ * Plugin URI:  https://yoa.st/1uj
  * Description: The first true all-in-one SEO solution for WordPress, including on-page content analysis, XML sitemaps and much more.
  * Author:      Team Yoast
- * Author URI:  https://dulichkhampha.net/yoa/1uk
+ * Author URI:  https://yoa.st/1uk
  * Text Domain: wordpress-seo
  * Domain Path: /languages/
  * License:     GPL v3

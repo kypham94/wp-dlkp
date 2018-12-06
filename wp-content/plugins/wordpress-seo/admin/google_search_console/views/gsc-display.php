@@ -26,10 +26,10 @@ if ( defined( 'WP_DEBUG' ) && WP_DEBUG && WPSEO_GSC_Settings::get_profile() !== 
 
 // Video explains about the options when connected only.
 if ( null !== $this->service->get_client()->getAccessToken() ) {
-	$video_url = WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/screencast-search-console' );
+	$video_url = WPSEO_Shortlinker::get( 'https://yoa.st/screencast-search-console' );
 }
 else {
-	$video_url = WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/screencast-connect-search-console' );
+	$video_url = WPSEO_Shortlinker::get( 'https://yoa.st/screencast-connect-search-console' );
 }
 
 $tab             = new WPSEO_Option_Tab( 'GSC', __( 'Google Search Console', 'wordpress-seo' ), array( 'video_url' => $video_url ) );
@@ -135,7 +135,7 @@ switch ( $platform_tabs->current_tab() ) {
 	printf(
 		/* translators: %1$s expands anchor to knowledge base article, %2$s expands to </a> */
 		esc_html__( 'Please refer to %1$sour article about how to connect your website to Google Search Console%2$s if you need assistance.', 'wordpress-seo' ),
-		'<a href="' . esc_url( WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/1zy' ) ) . '" target="_blank" rel="noopener noreferrer">',
+		'<a href="' . esc_url( WPSEO_Shortlinker::get( 'https://yoa.st/1zy' ) ) . '" target="_blank" rel="noopener noreferrer">',
 		'</a>'
 	);
 

@@ -3,7 +3,7 @@
 /**
  * Use Any Font interoperability handler.
  *
- * @link https://dulichkhampha.net/wordpress/plugins/use-any-font/
+ * @link https://wordpress.org/plugins/use-any-font/
  *
  * @since 2.2.9
  */

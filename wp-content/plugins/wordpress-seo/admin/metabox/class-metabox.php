@@ -306,7 +306,7 @@ class WPSEO_Metabox extends WPSEO_Meta {
 		$content_sections = $this->get_content_sections();
 
 		$helpcenter_tab = new WPSEO_Option_Tab( 'metabox', __( 'Meta box', 'wordpress-seo' ),
-			array( 'video_url' => WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/metabox-screencast' ) ) );
+			array( 'video_url' => WPSEO_Shortlinker::get( 'https://yoa.st/metabox-screencast' ) ) );
 
 		$help_center = new WPSEO_Help_Center( '', $helpcenter_tab, WPSEO_Utils::is_yoast_seo_premium() );
 		$help_center->localize_data();
@@ -435,7 +435,7 @@ class WPSEO_Metabox extends WPSEO_Meta {
 	private function get_buy_premium_link() {
 		return sprintf( '<div class="%1$s"><a target="_blank" rel="noopener noreferrer" href="%2$s"><span class="dashicons dashicons-star-filled wpseo-buy-premium"></span>%3$s</a></div>',
 			'wpseo-metabox-buy-premium',
-			esc_url( WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/pe-premium-page' ) ),
+			esc_url( WPSEO_Shortlinker::get( 'https://yoa.st/pe-premium-page' ) ),
 			__( 'Go Premium', 'wordpress-seo' )
 		);
 	}

@@ -16,7 +16,7 @@ Contact Form 7 can manage multiple contact forms, plus you can customize the for
 
 = Docs & Support =
 
-You can find [docs](https://contactform7.com/docs/), [FAQ](https://contactform7.com/faq/) and more detailed information about Contact Form 7 on [contactform7.com](https://contactform7.com/). If you were unable to find the answer to your question on the FAQ or in any of the documentation, you should check the [support forum](https://dulichkhampha.net/wordpress/support/plugin/contact-form-7/) on WordPress.org. If you can't locate any topics that pertain to your particular issue, post a new topic for it.
+You can find [docs](https://contactform7.com/docs/), [FAQ](https://contactform7.com/faq/) and more detailed information about Contact Form 7 on [contactform7.com](https://contactform7.com/). If you were unable to find the answer to your question on the FAQ or in any of the documentation, you should check the [support forum](https://wordpress.org/support/plugin/contact-form-7/) on WordPress.org. If you can't locate any topics that pertain to your particular issue, post a new topic for it.
 
 = Contact Form 7 Needs Your Support =
 
@@ -40,8 +40,8 @@ If you activate certain features in this plugin, the contact form submitter's pe
 
 The following plugins are recommended for Contact Form 7 users:
 
-* [Flamingo](https://dulichkhampha.net/wordpress/plugins/flamingo/) by Takayuki Miyoshi - With Flamingo, you can save submitted messages via contact forms in the database.
-* [Bogo](https://dulichkhampha.net/wordpress/plugins/bogo/) by Takayuki Miyoshi - Bogo is a straight-forward multilingual plugin that doesn't cause headaches.
+* [Flamingo](https://wordpress.org/plugins/flamingo/) by Takayuki Miyoshi - With Flamingo, you can save submitted messages via contact forms in the database.
+* [Bogo](https://wordpress.org/plugins/bogo/) by Takayuki Miyoshi - Bogo is a straight-forward multilingual plugin that doesn't cause headaches.
 
 = Translations =
 
@@ -62,7 +62,7 @@ Do you have questions or issues with Contact Form 7? Use these support channels 
 
 1. [Docs](https://contactform7.com/docs/)
 1. [FAQ](https://contactform7.com/faq/)
-1. [Support Forum](https://dulichkhampha.net/wordpress/support/plugin/contact-form-7/)
+1. [Support Forum](https://wordpress.org/support/plugin/contact-form-7/)
 
 [Support](https://contactform7.com/support/)
 

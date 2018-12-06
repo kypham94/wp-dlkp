@@ -1126,7 +1126,7 @@ function wp_dashboard_events_news() {
 			printf(
 				'<a href="%1$s" target="_blank">%2$s <span class="screen-reader-text">%3$s</span><span aria-hidden="true" class="dashicons dashicons-external"></span></a>',
 				/* translators: If a Rosetta site exists (e.g. https://es.wordpress.org/news/), then use that. Otherwise, leave untranslated. */
-				esc_url( _x( 'https://dulichkhampha.net/wordpress/news/', 'Events and News dashboard widget' ) ),
+				esc_url( _x( 'https://wordpress.org/news/', 'Events and News dashboard widget' ) ),
 				__( 'News' ),
 				/* translators: accessibility text */
 				__( '(opens in a new window)' )
@@ -1297,7 +1297,7 @@ function wp_dashboard_primary() {
 			 *
 			 * @param string $link The widget's primary link URL.
 			 */
-			'link' => apply_filters( 'dashboard_primary_link', __( 'https://dulichkhampha.net/wordpress/news/' ) ),
+			'link' => apply_filters( 'dashboard_primary_link', __( 'https://wordpress.org/news/' ) ),
 
 			/**
 			 * Filters the primary feed URL for the 'WordPress News' dashboard widget.
@@ -1719,9 +1719,9 @@ function wp_try_gutenberg_panel() {
 					<p>
 						<?php
 							$learnmore = sprintf(
-								/* translators: Link to https://dulichkhampha.net/wordpress/gutenberg/ */
+								/* translators: Link to https://wordpress.org/gutenberg/ */
 								__( '<a href="%s">Learn more about Gutenberg</a>' ),
-								__( 'https://dulichkhampha.net/wordpress/gutenberg/' )
+								__( 'https://wordpress.org/gutenberg/' )
 							);
 
 							/**
@@ -1752,7 +1752,7 @@ function wp_try_gutenberg_panel() {
 							printf(
 								/* translators: Link to the Classic Editor plugin page */
 								__( 'Install the <a href="%s">Classic Editor plugin</a> to keep using the current editor until you’re ready to make the switch.' ),
-								__( 'https://dulichkhampha.net/wordpress/plugins/classic-editor' )
+								__( 'https://wordpress.org/plugins/classic-editor' )
 							);
 						?>
 					</p>

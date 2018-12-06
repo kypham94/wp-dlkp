@@ -315,8 +315,8 @@ msgid "Oops! That page can&rsquo;t be found."
 msgstr "Oops! Không tìm thấy trang này."
 
 #. Theme URI of the plugin/theme
-msgid "https://dulichkhampha.net/wordpress/themes/twentysixteen/"
-msgstr "https://dulichkhampha.net/wordpress/themes/twentysixteen/"
+msgid "https://wordpress.org/themes/twentysixteen/"
+msgstr "https://wordpress.org/themes/twentysixteen/"
 
 #. Author of the plugin/theme
 msgid "the WordPress team"
@@ -325,5 +325,5 @@ msgstr "Nhóm Phát Triển WordPress"
 #. #-#-#-#-#  twentysixteen.pot (Twenty Sixteen 1.5)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:60
-msgid "https://dulichkhampha.net/wordpress/"
-msgstr "https://dulichkhampha.net/wordpress/"
+msgid "https://wordpress.org/"
+msgstr "https://wordpress.org/"

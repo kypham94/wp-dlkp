@@ -50,7 +50,7 @@ install_wp() {
 
 	if [[ $WP_VERSION == 'nightly' || $WP_VERSION == 'trunk' ]]; then
 		mkdir -p /tmp/wordpress-nightly
-		download https://dulichkhampha.net/wordpress/nightly-builds/wordpress-latest.zip  /tmp/wordpress-nightly/wordpress-nightly.zip
+		download https://wordpress.org/nightly-builds/wordpress-latest.zip  /tmp/wordpress-nightly/wordpress-nightly.zip
 		unzip -q /tmp/wordpress-nightly/wordpress-nightly.zip -d /tmp/wordpress-nightly/
 		mv /tmp/wordpress-nightly/wordpress/* $WP_CORE_DIR
 	else
@@ -59,7 +59,7 @@ install_wp() {
 		else
 			local ARCHIVE_NAME="wordpress-$WP_VERSION"
 		fi
-		download https://dulichkhampha.net/wordpress/${ARCHIVE_NAME}.tar.gz  /tmp/wordpress.tar.gz
+		download https://wordpress.org/${ARCHIVE_NAME}.tar.gz  /tmp/wordpress.tar.gz
 		tar --strip-components=1 -zxmf /tmp/wordpress.tar.gz -C $WP_CORE_DIR
 	fi
 

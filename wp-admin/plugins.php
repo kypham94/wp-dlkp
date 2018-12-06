@@ -421,7 +421,7 @@ get_current_screen()->add_help_tab( array(
 	'<p>' . sprintf(
 		/* translators: %s: WordPress Plugin Directory URL */
 		__( 'If you would like to see more plugins to choose from, click on the &#8220;Add New&#8221; button and you will be able to browse or search for additional plugins from the <a href="%s">WordPress Plugin Directory</a>. Plugins in the WordPress Plugin Directory are designed and developed by third parties, and are compatible with the license WordPress uses. Oh, and they&#8217;re free!' ),
-		__( 'https://dulichkhampha.net/wordpress/plugins/' )
+		__( 'https://wordpress.org/plugins/' )
 	) . '</p>'
 ) );
 get_current_screen()->add_help_tab( array(
@@ -439,7 +439,7 @@ get_current_screen()->add_help_tab( array(
 get_current_screen()->set_help_sidebar(
 	'<p><strong>' . __('For more information:') . '</strong></p>' .
 	'<p>' . __('<a href="https://codex.wordpress.org/Managing_Plugins#Plugin_Management">Documentation on Managing Plugins</a>') . '</p>' .
-	'<p>' . __('<a href="https://dulichkhampha.net/wordpress/support/">Support Forums</a>') . '</p>'
+	'<p>' . __('<a href="https://wordpress.org/support/">Support Forums</a>') . '</p>'
 );
 
 get_current_screen()->set_screen_reader_content( array(

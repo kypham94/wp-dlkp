@@ -38,9 +38,9 @@ $credits = wp_credits();
 
 if ( ! $credits ) {
 	echo '<p class="about-description">';
-	/* translators: 1: https://dulichkhampha.net/wordpress/about/, 2: https://make.wordpress.org/ */
+	/* translators: 1: https://wordpress.org/about/, 2: https://make.wordpress.org/ */
 	printf( __( 'WordPress is created by a <a href="%1$s">worldwide team</a> of passionate individuals. <a href="%2$s">Get involved in WordPress</a>.' ),
-		'https://dulichkhampha.net/wordpress/about/',
+		'https://wordpress.org/about/',
 		__( 'https://make.wordpress.org/' )
 	);
 	echo '</p>';

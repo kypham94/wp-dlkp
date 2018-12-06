@@ -22,7 +22,7 @@ class WPSEO_Config_Field_Social_Profiles_Intro extends WPSEO_Config_Field {
  These will be used in Google\'s Knowledge Graph. There are additional
  sharing options in the %1$s Social settings. %2$sRead more%3$s about these options.', 'wordpress-seo' ),
 			'Yoast SEO',
-			'<a target="_blank" rel="noopener noreferrer" href="' . WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/1ey' ) . '">',
+			'<a target="_blank" rel="noopener noreferrer" href="' . WPSEO_Shortlinker::get( 'https://yoa.st/1ey' ) . '">',
 			'</a>'
 		);
 

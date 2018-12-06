@@ -1943,7 +1943,7 @@ class rsssl_admin extends rsssl_front_end
                 <i>- Rogier</i>
                 <?php //Inline style because the main.css stylesheet is only included on Really Simple SSL admin pages.?>
                 <ul style="margin-left: 30px; list-style: square;">
-                    <li><p style="margin-top: -5px;"><a target="_blank" href="https://dulichkhampha.net/wordpress/support/plugin/really-simple-ssl/reviews/#new-post"><?php _e('Leave a review', 'really-simple-ssl'); ?></a></p></li>
+                    <li><p style="margin-top: -5px;"><a target="_blank" href="https://wordpress.org/support/plugin/really-simple-ssl/reviews/#new-post"><?php _e('Leave a review', 'really-simple-ssl'); ?></a></p></li>
                     <li><p style="margin-top: -5px;"><a href="#" id="maybe-later"><?php _e('Maybe later', 'really-simple-ssl'); ?></a></p></li>
                     <li><p style="margin-top: -5px;"><a href="#" class="review-dismiss"><?php _e('No thanks', 'really-simple-ssl'); ?></a></p></li>
                 </ul>
@@ -2516,7 +2516,7 @@ class rsssl_admin extends rsssl_front_end
                               'img' => 'complianz.jpg',
                               'title' => 'ComplianZ',
                               'description' => __("The Complianz Privacy Suite (GDPR/CaCPA) for WordPress. Simple, Quick and Complete. Up-to-date customized legal documents by a prominent IT Law firm.", "really-simple-ssl"),
-                              'url' => 'https://dulichkhampha.net/wordpress/plugins/complianz-gdpr/',
+                              'url' => 'https://wordpress.org/plugins/complianz-gdpr/',
                               'pro' => true,
                            )
                         );

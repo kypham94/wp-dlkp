@@ -296,7 +296,7 @@ That's because the real FAQ section is on our site! Please visit [http://docs.re
 
 = 3.5.5 =
 * Fixed:    Date-time fixes with CSS overloading and positioning.
-* Added:    Lite support for https://dulichkhampha.net/wordpress/plugins/plugin-dependencies/
+* Added:    Lite support for https://wordpress.org/plugins/plugin-dependencies/
 * Modified: CDN to be a more bulletproof solution (http://jsdelivr.net).
 * Modified: CDN alerts to be more clear, and have proper links.
 * Fixed:    Bad code in raw field hosing up the entire panel.
