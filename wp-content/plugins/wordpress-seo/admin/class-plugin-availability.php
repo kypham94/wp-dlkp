@@ -29,7 +29,7 @@ class WPSEO_Plugin_Availability {
 	protected function register_yoast_plugins() {
 		$this->plugins = array(
 			'yoast-seo-premium' => array(
-				'url'          => WPSEO_Shortlinker::get( 'https://yoa.st/1y7' ),
+				'url'          => WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/1y7' ),
 				'title'        => 'Yoast SEO Premium',
 				'description'  => sprintf(
 					/* translators: %1$s expands to Yoast SEO */
@@ -43,7 +43,7 @@ class WPSEO_Plugin_Availability {
 			),
 
 			'video-seo-for-wordpress-seo-by-yoast' => array(
-				'url'          => WPSEO_Shortlinker::get( 'https://yoa.st/1y8' ),
+				'url'          => WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/1y8' ),
 				'title'        => 'Video SEO',
 				'description'  => __( 'Optimize your videos to show them off in search results and get more clicks!', 'wordpress-seo' ),
 				'installed'    => false,
@@ -53,7 +53,7 @@ class WPSEO_Plugin_Availability {
 			),
 
 			'yoast-news-seo' => array(
-				'url'          => WPSEO_Shortlinker::get( 'https://yoa.st/1y9' ),
+				'url'          => WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/1y9' ),
 				'title'        => 'News SEO',
 				'description'  => __( 'Are you in Google News? Increase your traffic from Google News by optimizing for it!', 'wordpress-seo' ),
 				'installed'    => false,
@@ -63,7 +63,7 @@ class WPSEO_Plugin_Availability {
 			),
 
 			'local-seo-for-yoast-seo' => array(
-				'url'          => WPSEO_Shortlinker::get( 'https://yoa.st/1ya' ),
+				'url'          => WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/1ya' ),
 				'title'        => 'Local SEO',
 				'description'  => __( 'Rank better locally and in Google Maps, without breaking a sweat!', 'wordpress-seo' ),
 				'installed'    => false,
@@ -73,7 +73,7 @@ class WPSEO_Plugin_Availability {
 			),
 
 			'yoast-woocommerce-seo' => array(
-				'url'           => WPSEO_Shortlinker::get( 'https://yoa.st/1o0' ),
+				'url'           => WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/1o0' ),
 				'title'         => 'Yoast WooCommerce SEO',
 				'description'   => sprintf(
 					/* translators: %1$s expands to Yoast SEO */

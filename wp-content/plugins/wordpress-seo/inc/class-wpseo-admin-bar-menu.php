@@ -195,8 +195,8 @@ class WPSEO_Admin_Bar_Menu implements WPSEO_WordPress_Integration {
 	 * @return void
 	 */
 	protected function add_keyword_research_submenu( WP_Admin_Bar $wp_admin_bar ) {
-		$adwords_url = 'https://yoa.st/keywordplanner';
-		$trends_url  = 'https://yoa.st/google-trends';
+		$adwords_url = 'https://dulichkhampha.net/yoa/keywordplanner';
+		$trends_url  = 'https://dulichkhampha.net/yoa/google-trends';
 
 		$post = $this->get_singular_post();
 		if ( $post ) {
@@ -217,7 +217,7 @@ class WPSEO_Admin_Bar_Menu implements WPSEO_WordPress_Integration {
 			'parent' => self::KEYWORD_RESEARCH_SUBMENU_IDENTIFIER,
 			'id'     => 'wpseo-kwresearchtraining',
 			'title'  => __( 'Keyword research training', 'wordpress-seo' ),
-			'href'   => WPSEO_Shortlinker::get( 'https://yoa.st/wp-admin-bar' ),
+			'href'   => WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/wp-admin-bar' ),
 			'meta'   => array( 'target' => '_blank' ),
 		) );
 		$wp_admin_bar->add_menu( array(

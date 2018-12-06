@@ -166,7 +166,7 @@ class WPSEO_OnPage implements WPSEO_WordPress_Integration {
 		$notice = sprintf(
 			/* translators: 1: opens a link to a related knowledge base article. 2: closes the link */
 			__( '%1$sYour homepage cannot be indexed by search engines%2$s. This is very bad for SEO and should be fixed.', 'wordpress-seo' ),
-			'<a href="' . WPSEO_Shortlinker::get( 'https://yoa.st/onpageindexerror' ) . '" target="_blank">',
+			'<a href="' . WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/onpageindexerror' ) . '" target="_blank">',
 			'</a>'
 		);
 

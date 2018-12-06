@@ -91,7 +91,7 @@ $generated_i18n_strings = array(
 
 	// Reference: node_modules/yoastseo/src/assessments/readability/subheadingDistributionTooLongAssessment.js:183
 	// Reference: node_modules/yoastseo/src/assessments/readability/subheadingDistributionTooLongAssessment.js:225
-	/* Translators: %1$s expands to a link to https://yoa.st/headings, %2$s expands to the link closing tag. */
+	/* Translators: %1$s expands to a link to https://dulichkhampha.net/yoa/headings, %2$s expands to the link closing tag. */
 	__( '%1$sSubheading distribution%2$s: Great job!', 'wordpress-seo' ),
 
 	// Reference: node_modules/yoastseo/src/assessments/readability/subheadingDistributionTooLongAssessment.js:197
@@ -106,11 +106,11 @@ $generated_i18n_strings = array(
 	_n_noop( '%1$sSubheading distribution%2$s: %3$d section of your text is longer than %4$d words and is not separated by any subheadings. %5$sAdd subheadings to improve readability%2$s.', '%1$sSubheading distribution%2$s: %3$d sections of your text are longer than %4$d words and are not separated by any subheadings. %5$sAdd subheadings to improve readability%2$s.', 'wordpress-seo' ),
 
 	// Reference: node_modules/yoastseo/src/assessments/readability/subheadingDistributionTooLongAssessment.js:216
-	/* Translators: %1$s and %3$s expand to a link to https://yoa.st/headings, %2$s expands to the link closing tag. */
+	/* Translators: %1$s and %3$s expand to a link to https://dulichkhampha.net/yoa/headings, %2$s expands to the link closing tag. */
 	__( '%1$sSubheading distribution%2$s: You are not using any subheadings, although your text is rather long. %3$sTry and add some subheadings%2$s.', 'wordpress-seo' ),
 
 	// Reference: node_modules/yoastseo/src/assessments/readability/subheadingDistributionTooLongAssessment.js:233
-	/* Translators: %1$s expands to a link to https://yoa.st/headings, %2$s expands to the link closing tag. */
+	/* Translators: %1$s expands to a link to https://dulichkhampha.net/yoa/headings, %2$s expands to the link closing tag. */
 	__( '%1$sSubheading distribution%2$s: You are not using any subheadings, but your text is short enough and probably doesn\'t need them.', 'wordpress-seo' ),
 
 	// Reference: node_modules/yoastseo/src/assessments/readability/textPresenceAssessment.js:36

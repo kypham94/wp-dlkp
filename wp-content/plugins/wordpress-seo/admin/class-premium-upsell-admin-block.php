@@ -41,7 +41,7 @@ class WPSEO_Premium_Upsell_Admin_Block {
 	 * @return void
 	 */
 	public function render() {
-		$url = WPSEO_Shortlinker::get( 'https://yoa.st/17h' );
+		$url = WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/17h' );
 
 		$arguments = array(
 			'<strong>' . esc_html__( 'Multiple keyphrases', 'wordpress-seo' ) . '</strong>: ' . esc_html__( 'Increase your SEO reach', 'wordpress-seo' ),

@@ -37,10 +37,10 @@ class WPSEO_Config_Component_Suggestions implements WPSEO_Config_Component {
 				array(
 					'label' => __( 'Upgrade to Premium', 'wordpress-seo' ),
 					'type'  => 'primary',
-					'url'   => WPSEO_Shortlinker::get( 'https://yoa.st/wizard-suggestion-premium' ),
+					'url'   => WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/wizard-suggestion-premium' ),
 				),
 				array(
-					'url'   => WPSEO_Shortlinker::get( 'https://yoa.st/video-yoast-seo-premium' ),
+					'url'   => WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/video-yoast-seo-premium' ),
 					'title' => sprintf(
 						/* translators: %1$s expands to Yoast SEO Premium. */
 						__( '%1$s video', 'wordpress-seo' ),
@@ -65,10 +65,10 @@ class WPSEO_Config_Component_Suggestions implements WPSEO_Config_Component {
 			array(
 				'label' => 'Basic SEO training',
 				'type'  => 'link',
-				'url'   => WPSEO_Shortlinker::get( 'https://yoa.st/2up' ),
+				'url'   => WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/2up' ),
 			),
 			array(
-				'url'   => WPSEO_Shortlinker::get( 'https://yoa.st/2v0' ),
+				'url'   => WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/2v0' ),
 				'title' => sprintf(
 					/* translators: %1$s expands to Basic SEO training. */
 					__( '%1$s video', 'wordpress-seo' ),
@@ -85,10 +85,10 @@ class WPSEO_Config_Component_Suggestions implements WPSEO_Config_Component {
 			array(
 				'label' => 'Yoast SEO plugin training',
 				'type'  => 'link',
-				'url'   => WPSEO_Shortlinker::get( 'https://yoa.st/wizard-suggestion-plugin-course' ),
+				'url'   => WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/wizard-suggestion-plugin-course' ),
 			),
 			array(
-				'url'   => WPSEO_Shortlinker::get( 'https://yoa.st/video-plugin-course' ),
+				'url'   => WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/video-plugin-course' ),
 				'title' => sprintf(
 					/* translators: %1$s expands to Yoast SEO plugin training. */
 					__( '%1$s video', 'wordpress-seo' ),
@@ -106,10 +106,10 @@ class WPSEO_Config_Component_Suggestions implements WPSEO_Config_Component {
 				array(
 					'label' => 'Local SEO',
 					'type'  => 'link',
-					'url'   => WPSEO_Shortlinker::get( 'https://yoa.st/wizard-suggestion-localseo' ),
+					'url'   => WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/wizard-suggestion-localseo' ),
 				),
 				array(
-					'url'   => WPSEO_Shortlinker::get( 'https://yoa.st/video-localseo' ),
+					'url'   => WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/video-localseo' ),
 					'title' => sprintf(
 						/* translators: %1$s expands to Local SEO. */
 						__( '%1$s video', 'wordpress-seo' ),

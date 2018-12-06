@@ -24,7 +24,7 @@ $extensions->add(
 	'wordpress-seo-premium',
 	new WPSEO_Extension(
 		array(
-			'url'       => WPSEO_Shortlinker::get( 'https://yoa.st/pe-premium-page' ),
+			'url'       => WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/pe-premium-page' ),
 			'title'     => 'Yoast SEO Premium',
 			/* translators: %1$s expands to Yoast SEO */
 			'desc'      => sprintf( __( 'The premium version of %1$s with more features & support.', 'wordpress-seo' ), 'Yoast SEO' ),
@@ -38,8 +38,8 @@ $extensions->add(
 	'wpseo-local',
 	new WPSEO_Extension(
 		array(
-			'buyUrl'        => WPSEO_Shortlinker::get( 'https://yoa.st/zt' ),
-			'infoUrl'       => WPSEO_Shortlinker::get( 'https://yoa.st/zs' ),
+			'buyUrl'        => WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/zt' ),
+			'infoUrl'       => WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/zs' ),
 			'title'         => 'Local SEO',
 			'display_title' => 'Stop losing customers to other local businesses',
 			'desc'          => __( 'Rank better locally and in Google Maps, without breaking a sweat!', 'wordpress-seo' ),
@@ -58,8 +58,8 @@ $extensions->add(
 	'wpseo-video',
 	new WPSEO_Extension(
 		array(
-			'buyUrl'        => WPSEO_Shortlinker::get( 'https://yoa.st/zx/' ),
-			'infoUrl'       => WPSEO_Shortlinker::get( 'https://yoa.st/zw/' ),
+			'buyUrl'        => WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/zx/' ),
+			'infoUrl'       => WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/zw/' ),
 			'title'         => 'Video SEO',
 			'display_title' => 'Start ranking better for your videos',
 			'desc'          => __( 'Optimize your videos to show them off in search results and get more clicks!', 'wordpress-seo' ),
@@ -79,8 +79,8 @@ if ( WPSEO_Utils::is_woocommerce_active() ) {
 		'wpseo-woocommerce',
 		new WPSEO_Extension(
 			array(
-				'buyUrl'        => WPSEO_Shortlinker::get( 'https://yoa.st/zr' ),
-				'infoUrl'       => WPSEO_Shortlinker::get( 'https://yoa.st/zq' ),
+				'buyUrl'        => WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/zr' ),
+				'infoUrl'       => WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/zq' ),
 				'title'         => 'Yoast WooCommerce SEO',
 				'display_title' => 'Make your products stand out in Google',
 				/* translators: %1$s expands to Yoast SEO */
@@ -103,8 +103,8 @@ $extensions->add(
 	'wpseo-news',
 	new WPSEO_Extension(
 		array(
-			'buyUrl'        => WPSEO_Shortlinker::get( 'https://yoa.st/zv/' ),
-			'infoUrl'       => WPSEO_Shortlinker::get( 'https://yoa.st/zu/' ),
+			'buyUrl'        => WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/zv/' ),
+			'infoUrl'       => WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/zu/' ),
 			'title'         => 'News SEO',
 			'display_title' => 'Everything you need for Google News',
 			'desc'          => __( 'Are you in Google News? Increase your traffic from Google News by optimizing for it!', 'wordpress-seo' ),
@@ -171,14 +171,14 @@ $new_tab_message         = '<span class="screen-reader-text">' . esc_html__( '(O
 
 				<?php if ( $extensions->is_activated( 'wordpress-seo-premium' ) ) : ?>
 					<div class="yoast-button yoast-button--noarrow yoast-button--extension yoast-button--extension-activated"><?php esc_html_e( 'Activated', 'wordpress-seo' ); ?></div>
-					<a target="_blank" href="<?php WPSEO_Shortlinker::show( 'https://yoa.st/13k' ); ?>" class="yoast-link--license"><?php
+					<a target="_blank" href="<?php WPSEO_Shortlinker::show( 'https://dulichkhampha.net/yoa/13k' ); ?>" class="yoast-link--license"><?php
 						/* translators: %s expands to the extension title */
 						printf( esc_html( 'Manage your %s subscription on MyYoast', 'wordpress-seo' ), $extension->get_title() );
 						echo $new_tab_message;
 					?></a>
 				<?php else : ?>
 					<div class="yoast-button yoast-button--noarrow yoast-button--extension yoast-button--extension-not-activated"><?php esc_html_e( 'Not activated', 'wordpress-seo' ); ?></div>
-					<a target="_blank" href="<?php WPSEO_Shortlinker::show( 'https://yoa.st/13i' ); ?>" class="yoast-link--license"><?php
+					<a target="_blank" href="<?php WPSEO_Shortlinker::show( 'https://dulichkhampha.net/yoa/13i' ); ?>" class="yoast-link--license"><?php
 						/* translators: %s expands to the extension title */
 						printf( esc_html( 'Activate %s for your site on MyYoast', 'wordpress-seo' ), $extension->get_title() );
 						echo $new_tab_message;
@@ -188,14 +188,14 @@ $new_tab_message         = '<span class="screen-reader-text">' . esc_html__( '(O
 
 			<?php else : ?>
 
-				<a target="_blank" href="<?php WPSEO_Shortlinker::show( 'https://yoa.st/zz' ); ?>" class="yoast-button-upsell"><?php
+				<a target="_blank" href="<?php WPSEO_Shortlinker::show( 'https://dulichkhampha.net/yoa/zz' ); ?>" class="yoast-button-upsell"><?php
 					/* translators: $1$s expands to Yoast SEO Premium */
 					printf( __( 'Buy %1$s', 'wordpress-seo' ), $extension->get_title() );
 					echo $new_tab_message;
 					echo '<span aria-hidden="true" class="yoast-button-upsell__caret"></span>';
 				?></a>
 
-				<a target="_blank" href="<?php WPSEO_Shortlinker::show( 'https://yoa.st/zy' ); ?>" class="yoast-link--more-info">
+				<a target="_blank" href="<?php WPSEO_Shortlinker::show( 'https://dulichkhampha.net/yoa/zy' ); ?>" class="yoast-link--more-info">
 					<?php
 					printf(
 						/* translators: Text between %1$s and %2$s will only be shown to screen readers. %3$s expands to the product name. */
@@ -242,14 +242,14 @@ $new_tab_message         = '<span class="screen-reader-text">' . esc_html__( '(O
 
 							<?php if ( $extensions->is_activated( $id ) ) : ?>
 								<div class="yoast-button yoast-button--noarrow yoast-button--extension yoast-button--extension-activated"><?php esc_html_e( 'Activated', 'wordpress-seo' ); ?></div>
-								<a target="_blank" href="<?php WPSEO_Shortlinker::show( 'https://yoa.st/13k' ); ?>" class="yoast-link--license"><?php
+								<a target="_blank" href="<?php WPSEO_Shortlinker::show( 'https://dulichkhampha.net/yoa/13k' ); ?>" class="yoast-link--license"><?php
 									/* translators: %s expands to the extension title */
 									printf( esc_html( 'Manage your %s subscription on MyYoast', 'wordpress-seo' ), $extension->get_title() );
 									echo $new_tab_message;
 								?></a>
 							<?php else : ?>
 								<div class="yoast-button yoast-button--noarrow  yoast-button--extension yoast-button--extension-not-activated"><?php esc_html_e( 'Not activated', 'wordpress-seo' ); ?></div>
-								<a target="_blank" href="<?php WPSEO_Shortlinker::show( 'https://yoa.st/13i' ); ?>" class="yoast-link--license"><?php
+								<a target="_blank" href="<?php WPSEO_Shortlinker::show( 'https://dulichkhampha.net/yoa/13i' ); ?>" class="yoast-link--license"><?php
 									/* translators: %s expands to the extension title */
 									printf( esc_html( 'Activate %s for your site on MyYoast', 'wordpress-seo' ), $extension->get_title() );
 									echo $new_tab_message;

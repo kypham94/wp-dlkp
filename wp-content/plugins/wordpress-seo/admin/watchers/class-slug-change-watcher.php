@@ -218,7 +218,7 @@ class WPSEO_Slug_Change_Watcher implements WPSEO_WordPress_Integration {
 			/* translators: %s expands to Yoast SEO Premium */
 			. ' ' . sprintf( __( 'With %s, you can easily create such redirects.', 'wordpress-seo' ), 'Yoast SEO Premium' )
 			. '</p>'
-			. '<p><a class="yoast-button-upsell" href="' . WPSEO_Shortlinker::get( 'https://yoa.st/1d0' ) . '" target="_blank">'
+			. '<p><a class="yoast-button-upsell" href="' . WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/1d0' ) . '" target="_blank">'
 			/* translators: %s expands to Yoast SEO Premium */
 			. sprintf( __( 'Get %s', 'wordpress-seo' ), 'Yoast SEO Premium' )
 			. '<span class="screen-reader-text">' . __( '(Opens in a new browser tab)', 'wordpress-seo' ) . '</span>'

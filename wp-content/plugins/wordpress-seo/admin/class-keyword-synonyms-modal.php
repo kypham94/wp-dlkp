@@ -24,13 +24,13 @@ class WPSEO_Keyword_Synonyms_Modal {
 				__( 'Great news: you can, with %1$s!', 'wordpress-seo' ),
 				'{{link}}Yoast SEO Premium{{/link}}'
 			),
-			'link'                     => WPSEO_Shortlinker::get( 'https://yoa.st/pe-premium-page' ),
+			'link'                     => WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/pe-premium-page' ),
 			'other'                    => sprintf(
 				/* translators: %s expands to 'Yoast SEO Premium'. */
 				__( 'Other benefits of %s for you:', 'wordpress-seo' ),
 				'Yoast SEO Premium'
 			),
-			'buylink'                  => WPSEO_Shortlinker::get( 'https://yoa.st/keyword-synonyms-popup' ),
+			'buylink'                  => WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/keyword-synonyms-popup' ),
 			'buy'                      => sprintf(
 				/* translators: %s expands to 'Yoast SEO Premium'. */
 				__( 'Get %s', 'wordpress-seo' ),

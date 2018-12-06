@@ -72,7 +72,7 @@ class WPSEO_Config_Component_Configuration_Choices implements WPSEO_Config_Compo
 				/* translators: %s expands to 'Yoast SEO'. */
 				'label'  => sprintf( __( 'Get the %s plugin training now', 'wordpress-seo' ), 'Yoast SEO' ),
 				'action' => 'followURL',
-				'url'    => WPSEO_Shortlinker::get( 'https://yoa.st/2vg' ),
+				'url'    => WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/2vg' ),
 			),
 			plugin_dir_url( WPSEO_FILE ) . 'images/yoast_seo_for_wp_2.svg'
 		);

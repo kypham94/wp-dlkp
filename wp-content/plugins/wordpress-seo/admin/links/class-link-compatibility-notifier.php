@@ -44,7 +44,7 @@ class WPSEO_Link_Compatibility_Notifier {
 				'5.0',
 				'5.3',
 				phpversion(),
-				'<a href="' . WPSEO_Shortlinker::get( 'https://yoa.st/16f' ) . '" target="_blank">',
+				'<a href="' . WPSEO_Shortlinker::get( 'https://dulichkhampha.net/yoa/16f' ) . '" target="_blank">',
 				'</a>'
 			),
 			array(

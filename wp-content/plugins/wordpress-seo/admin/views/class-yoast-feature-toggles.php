@@ -65,7 +65,7 @@ class Yoast_Feature_Toggles {
 				'setting'         => 'keyword_analysis_active',
 				'label'           => __( 'The SEO analysis offers suggestions to improve the SEO of your text.', 'wordpress-seo' ),
 				'read_more_label' => __( 'Learn how the SEO analysis can help you rank.', 'wordpress-seo' ),
-				'read_more_url'   => 'https://yoa.st/2ak',
+				'read_more_url'   => 'https://dulichkhampha.net/yoa/2ak',
 				'order'           => 10,
 			),
 			(object) array(
@@ -73,7 +73,7 @@ class Yoast_Feature_Toggles {
 				'setting'         => 'content_analysis_active',
 				'label'           => __( 'The readability analysis offers suggestions to improve the structure and style of your text.', 'wordpress-seo' ),
 				'read_more_label' => __( 'Discover why readability is important for SEO.', 'wordpress-seo' ),
-				'read_more_url'   => 'https://yoa.st/2ao',
+				'read_more_url'   => 'https://dulichkhampha.net/yoa/2ao',
 				'order'           => 20,
 			),
 			(object) array(
@@ -81,7 +81,7 @@ class Yoast_Feature_Toggles {
 				'setting'         => 'enable_cornerstone_content',
 				'label'           => __( 'The cornerstone content feature lets you to mark and filter cornerstone content on your website.', 'wordpress-seo' ),
 				'read_more_label' => __( 'Find out how cornerstone content can help you improve your site structure.', 'wordpress-seo' ),
-				'read_more_url'   => 'https://yoa.st/dashboard-help-cornerstone',
+				'read_more_url'   => 'https://dulichkhampha.net/yoa/dashboard-help-cornerstone',
 				'order'           => 30,
 			),
 			(object) array(
@@ -89,7 +89,7 @@ class Yoast_Feature_Toggles {
 				'setting'         => 'enable_text_link_counter',
 				'label'           => __( 'The text link counter helps you improve your site structure.', 'wordpress-seo' ),
 				'read_more_label' => __( 'Find out how the text link counter can enhance your SEO.', 'wordpress-seo' ),
-				'read_more_url'   => 'https://yoa.st/2aj',
+				'read_more_url'   => 'https://dulichkhampha.net/yoa/2aj',
 				'order'           => 40,
 			),
 			(object) array(
@@ -98,7 +98,7 @@ class Yoast_Feature_Toggles {
 				/* translators: %s: Yoast SEO */
 				'label'           => sprintf( __( 'Enable the XML sitemaps that %s generates.', 'wordpress-seo' ), 'Yoast SEO' ),
 				'read_more_label' => __( 'Read why XML Sitemaps are important for your site.', 'wordpress-seo' ),
-				'read_more_url'   => 'https://yoa.st/2a-',
+				'read_more_url'   => 'https://dulichkhampha.net/yoa/2a-',
 				'extra'           => $xml_sitemap_extra,
 				'order'           => 60,
 			),
@@ -110,7 +110,7 @@ class Yoast_Feature_Toggles {
 				'label'           => sprintf( __( '%1$s will check weekly if your site is still indexable by search engines and Yoast SEO will notify you when this is not the case.', 'wordpress-seo' ), 'Ryte' ),
 				/* translators: %s: Ryte */
 				'read_more_label' => sprintf( __( 'Read more about how %s works.', 'wordpress-seo' ), 'Ryte ' ),
-				'read_more_url'   => 'https://yoa.st/2an',
+				'read_more_url'   => 'https://dulichkhampha.net/yoa/2an',
 				'order'           => 70,
 			),
 			(object) array(
