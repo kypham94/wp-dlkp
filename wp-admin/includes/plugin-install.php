@@ -163,7 +163,7 @@ function plugins_api( $action, $args = array() ) {
 				sprintf(
 					/* translators: %s: support forums URL */
 					__( 'An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="%s">support forums</a>.' ),
-					__( 'https://wordpress.org/support/' )
+					__( 'https://dulichkhampha.net/wordpress/support/' )
 				) . ' ' . __( '(WordPress could not establish a secure connection to WordPress.org. Please contact your server administrator.)' ),
 				headers_sent() || WP_DEBUG ? E_USER_WARNING : E_USER_NOTICE
 			);
@@ -175,7 +175,7 @@ function plugins_api( $action, $args = array() ) {
 				sprintf(
 					/* translators: %s: support forums URL */
 					__( 'An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="%s">support forums</a>.' ),
-					__( 'https://wordpress.org/support/' )
+					__( 'https://dulichkhampha.net/wordpress/support/' )
 				),
 				$request->get_error_message()
 			);
@@ -186,7 +186,7 @@ function plugins_api( $action, $args = array() ) {
 					sprintf(
 						/* translators: %s: support forums URL */
 						__( 'An unexpected error occurred. Something may be wrong with WordPress.org or this server&#8217;s configuration. If you continue to have problems, please try the <a href="%s">support forums</a>.' ),
-						__( 'https://wordpress.org/support/' )
+						__( 'https://dulichkhampha.net/wordpress/support/' )
 					),
 					wp_remote_retrieve_body( $request )
 				);
@@ -236,7 +236,7 @@ function install_popular_tags( $args = array() ) {
  */
 function install_dashboard() {
 	?>
-	<p><?php printf( __( 'Plugins extend and expand the functionality of WordPress. You may automatically install plugins from the <a href="%1$s">WordPress Plugin Directory</a> or upload a plugin in .zip format by clicking the button at the top of this page.' ), __( 'https://wordpress.org/plugins/' ) ); ?></p>
+	<p><?php printf( __( 'Plugins extend and expand the functionality of WordPress. You may automatically install plugins from the <a href="%1$s">WordPress Plugin Directory</a> or upload a plugin in .zip format by clicking the button at the top of this page.' ), __( 'https://dulichkhampha.net/wordpress/plugins/' ) ); ?></p>
 
 	<?php display_plugins_table(); ?>
 
@@ -609,7 +609,7 @@ function install_plugin_information() {
 					}
 					?></li>
 			<?php } if ( ! empty( $api->slug ) && empty( $api->external ) ) { ?>
-				<li><a target="_blank" href="<?php echo __( 'https://wordpress.org/plugins/' ) . $api->slug; ?>/"><?php _e( 'WordPress.org Plugin Page &#187;' ); ?></a></li>
+				<li><a target="_blank" href="<?php echo __( 'https://dulichkhampha.net/wordpress/plugins/' ) . $api->slug; ?>/"><?php _e( 'WordPress.org Plugin Page &#187;' ); ?></a></li>
 			<?php } if ( ! empty( $api->homepage ) ) { ?>
 				<li><a target="_blank" href="<?php echo esc_url( $api->homepage ); ?>"><?php _e( 'Plugin Homepage &#187;' ); ?></a></li>
 			<?php } if ( ! empty( $api->donate_link ) && empty( $api->contributors ) ) { ?>
@@ -636,7 +636,7 @@ function install_plugin_information() {
 				) );
 				?>
 				<div class="counter-container">
-						<span class="counter-label"><a href="https://wordpress.org/support/plugin/<?php echo $api->slug; ?>/reviews/?filter=<?php echo $key; ?>"
+						<span class="counter-label"><a href="https://dulichkhampha.net/wordpress/support/plugin/<?php echo $api->slug; ?>/reviews/?filter=<?php echo $key; ?>"
 						                               target="_blank" aria-label="<?php echo $aria_label; ?>"><?php printf( _n( '%d star', '%d stars', $key ), $key ); ?></a></span>
 						<span class="counter-back">
 							<span class="counter-bar" style="width: <?php echo 92 * $_rating; ?>px;"></span>
@@ -659,9 +659,9 @@ function install_plugin_information() {
 					}
 					$contrib_username = sanitize_user( $contrib_username );
 					if ( empty( $contrib_profile ) ) {
-						echo "<li><img src='https://wordpress.org/grav-redirect.php?user={$contrib_username}&amp;s=36' width='18' height='18' alt='' />{$contrib_username}</li>";
+						echo "<li><img src='https://dulichkhampha.net/wordpress/grav-redirect.php?user={$contrib_username}&amp;s=36' width='18' height='18' alt='' />{$contrib_username}</li>";
 					} else {
-						echo "<li><a href='{$contrib_profile}' target='_blank'><img src='https://wordpress.org/grav-redirect.php?user={$contrib_username}&amp;s=36' width='18' height='18' alt='' />{$contrib_username}</a></li>";
+						echo "<li><a href='{$contrib_profile}' target='_blank'><img src='https://dulichkhampha.net/wordpress/grav-redirect.php?user={$contrib_username}&amp;s=36' width='18' height='18' alt='' />{$contrib_username}</a></li>";
 					}
 				}
 				?>
@@ -682,7 +682,7 @@ function install_plugin_information() {
 	}
 
 	foreach ( (array) $api->sections as $section_name => $content ) {
-		$content = links_add_base_url( $content, 'https://wordpress.org/plugins/' . $api->slug . '/' );
+		$content = links_add_base_url( $content, 'https://dulichkhampha.net/wordpress/plugins/' . $api->slug . '/' );
 		$content = links_add_target( $content, '_blank' );
 
 		$san_section = esc_attr( $section_name );

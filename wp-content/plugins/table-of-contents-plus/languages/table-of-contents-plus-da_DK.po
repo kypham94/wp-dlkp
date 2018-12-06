@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Table of Contents Plus 1505\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/table-of-contents-"
+"Report-Msgid-Bugs-To: https://dulichkhampha.net/wordpress/support/plugin/table-of-contents-"
 "plus\n"
 "POT-Creation-Date: 2015-06-26 14:49+0100\n"
 "MIME-Version: 1.0\n"

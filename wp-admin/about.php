@@ -335,7 +335,7 @@ include( ABSPATH . 'wp-admin/admin-header.php' );
 			</h2>
 			<p><?php printf(
 				__( 'WordPress is working on a new way to create and control your content and we&#8217;d love to have your help. Interested in being an <a href="%s">early tester</a> or getting involved with the Gutenberg project? <a href="%s">Contribute on GitHub</a>.' ),
-				__( 'https://wordpress.org/plugins/gutenberg/' ),
+				__( 'https://dulichkhampha.net/wordpress/plugins/gutenberg/' ),
 				'https://github.com/WordPress/gutenberg' ); ?></p>
 		</div>
 

@@ -145,7 +145,7 @@ function wp_admin_bar_wp_menu( $wp_admin_bar ) {
 		'parent'    => 'wp-logo-external',
 		'id'        => 'wporg',
 		'title'     => __('WordPress.org'),
-		'href'      => __('https://wordpress.org/'),
+		'href'      => __('https://dulichkhampha.net/wordpress/'),
 	) );
 
 	// Add codex link
@@ -161,7 +161,7 @@ function wp_admin_bar_wp_menu( $wp_admin_bar ) {
 		'parent'    => 'wp-logo-external',
 		'id'        => 'support-forums',
 		'title'     => __('Support Forums'),
-		'href'      => __('https://wordpress.org/support/'),
+		'href'      => __('https://dulichkhampha.net/wordpress/support/'),
 	) );
 
 	// Add feedback link
@@ -169,7 +169,7 @@ function wp_admin_bar_wp_menu( $wp_admin_bar ) {
 		'parent'    => 'wp-logo-external',
 		'id'        => 'feedback',
 		'title'     => __('Feedback'),
-		'href'      => __('https://wordpress.org/support/forum/requests-and-feedback'),
+		'href'      => __('https://dulichkhampha.net/wordpress/support/forum/requests-and-feedback'),
 	) );
 }
 

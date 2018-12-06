@@ -16,7 +16,7 @@ if ( false ) {
 	<title>Error: PHP is not running</title>
 </head>
 <body class="wp-core-ui">
-	<p id="logo"><a href="https://wordpress.org/">WordPress</a></p>
+	<p id="logo"><a href="https://dulichkhampha.net/wordpress/">WordPress</a></p>
 	<h1>Error: PHP is not running</h1>
 	<p>WordPress requires that your web server is running PHP. Your server does not have PHP installed, or PHP is turned off.</p>
 </body>
@@ -77,7 +77,7 @@ function display_header( $body_classes = '' ) {
 	?>
 </head>
 <body class="wp-core-ui<?php echo $body_classes ?>">
-<p id="logo"><a href="<?php echo esc_url( __( 'https://wordpress.org/' ) ); ?>" tabindex="-1"><?php _e( 'WordPress' ); ?></a></p>
+<p id="logo"><a href="<?php echo esc_url( __( 'https://dulichkhampha.net/wordpress/' ) ); ?>" tabindex="-1"><?php _e( 'WordPress' ); ?></a></p>
 
 <?php
 } // end display_header()

@@ -223,8 +223,8 @@ msgstr "Tự hào được phát triển từ %s"
 #. #-#-#-#-#  twentyfifteen.pot (Twenty Fifteen 2.0)  #-#-#-#-#
 #. Author URI of the plugin/theme
 #: footer.php:30
-msgid "https://wordpress.org/"
-msgstr "https://wordpress.org/"
+msgid "https://dulichkhampha.net/wordpress/"
+msgstr "https://dulichkhampha.net/wordpress/"
 
 #: content-none.php:31
 msgid "It seems we can&rsquo;t find what you&rsquo;re looking for. Perhaps searching can help."
@@ -294,5 +294,5 @@ msgid "the WordPress team"
 msgstr "Nhóm quản trị WordPress"
 
 #. Theme URI of the plugin/theme
-msgid "https://wordpress.org/themes/twentyfifteen/"
-msgstr "https://wordpress.org/themes/twentyfifteen/"
+msgid "https://dulichkhampha.net/wordpress/themes/twentyfifteen/"
+msgstr "https://dulichkhampha.net/wordpress/themes/twentyfifteen/"

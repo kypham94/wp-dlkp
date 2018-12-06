@@ -163,7 +163,7 @@ Version numbering logic:
 = 1.9.1 =
 *2015-10-18*
 
-* bugfix for is_writable check failures ( see: https://wordpress.org/support/topic/settings-saved-but-getting-not-saved-error-message)
+* bugfix for is_writable check failures ( see: https://dulichkhampha.net/wordpress/support/topic/settings-saved-but-getting-not-saved-error-message)
 * bugfix for memcached.protocol notice
 * typo fixes
 * replace variable with string constant in translatable messages
@@ -277,7 +277,7 @@ What's changed:
 
 What's fixed:
 
-* [Unable to determine path from Post Permalink](https://wordpress.org/support/topic/unable-to-determine-path-from-post-permalink) noise fixed
+* [Unable to determine path from Post Permalink](https://dulichkhampha.net/wordpress/support/topic/unable-to-determine-path-from-post-permalink) noise fixed
 * potential Multisite precache bug fixed ( database prefixes were not set according to original prefix )
 
 What's new:

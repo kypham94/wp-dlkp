@@ -158,7 +158,7 @@ if ( ! class_exists( 'Toolset_Relevanssi_Compatibility' ) ) {
 				} else {
 					echo sprintf(
 						__( 'You can download Relevanssi it from %3$swordpress.org%4$s and ask your site administrator to install it.', 'wpv-views' ),
-						'<a href="https://wordpress.org/plugins/relevanssi/" target="_blank">',
+						'<a href="https://dulichkhampha.net/wordpress/plugins/relevanssi/" target="_blank">',
 						'</a>'
 					);
 				}

@@ -92,7 +92,7 @@ class WPSEO_Plugin_Availability {
 			),
 
 			'yoast-acf-analysis' => array(
-				'url'           => 'https://wordpress.org/plugins/acf-content-analysis-for-yoast-seo/',
+				'url'           => 'https://dulichkhampha.net/wordpress/plugins/acf-content-analysis-for-yoast-seo/',
 				'title'         => 'ACF Content Analysis for Yoast SEO',
 				'description'   => sprintf(
 					/* translators: %1$s expands to Yoast SEO, %2$s expands to Advanced Custom Fields */
@@ -111,7 +111,7 @@ class WPSEO_Plugin_Availability {
 			),
 
 			'yoastseo-amp' => array(
-				'url'           => 'https://wordpress.org/plugins/glue-for-yoast-seo-amp/',
+				'url'           => 'https://dulichkhampha.net/wordpress/plugins/glue-for-yoast-seo-amp/',
 				'title'         => 'Yoast SEO AMP Glue',
 				'description'   => sprintf(
 					/* translators: %1$s expands to Yoast SEO */

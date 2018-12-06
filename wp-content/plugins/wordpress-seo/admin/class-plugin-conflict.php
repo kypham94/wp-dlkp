@@ -95,9 +95,9 @@ class WPSEO_Plugin_Conflict extends Yoast_Plugin_Conflict {
 		),
 		'cloaking' => array(
 			'rs-head-cleaner/rs-head-cleaner.php',
-			// RS Head Cleaner Plus https://wordpress.org/plugins/rs-head-cleaner/.
+			// RS Head Cleaner Plus https://dulichkhampha.net/wordpress/plugins/rs-head-cleaner/.
 			'rs-head-cleaner-lite/rs-head-cleaner-lite.php',
-			// RS Head Cleaner Lite https://wordpress.org/plugins/rs-head-cleaner-lite/.
+			// RS Head Cleaner Lite https://dulichkhampha.net/wordpress/plugins/rs-head-cleaner-lite/.
 		),
 		'seo' => array(
 			'all-in-one-seo-pack/all_in_one_seo_pack.php',           // All in One SEO Pack.

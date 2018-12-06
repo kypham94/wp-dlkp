@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: TOC+ pt_BR 1505\n"
-"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/table-of-contents-"
+"Report-Msgid-Bugs-To: https://dulichkhampha.net/wordpress/support/plugin/table-of-contents-"
 "plus\n"
 "POT-Creation-Date: 2015-09-05 01:43-0300\n"
 "PO-Revision-Date: 2015-09-05 01:47-0300\n"

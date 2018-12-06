@@ -69,7 +69,7 @@ class WP_Widget_Meta extends WP_Widget {
 			 * @param array  $instance   Array of settings for the current widget.
 			 */
 			echo apply_filters( 'widget_meta_poweredby', sprintf( '<li><a href="%s" title="%s">%s</a></li>',
-				esc_url( __( 'https://wordpress.org/' ) ),
+				esc_url( __( 'https://dulichkhampha.net/wordpress/' ) ),
 				esc_attr__( 'Powered by WordPress, state-of-the-art semantic personal publishing platform.' ),
 				_x( 'WordPress.org', 'meta widget link text' )
 			), $instance );

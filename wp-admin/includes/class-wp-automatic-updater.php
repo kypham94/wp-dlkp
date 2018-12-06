@@ -682,7 +682,7 @@ class WP_Automatic_Updater {
 		} else {
 			// Add a note about the support forums.
 			$body .= "\n\n" . __( 'If you experience any issues or need support, the volunteers in the WordPress.org support forums may be able to help.' );
-			$body .= "\n" . __( 'https://wordpress.org/support/' );
+			$body .= "\n" . __( 'https://dulichkhampha.net/wordpress/support/' );
 		}
 
 		// Updates are important!
@@ -832,7 +832,7 @@ class WP_Automatic_Updater {
 This debugging email is sent when you are using a development version of WordPress.
 
 If you think these failures might be due to a bug in WordPress, could you report it?
- * Open a thread in the support forums: https://wordpress.org/support/forum/alphabeta
+ * Open a thread in the support forums: https://dulichkhampha.net/wordpress/support/forum/alphabeta
  * Or, if you're comfortable writing a bug report: https://core.trac.wordpress.org/
 
 Thanks! -- The WordPress Team" ) );
