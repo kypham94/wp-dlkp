@@ -31,9 +31,9 @@ function my_rel_canonical() {
         $link = get_permalink($post->ID) . '?pubID=' . absint($_GET['pubID']);
         echo "<link rel='canonical' href='$link' />\n";
     }else if(is_category()) {
-	    $categories = get_the_category();
-	    $category_id = $categories[0]->term_id;
-	    echo '<link rel="canonical" href="' .  get_category_link($category_id) . '" />';
+	    $obj_id = get_queried_object_id();
+		$current_url = get_term_link( $obj_id );
+	    echo '<link rel="canonical" href="' .  $current_url . '" />';
 	}else if(is_home()) {
 		echo '<link rel="canonical" href="https://dulichkhampha.net" />';
 	} else {
