@@ -21,7 +21,7 @@
 							<div class="col-xs-12 col-sm-12 col-md-4">
 								<div class="info-slider">
 									<h4><a href="<?php the_permalink();?>"><?php the_title();?></a></h4>
-									<div class="meta"><span>Dược chia sẻ bởi: <strong><?php the_author(); ?></strong></span></div>
+									<div class="meta"><span>Chia sẻ bởi: <strong><?php the_author(); ?></strong></span></div>
 									<p><?php echo teaser(50); ?></p>
 									<a href="<?php the_permalink(); ?>" class="more">Chi tiết <i class="fa fa-angle-right" aria-hidden="true"></i></a>
 								</div>
