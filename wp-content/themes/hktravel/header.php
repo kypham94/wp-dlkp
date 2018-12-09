@@ -16,9 +16,9 @@
 		"logo": "https://dulichkhampha.net/wp-content/uploads/2018/12/du-lich-kham-pha.png",
 	        "image":"https://dulichkhampha.net/wp-content/uploads/2018/12/du-lich-kham-pha.png",
 	        "priceRange":"1000$-30000$",
-		"hasMap": "https://www.google.com/maps/dir/21.0296832,105.8004992/Xu%C3%A2n+Mai+Complex,+H%C3%A0+%C4%90%C3%B4ng,+H%C3%A0+N%E1%BB%99i/@20.9939653,105.7403791,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x313452fa04f0058f:0x9347c7d0fe6b8b05!2m2!1d105.7413187!2d20.9604323",	//url gg map
+		"hasMap": "https://www.google.com/maps/dir/21.0296832,105.8004992/Xu%C3%A2n+Mai+Complex,+H%C3%A0+%C4%90%C3%B4ng,+H%C3%A0+N%E1%BB%99i/@20.9939653,105.7403791,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x313452fa04f0058f:0x9347c7d0fe6b8b05!2m2!1d105.7413187!2d20.9604323",	
 		"email": "mailto:dulichkhampha.net@gmail.com",
-	        "founder": "Hoàn Nguyễn",   //tên người đứng đầu
+	        "founder": "Hoàn Nguyễn",  
 		"address": {
 		"@type": "PostalAddress",
 		"addressLocality": "Hà Nội",
