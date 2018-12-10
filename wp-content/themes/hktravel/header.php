@@ -28,7 +28,7 @@
 		"postalCode":"100000",
 		"streetAddress": "G1110, Xuân Mai Complex, Hà Đông, Hà Nội"
 		},
-		"description": "Cùng khám phá những địa điểm về văn hóa, du lịch, ăn uống; các kiến thức về sức khỏe, làm đẹp hữu ích nhất trên website: dulichkhampha.net",
+		"description": "Cùng khám phá những địa điểm du lịch, ăn uống; các kiến thức về sức khỏe, làm đẹp hữu ích nhất trên website: dulichkhampha.net",
 		"name": "Du lịch khám phá",
 		"telephone": "0979027181", 
 		"openingHours": [ "Mo-Sun 08:00-22:00" ],
@@ -55,7 +55,7 @@
 		  "@type": "Person",
 		  "name": "Hoàn Nguyễn", 
 		  "jobTitle": "Ceo",
-		  "worksFor" : "Giám đốc du lịch khám phá",
+		  "worksFor" : "Chia sẻ kinh nghiệm du lịch",
 		  "url": "https://dulichkhampha.net/",
 		  "sameAs":["https://www.facebook.com/Hoan2603", 
 		  "https://www.youtube.com/channel/UConaJZtT22qeTnHUmkxVtMQ?view_as=subscriber",
