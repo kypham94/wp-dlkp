@@ -6,34 +6,38 @@
 				<h2><span>Danh mục nổi bật</span></h2>
 				<div class="main-featured">
 					<div class="row">
-						<a href="https://dulichkhampha.net/gioi-thieu"">
-							<div class="col-xs-12 col-sm-12 col-md-4" style="height:510px;">
-								<h5 class="heading_title"><img src="https://dulichkhampha.net/wp-content/uploads/2018/12/1.jpg">Giới thiệu</h5>
-							</div>
-						</a>
-						
-						<a href="https://dulichkhampha.net/du-lich">
-							<div class="col-xs-12 col-sm-12 col-md-4" style="height:235px; margin-bottom: 35px; background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/2.jpg);background-size: cover;">
-								<h5 class="heading_title"><img src="https://dulichkhampha.net/wp-content/uploads/2018/12/1.jpg">Du lịch</h5>
-							</div>
-						</a>
-						
-						<div class="col-xs-12 col-sm-12 col-md-4" style="height:235px; margin-bottom: 35px; background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/3.jpg);background-size: cover;">
-							<h5 class="heading_title"><a href="https://dulichkhampha.net/am-thuc">Ẩm thực</a></h5>
+						<div class="col-xs-12 col-sm-12 col-md-4" style="height:510px;background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/1.jpg);background-size: cover;">
+							<h5 class="heading_title"><a href="https://dulichkhampha.net/gioi-thieu">Giới thiệu</a></h5>
 						</div>
 						
-						<div class="col-xs-12 col-sm-12 col-md-4" style="height:235px; margin-bottom: 35px; background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/4.jpg);background-size: cover;">
-							<h5 class="heading_title"><a href="https://dulichkhampha.net/lam-dep">Làm đep</a></h5>
+						<div class="col-xs-12 col-sm-12 col-md-4" style="height:235px; margin-bottom: 35px;">
+							<a href="https://dulichkhampha.net/du-lich">
+								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/2.jpg">
+								<h5>Du lịch</a>
+							</a>
 						</div>
 						
-						<div class="col-xs-12 col-sm-12 col-md-4" style="height:235px; margin-bottom: 35px; background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/5.jpg);background-size: cover;">
-							<h5 class="heading_title"><a href="https://dulichkhampha.net/suc-khoe">Sức khỏe</a></h5>
+						<div class="col-xs-12 col-sm-12 col-md-4" style="height:235px; margin-bottom: 35px;">
+							
+								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/3.jpg">
+						
 						</div>
-					</div>>
+						
+						<div class="col-xs-12 col-sm-12 col-md-4" style="height:235px; margin-bottom: 35px;">
+							
+								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/4.jpg">
+						
+						</div>
+						
+						<div class="col-xs-12 col-sm-12 col-md-4" style="height:235px; margin-bottom: 35px;">
+						
+								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/5.jpg">
+							
+						</div>
+					</div>
 				</div>
 			</div>
 		</div>
-	</div>
 		<div class="content-post">
 			<div class="container">
 				<div role="tabpanel">
