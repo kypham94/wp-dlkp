@@ -17,7 +17,7 @@
 						<div class="col-xs-12 col-sm-12 col-md-4" style="height:235px; margin-bottom: 35px;">
 							<a href="https://dulichkhampha.net/du-lich">
 								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/2.jpg" alt="Du lịch">
-								<h5 class="heading_title">Du lịch</h5>
+								<h5 class="heading_title" style="bottom:-5px">Du lịch</h5>
 							</a>
 						</div>
 						
