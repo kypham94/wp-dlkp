@@ -6,19 +6,35 @@
 				<h2><span>Bài viết nổi bật</span></h2>
 				<div class="main-featured">
 					<div class="row">
-						<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=8&post_type=post&cat=5'); ?>
-						<?php global $wp_query; $wp_query->in_the_loop = true; ?>
-						<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
-							<div class="col-xs-6 col-sm-4 col-md-3">
-								<div class="detail-post">
-									<span class="line"></span>
-									<a href="<?php the_permalink(); ?>">
-										<?php echo get_the_post_thumbnail( get_the_id(), 'post-thumb', array("alt"=>get_the_title(), 'class' => 'img-post') ); ?>
-									</a>
-									<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
-								</div>
+						<div class="col-xs-6 col-sm-4 col-md-4" style="height:500px">
+							<div class="detail-post">
+								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/suon-xao-chua-ngot.jpg">
 							</div>
-						<?php endwhile; wp_reset_postdata(); ?>	
+						</div>
+						
+						<div class="col-xs-6 col-sm-4 col-md-4" style="height:235px">
+							<div class="detail-post">
+								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/suon-xao-chua-ngot.jpg">
+							</div>
+						</div>
+						
+						<div class="col-xs-6 col-sm-4 col-md-4" style="height:235px">
+							<div class="detail-post">
+								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/suon-xao-chua-ngot.jpg">
+							</div>
+						</div>
+						
+						<div class="col-xs-6 col-sm-4 col-md-4" style="height:235px">
+							<div class="detail-post">
+								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/suon-xao-chua-ngot.jpg">
+							</div>
+						</div>
+						
+						<div class="col-xs-6 col-sm-4 col-md-4" style="height:235px">
+							<div class="detail-post">
+								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/suon-xao-chua-ngot.jpg">
+							</div>
+						</div>
 					</div>
 				</div>
 			</div>
