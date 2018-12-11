@@ -29,10 +29,11 @@
 						<div class="col-xs-12 col-sm-12 col-md-4" style="height:235px; margin-bottom: 35px; background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/5.jpg);background-size: cover;">
 							<h5 class="heading_title"><a href="https://dulichkhampha.net/suc-khoe">Sức khỏe</a></h5>
 						</div>
-					</div>
+					</div>>
 				</div>
 			</div>
 		</div>
+	</div>
 		<div class="content-post">
 			<div class="container">
 				<div role="tabpanel">
