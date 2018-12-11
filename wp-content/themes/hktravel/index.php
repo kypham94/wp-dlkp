@@ -6,13 +6,17 @@
 				<h2><span>Danh mục nổi bật</span></h2>
 				<div class="main-featured">
 					<div class="row">
-						<div class="col-xs-12 col-sm-12 col-md-4" style="height:510px;background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/1.jpg);background-size: cover;">
-							<h5 class="heading_title"><a href="https://dulichkhampha.net/gioi-thieu">Giới thiệu</a></h5>
-						</div>
+						<a href="https://dulichkhampha.net/gioi-thieu"">
+							<div class="col-xs-12 col-sm-12 col-md-4" style="height:510px;">
+								<h5 class="heading_title"><img src="https://dulichkhampha.net/wp-content/uploads/2018/12/1.jpg">Giới thiệu</h5>
+							</div>
+						</a>
 						
-						<div class="col-xs-12 col-sm-12 col-md-3" style="height:235px; margin-bottom: 35px; background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/2.jpg);background-size: cover;">
-							<h5 class="heading_title"><a href="https://dulichkhampha.net/du-lich">Du lịch</a></h5>
-						</div>
+						<a href="https://dulichkhampha.net/du-lich">
+							<div class="col-xs-12 col-sm-12 col-md-4" style="height:235px; margin-bottom: 35px; background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/2.jpg);background-size: cover;">
+								<h5 class="heading_title"><img src="https://dulichkhampha.net/wp-content/uploads/2018/12/1.jpg">Du lịch</h5>
+							</div>
+						</a>
 						
 						<div class="col-xs-12 col-sm-12 col-md-4" style="height:235px; margin-bottom: 35px; background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/3.jpg);background-size: cover;">
 							<h5 class="heading_title"><a href="https://dulichkhampha.net/am-thuc">Ẩm thực</a></h5>
