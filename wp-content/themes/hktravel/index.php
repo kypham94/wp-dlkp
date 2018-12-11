@@ -6,31 +6,31 @@
 				<h2><span>Bài viết nổi bật</span></h2>
 				<div class="main-featured">
 					<div class="row">
-						<div class="col-xs-6 col-sm-4 col-md-4" style="height:510px;">
+						<div class="col-xs-12 col-sm-12 col-md-4" style="height:510px;">
 							
 								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/1.jpg" style="height:510px;">
 							
 						</div>
 						
-						<div class="col-xs-6 col-sm-4 col-md-4" style="height:235px; margin-bottom: 35px;">
+						<div class="col-xs-12 col-sm-12 col-md-4" style="height:235px; margin-bottom: 35px;">
 							
 								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/2.jpg">
 							
 						</div>
 						
-						<div class="col-xs-6 col-sm-4 col-md-4" style="height:235px; margin-bottom: 35px;">
+						<div class="col-xs-12 col-sm-12 col-md-4" style="height:235px; margin-bottom: 35px;">
 							
 								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/3.jpg">
 						
 						</div>
 						
-						<div class="col-xs-6 col-sm-4 col-md-4" style="height:235px; margin-bottom: 35px;">
+						<div class="col-xs-12 col-sm-12 col-md-4" style="height:235px; margin-bottom: 35px;">
 							
 								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/4.jpg">
 						
 						</div>
 						
-						<div class="col-xs-6 col-sm-4 col-md-4" style="height:235px; margin-bottom: 35px;">
+						<div class="col-xs-12 col-sm-12 col-md-4" style="height:235px; margin-bottom: 35px;">
 						
 								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/5.jpg">
 							
