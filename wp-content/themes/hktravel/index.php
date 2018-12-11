@@ -10,7 +10,7 @@
 						<div class="col-xs-12 col-sm-12 col-md-4" style="height:510px; margin-bottom:30px">
 							<a href="https://dulichkhampha.net/gioi-thieu">
 								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/1.jpg" alt="Giới thiệu" style="height:510px;">
-								<h5 class="heading_title" style="bottom:5px">Giới thiệu</h5>
+								<h5 class="heading_title1">Giới thiệu</h5>
 							</a>
 						</div>
 						
