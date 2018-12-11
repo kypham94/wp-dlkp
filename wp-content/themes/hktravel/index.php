@@ -12,25 +12,25 @@
 							</div>
 						</div>
 						
-						<div class="col-xs-6 col-sm-4 col-md-4" style="height:235px; background:green">
+						<div class="col-xs-6 col-sm-4 col-md-4" style="height:235px; padding-bottom:10px">
 							<div class="detail-post">
 								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/2.jpg">
 							</div>
 						</div>
 						
-						<div class="col-xs-6 col-sm-4 col-md-4" style="height:235px">
+						<div class="col-xs-6 col-sm-4 col-md-4" style="height:235px; padding-bottom:10px">
 							<div class="detail-post">
 								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/3.jpg">
 							</div>
 						</div>
 						
-						<div class="col-xs-6 col-sm-4 col-md-4" style="height:235px">
+						<div class="col-xs-6 col-sm-4 col-md-4" style="height:235px; padding-bottom:10px">
 							<div class="detail-post">
 								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/4.jpg">
 							</div>
 						</div>
 						
-						<div class="col-xs-6 col-sm-4 col-md-4" style="height:235px">
+						<div class="col-xs-6 col-sm-4 col-md-4" style="height:235px; padding-bottom:10px">
 							<div class="detail-post">
 								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/5.jpg">
 							</div>
