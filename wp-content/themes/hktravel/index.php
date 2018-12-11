@@ -8,7 +8,7 @@
 					<div class="row">
 						<div class="col-xs-6 col-sm-4 col-md-4" style="height:510px;">
 							
-								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/1.jpg">
+								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/1.jpg" style="height:510px;">
 							
 						</div>
 						
