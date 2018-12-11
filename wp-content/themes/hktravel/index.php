@@ -8,31 +8,31 @@
 					<div class="row">
 						<div class="col-xs-6 col-sm-4 col-md-4" style="height:500px; background:red">
 							<div class="detail-post">
-								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/suon-xao-chua-ngot.jpg">
+								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/1.jpg">
 							</div>
 						</div>
 						
 						<div class="col-xs-6 col-sm-4 col-md-4" style="height:235px; background:green">
 							<div class="detail-post">
-								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/suon-xao-chua-ngot.jpg">
+								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/2.jpg">
 							</div>
 						</div>
 						
 						<div class="col-xs-6 col-sm-4 col-md-4" style="height:235px">
 							<div class="detail-post">
-								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/suon-xao-chua-ngot.jpg">
+								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/3.jpg">
 							</div>
 						</div>
 						
 						<div class="col-xs-6 col-sm-4 col-md-4" style="height:235px">
 							<div class="detail-post">
-								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/suon-xao-chua-ngot.jpg">
+								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/4.jpg">
 							</div>
 						</div>
 						
 						<div class="col-xs-6 col-sm-4 col-md-4" style="height:235px">
 							<div class="detail-post">
-								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/suon-xao-chua-ngot.jpg">
+								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/5.jpg">
 							</div>
 						</div>
 					</div>
