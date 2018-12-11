@@ -7,9 +7,7 @@
 				<div class="main-featured">
 					<div class="row">
 						<div class="col-xs-12 col-sm-12 col-md-4" style="height:510px;background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/1.jpg);background-size: cover;">
-							<div class="box_dm" style="width:100%; height:500px;">
-								<h5 class="heading_title"><a href="https://dulichkhampha.net/gioi-thieu">Giới thiệu</a></h5>
-							</div>
+							<h5 class="heading_title"><a href="https://dulichkhampha.net/gioi-thieu">Giới thiệu</a></h5>
 						</div>
 						
 						<div class="col-xs-12 col-sm-12 col-md-4" style="height:235px; margin-bottom: 35px; background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/2.jpg);background-size: cover; background-size: 360px 238px">
