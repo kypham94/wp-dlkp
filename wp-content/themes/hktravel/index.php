@@ -6,8 +6,10 @@
 				<h2><span>Danh mục nổi bật</span></h2>
 				<div class="main-featured">
 					<div class="row">
-						<div class="col-xs-12 col-sm-12 col-md-4" style="height:510px;background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/1.jpg);background-size: cover;">
-							<h5 class="heading_title"><a href="https://dulichkhampha.net/gioi-thieu">Giới thiệu</a></h5>
+						<div class="col-xs-12 col-sm-12 col-md-4" style="height:510px;">
+							<div class="box_dm" style="width:98%;margin-left:1%;background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/1.jpg);background-size: cover; background-size: 370px 500px">
+								<h5 class="heading_title"><a href="https://dulichkhampha.net/gioi-thieu">Giới thiệu</a></h5>
+							</div>
 						</div>
 						
 						<div class="col-xs-12 col-sm-12 col-md-4" style="height:235px; margin-bottom: 35px; background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/2.jpg);background-size: cover; background-size: 360px 238px">
