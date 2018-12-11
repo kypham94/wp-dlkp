@@ -11,8 +11,8 @@
 							<h5 class="heading_title"><a href="https://dulichkhampha.net/gioi-thieu">Giới thiệu</a></h5>
 						</div>
 						
-						<div class="col-xs-12 col-sm-12 col-md-4" style="height:235px; margin-bottom: 30px; background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/2.jpg);background-size: cover;">
-							<h5 class="heading_title"><a href="https://dulichkhampha.net/du-lich">Du lịch</a></h5>
+						<div class="col-xs-12 col-sm-12 col-md-4" style="height:235px; width:99%; margin-left:1%; margin-bottom: 30px;">
+							<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/2.jpg">
 						</div>
 						
 						<div class="col-xs-12 col-sm-12 col-md-4" style="height:235px; margin-bottom: 35px;">
