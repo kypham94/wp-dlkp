@@ -8,7 +8,7 @@
 					<div class="row">
 						
 						<div class="col-xs-12 col-sm-12 col-md-4" style="height:510px;">
-							<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/1.jpg">
+							<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/1.jpg" style="height:510px;">
 							<h5 class="heading_title"><a href="https://dulichkhampha.net/gioi-thieu">Giới thiệu</a></h5>
 						</div>
 						
