@@ -19,7 +19,7 @@
 						</div>
 						
 						<div class="col-xs-12 col-sm-12 col-md-4" style="height:235px; margin-bottom: 35px; background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/4.jpg);background-size: cover;">
-							<h5 class="heading_title"><a href="https://dulichkhampha.net/lam-dep">Làm đẹp</a></h5>
+							<h5 class="heading_title"><a href="https://dulichkhampha.net/lam-dep">Làm đep</a></h5>
 						</div>
 						
 						<div class="col-xs-12 col-sm-12 col-md-4" style="height:235px; margin-bottom: 35px; background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/5.jpg);background-size: cover;">
