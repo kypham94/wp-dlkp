@@ -17,7 +17,7 @@
 						<div class="col-xs-12 col-sm-12 col-md-4" style="height:235px; margin-bottom: 35px;">
 							
 								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/3.jpg">
-						
+								<h5 class="heading_title"><a href="https://dulichkhampha.net/am-thuc">Ẩm thực</a></h5>
 						</div>
 						
 						<div class="col-xs-12 col-sm-12 col-md-4" style="height:235px; margin-bottom: 35px;">
