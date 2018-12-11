@@ -12,25 +12,25 @@
 							</div>
 						</div>
 						
-						<div class="col-xs-6 col-sm-4 col-md-4" style="height:245px">
+						<div class="col-xs-6 col-sm-4 col-md-4" style="height:235px; background:green">
 							<div class="detail-post">
 								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/suon-xao-chua-ngot.jpg">
 							</div>
 						</div>
 						
-						<div class="col-xs-6 col-sm-4 col-md-4" style="height:245px">
+						<div class="col-xs-6 col-sm-4 col-md-4" style="height:235px">
 							<div class="detail-post">
 								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/suon-xao-chua-ngot.jpg">
 							</div>
 						</div>
 						
-						<div class="col-xs-6 col-sm-4 col-md-4" style="height:245px">
+						<div class="col-xs-6 col-sm-4 col-md-4" style="height:235px">
 							<div class="detail-post">
 								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/suon-xao-chua-ngot.jpg">
 							</div>
 						</div>
 						
-						<div class="col-xs-6 col-sm-4 col-md-4" style="height:245px">
+						<div class="col-xs-6 col-sm-4 col-md-4" style="height:235px">
 							<div class="detail-post">
 								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/suon-xao-chua-ngot.jpg">
 							</div>
