@@ -6,9 +6,9 @@
 				<h2><span>Bài viết nổi bật</span></h2>
 				<div class="main-featured">
 					<div class="row">
-						<div class="col-xs-12 col-sm-12 col-md-4" style="max-height:510px;min-height:500px">
+						<div class="col-xs-12 col-sm-12 col-md-4" style="height:510px;">
 							
-								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/1.jpg" style="max-height:510px;min-height:500px">
+								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/1.jpg" style="height:510px;">
 							
 						</div>
 						
