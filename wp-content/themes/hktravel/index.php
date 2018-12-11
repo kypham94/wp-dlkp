@@ -11,23 +11,23 @@
 							<h5 class="heading_title"><a href="https://dulichkhampha.net/gioi-thieu">Giới thiệu</a></h5>
 						</div>
 						
-						<div class="col-xs-12 col-sm-12 col-md-4" style="height:235px; width:99%; margin-left:1%; margin-bottom: 30px;">
+						<div class="col-xs-12 col-sm-12 col-md-3" style="height:235px; margin-bottom: 30px;">
 							<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/2.jpg">
 						</div>
 						
-						<div class="col-xs-12 col-sm-12 col-md-4" style="height:235px; margin-bottom: 35px;">
+						<div class="col-xs-12 col-sm-12 col-md-3" style="height:235px; margin-bottom: 35px;">
 							
 								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/3.jpg">
 								<h5 class="heading_title"><a href="https://dulichkhampha.net/am-thuc">Ẩm thực</a></h5>
 						</div>
 						
-						<div class="col-xs-12 col-sm-12 col-md-4" style="height:235px; margin-bottom: 35px;">
+						<div class="col-xs-12 col-sm-12 col-md-3" style="height:235px; margin-bottom: 35px;">
 							
 								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/4.jpg">
 						
 						</div>
 						
-						<div class="col-xs-12 col-sm-12 col-md-4" style="height:235px; margin-bottom: 35px;">
+						<div class="col-xs-12 col-sm-12 col-md-3" style="height:235px; margin-bottom: 35px;">
 						
 								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/5.jpg">
 							
