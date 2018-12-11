@@ -10,35 +10,35 @@
 						<div class="col-xs-12 col-sm-12 col-md-4" style="height:515px;">
 							<a href="https://dulichkhampha.net/gioi-thieu">
 								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/1.jpg" alt="Giới thiệu" style="height:515px;">
-								<h5 class="heading_title" style="bottom:0px">Giới thiệu</h5>
+								<h5 class="heading_title" style="bottom:5px">Giới thiệu</h5>
 							</a>
 						</div>
 						
 						<div class="col-xs-12 col-sm-12 col-md-4" style="height:235px; margin-bottom: 35px;">
 							<a href="https://dulichkhampha.net/du-lich">
 								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/2.jpg" alt="Du lịch">
-								<h5 class="heading_title" style="bottom:-5px">Du lịch</h5>
+								<h5 class="heading_title">Du lịch</h5>
 							</a>
 						</div>
 						
 						<div class="col-xs-12 col-sm-12 col-md-4" style="height:235px; margin-bottom: 35px;">
 							<a href="https://dulichkhampha.net/am-thuc">
 								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/3.jpg" alt="Ẩm thực">
-								<h5 class="heading_title" style="bottom:-5px">Ẩm thực</h5>
+								<h5 class="heading_title">Ẩm thực</h5>
 							</a>
 						</div>
 						
 						<div class="col-xs-12 col-sm-12 col-md-4" style="height:235px; margin-top:5px; margin-bottom: 35px;">
 							<a href="https://dulichkhampha.net/lam-dep">
 								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/4.jpg" alt="Làm đẹp">
-								<h5 class="heading_title" style="bottom:-5px">Làm đẹp</h5>
+								<h5 class="heading_title">Làm đẹp</h5>
 							</a>
 						</div>
 						
 						<div class="col-xs-12 col-sm-12 col-md-4" style="height:235px; margin-top:5px; margin-bottom: 35px;">
 							<a href="https://dulichkhampha.net/suc-khoe">
 								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/5.jpg" alt="Sức khỏe">
-								<h5 class="heading_title" style="bottom:-5px">Sức khỏe</h5>
+								<h5 class="heading_title">Sức khỏe</h5>
 							</a>
 						</div>
 					</div>
