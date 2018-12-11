@@ -6,7 +6,7 @@
 				<h2><span>Bài viết nổi bật</span></h2>
 				<div class="main-featured">
 					<div class="row">
-						<div class="col-xs-6 col-sm-4 col-md-4" style="height:510px; background:red">
+						<div class="col-xs-6 col-sm-4 col-md-4" style="height:510px;">
 							
 								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/1.jpg">
 							
