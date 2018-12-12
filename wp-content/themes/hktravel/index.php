@@ -220,4 +220,9 @@
 			</div>
 		</div>
 	</div>
+<script type='text/javascript'>
+/* <![CDATA[ */
+var rt_main = {"tooltip_on_off":"","tooltip_image":"","tooltip_title":"","tooltip_price":""};
+/* ]]> */
+</script>
 <?php get_footer(); ?>
