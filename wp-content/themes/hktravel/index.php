@@ -9,7 +9,19 @@
 						<div class="cate_list" style="background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/1.jpg);
 		background-size: cover;">
 							<a href="https://dulichkhampha.net/gioi-thieu"></a>
-							<h5 class="heading_title"><a href="https://dulichkhampha.net/gioi-thieu"><i class="fa fa-map-marker"></i>Giới thiệu</a></h5>
+							<h5 class="heading_title">
+								<a href="https://dulichkhampha.net/gioi-thieu"><i class="fa fa-map-marker"></i>Giới thiệu</a>
+							</h5>
+						</div>
+					</div>
+					
+					<div class="box-right">
+						<div class="cate_list" style="background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/2.jpg);
+		background-size: cover;">
+							<a href="https://dulichkhampha.net/du-lich"></a>
+							<h5 class="heading_title">
+								<a href="https://dulichkhampha.net/du-lich"><i class="fa fa-map-marker"></i>Du lịch</a>
+							</h5>
 						</div>
 					</div>
 						
@@ -17,27 +29,6 @@
 							<a href="https://dulichkhampha.net/du-lich">
 								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/2.jpg" alt="Du lịch">
 								<h5 class="heading_title">Du lịch</h5>
-							</a>
-						</div>
-						
-						<div class="col-xs-12 col-sm-12 col-md-4" style="height:245px; margin-bottom: 35px;">
-							<a href="https://dulichkhampha.net/am-thuc">
-								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/3.jpg" alt="Ẩm thực">
-								<h5 class="heading_title">Ẩm thực</h5>
-							</a>
-						</div>
-						
-						<div class="col-xs-12 col-sm-12 col-md-4" style="height:245px; margin-bottom: 35px;">
-							<a href="https://dulichkhampha.net/lam-dep">
-								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/4.jpg" alt="Làm đẹp">
-								<h5 class="heading_title">Làm đẹp</h5>
-							</a>
-						</div>
-						
-						<div class="col-xs-12 col-sm-12 col-md-4" style="height:245px; margin-bottom: 35px;">
-							<a href="https://dulichkhampha.net/suc-khoe">
-								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/5.jpg" alt="Sức khỏe">
-								<h5 class="heading_title">Sức khỏe</h5>
 							</a>
 						</div>
 				</div>
