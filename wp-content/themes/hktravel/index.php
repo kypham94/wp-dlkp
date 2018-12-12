@@ -56,7 +56,7 @@
 				<div role="tabpanel">
 					<ul class="nav nav-tabs post-tabs" role="tablist">
 						<li role="presentation">
-							<a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab">Xem nhiều nhất</a>
+							<a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab">Bài viết xem nhiều</a>
 						</li>
 					</ul>
 					<div class="tab-content">
