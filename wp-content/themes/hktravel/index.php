@@ -6,7 +6,7 @@
 				<h2><span>Danh mục nổi bật</span></h2>
 				<div class="main-featured">
 					<div class="box-left">
-						<div class="cate_list" style="background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/1.jpg);
+						<div class="cate_list" style="background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/gioi-thieu.jpg);
 		background-size: cover;">
 							<a href="https://dulichkhampha.net/gioi-thieu"></a>
 							<h5 class="heading_title">
@@ -24,7 +24,7 @@
 							</h5>
 						</div>
 						
-						<div class="cate_list" style="background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/2.jpg);
+						<div class="cate_list" style="background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/du-lich.jpg);
 		background-size: cover;">
 							<a href="https://dulichkhampha.net/du-lich"></a>
 							<h5 class="heading_title">
@@ -32,7 +32,7 @@
 							</h5>
 						</div>
 				
-						<div class="cate_list" style="background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/5.jpg);
+						<div class="cate_list" style="background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/suc-khoe.jpg);
 		background-size: cover;float:right">
 							<a href="https://dulichkhampha.net/suc-khoe"></a>
 							<h5 class="heading_title">
@@ -40,7 +40,7 @@
 							</h5>
 						</div>
 						
-						<div class="cate_list" style="background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/4.jpg);
+						<div class="cate_list" style="background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/lam-dep.jpg);
 		background-size: cover;">
 							<a href="https://dulichkhampha.net/lam-dep"></a>
 							<h5 class="heading_title">
