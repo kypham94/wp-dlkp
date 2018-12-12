@@ -6,12 +6,13 @@
 				<h2><span>Danh mục nổi bật</span></h2>
 				<div class="main-featured">
 					<div class="row">
-						
-						<div class="col-xs-12 col-sm-12 col-md-4" style="height:515px; margin-bottom:35px">
-							<a href="https://dulichkhampha.net/gioi-thieu">
-								<img src="https://dulichkhampha.net/wp-content/uploads/2018/12/1.jpg" alt="Giới thiệu" style="height:515px;">
-								<h5 class="heading_title1">Giới thiệu</h5>
-							</a>
+						<div class="box-left">
+							<div class="cate_list" style="background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/1.jpg);
+		background-size: cover;">
+								<a href="https://dulichkhampha.net/gioi-thieu">
+									<h5 class="heading_title1">Giới thiệu</h5>
+								</a>
+							</div>
 						</div>
 						
 						<div class="col-xs-12 col-sm-12 col-md-4" style="height:245px; margin-bottom: 35px;">
