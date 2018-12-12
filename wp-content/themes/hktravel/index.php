@@ -8,7 +8,7 @@
 					<div class="box-left">
 						<div class="cate_list" style="background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/1.jpg);
 		background-size: cover;">
-							<h5 class="heading_title1"><a href="https://dulichkhampha.net/gioi-thieu">Giới thiệu</a></h5>
+							<h5 class="heading_title"><a href="https://dulichkhampha.net/gioi-thieu">Giới thiệu</a></h5>
 						</div>
 					</div>
 						
