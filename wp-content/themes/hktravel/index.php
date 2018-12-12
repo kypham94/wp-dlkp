@@ -106,9 +106,6 @@
 								<a href="#dulich" aria-controls="dulich" role="tab" data-toggle="tab">Du lịch - Phượt</a>
 							</li>
 							<li role="presentation">
-								<a href="#vanhoa" aria-controls="vanhoa" role="tab" data-toggle="tab">Văn hóa</a>
-							</li>
-							<li role="presentation">
 								<a href="#amthuc" aria-controls="amthuc" role="tab" data-toggle="tab">Ẩm thực</a>
 							</li>
 							<li role="presentation">
@@ -123,25 +120,6 @@
 								<div class="content-tour-list">
 									<div class="row">
 										<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=8&post_type=post&cat=1'); ?>
-										<?php global $wp_query; $wp_query->in_the_loop = true; ?>
-										<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
-											<div class="col-xs-6 col-sm-4 col-md-3">
-												<div class="detail-post">
-													<span class="line"></span>
-													<a href="<?php the_permalink(); ?>">
-														<?php echo get_the_post_thumbnail( get_the_id(), 'post-thumb', array("alt"=>get_the_title(), 'class' => 'img-post') ); ?>
-													</a>
-													<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
-												</div>
-											</div>
-										<?php endwhile; wp_reset_postdata(); ?>	
-									</div>
-								</div>
-							</div>
-							<div role="tabpanel" class="tab-pane" id="vanhoa">
-								<div class="content-tour-list">
-									<div class="row">
-										<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=8&post_type=post&cat=2'); ?>
 										<?php global $wp_query; $wp_query->in_the_loop = true; ?>
 										<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
 											<div class="col-xs-6 col-sm-4 col-md-3">
