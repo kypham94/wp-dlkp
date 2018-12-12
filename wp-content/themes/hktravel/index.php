@@ -5,14 +5,12 @@
 			<div class="container">
 				<h2><span>Danh mục nổi bật</span></h2>
 				<div class="main-featured">
-						<div class="box-left">
-							<div class="cate_list" style="background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/1.jpg);
+					<div class="box-left">
+						<div class="cate_list" style="background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/1.jpg);
 		background-size: cover;">
-								<a href="https://dulichkhampha.net/gioi-thieu">
-									<h5 class="heading_title1">Giới thiệu</h5>
-								</a>
-							</div>
+							<h5 class="heading_title1"><a href="https://dulichkhampha.net/gioi-thieu">Giới thiệu</a></h5>
 						</div>
+					</div>
 						
 						<div class="col-xs-12 col-sm-12 col-md-4" style="height:245px; margin-bottom: 35px;">
 							<a href="https://dulichkhampha.net/du-lich">
