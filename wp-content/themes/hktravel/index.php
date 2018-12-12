@@ -5,7 +5,6 @@
 			<div class="container">
 				<h2><span>Danh mục nổi bật</span></h2>
 				<div class="main-featured">
-					<div class="row">
 						<div class="box-left">
 							<div class="cate_list" style="background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/1.jpg);
 		background-size: cover;">
@@ -42,7 +41,6 @@
 								<h5 class="heading_title">Sức khỏe</h5>
 							</a>
 						</div>
-					</div>
 				</div>
 			</div>
 		</div>
