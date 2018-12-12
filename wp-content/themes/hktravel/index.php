@@ -16,7 +16,7 @@
 					</div>
 					
 					<div class="box-right">
-						<div class="cate_list" style="background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/3.jpg);
+						<div class="cate_list" style="background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/am-thuc.jpg);
 		background-size: cover;float:right">
 							<a href="https://dulichkhampha.net/am-thuc"></a>
 							<h5 class="heading_title">
