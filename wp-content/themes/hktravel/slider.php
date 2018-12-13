@@ -7,7 +7,7 @@
 				<?php 
 					$args = array(
 						'post_status' => 'publish', // Chỉ lấy những bài viết được publish
-						'showposts' => 2, // số lượng bài viết
+						'showposts' => 1, // số lượng bài viết
 					);
 				?>
 				<?php $getposts = new WP_query($args); $getposts->query('post_status=publish&showposts=8&post_type=post&cat=1'); ?>
