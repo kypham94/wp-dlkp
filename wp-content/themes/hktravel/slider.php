@@ -7,10 +7,10 @@
 				<?php 
 					$args = array(
 						'post_status' => 'publish', // Chỉ lấy những bài viết được publish
-						'showposts' => 1, // số lượng bài viết
+						'showposts' => 2, // số lượng bài viết
 					);
 				?>
-				<?php $getposts = new WP_query($args); $getposts->query('post_status=publish&showposts=8&post_type=post&cat=1'); ?>
+				<?php $getposts = new WP_query($args); ?>
 				<?php global $wp_query; $wp_query->in_the_loop = true; ?>
 				<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
 					<div class="item">
@@ -42,7 +42,7 @@
 						'offset' => 2 // Bỏ 2 bài đầu tiên
 					);
 				?>
-				<?php $getposts = new WP_query($args); $getposts->query('post_status=publish&showposts=8&post_type=post&cat=1');?>
+				<?php $getposts = new WP_query($args);?>
 				<?php global $wp_query; $wp_query->in_the_loop = true; ?>
 				<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
 					<div class="item active">
