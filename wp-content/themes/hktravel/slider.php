@@ -8,7 +8,7 @@
 					$args = array(
 						'post_status' => 'publish', // Chỉ lấy những bài viết được publish
 						'showposts' => 2, // số lượng bài viết
-						'cat' => '1',
+						
 					);
 				?>
 				<?php $getposts = new WP_query($args);?>
@@ -41,7 +41,7 @@
 						'post_status' => 'publish', // Chỉ lấy những bài viết được publish
 						'showposts' => 1, // số lượng bài viết
 						'offset' => 2 // Bỏ 2 bài đầu tiên
-						'cat' => '1',
+						
 					);
 				?>
 				<?php $getposts = new WP_query($args);?>
