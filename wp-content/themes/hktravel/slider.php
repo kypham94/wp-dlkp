@@ -11,9 +11,9 @@
 
 					);
 				?>
-				<?php $getposts = new WP_query($args);$getposts->query('cat=1');?>
+				<?php $getposts = new WP_query($args);?>
 				<?php global $wp_query; $wp_query->in_the_loop = true; ?>
-				<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
+				<?php while ($getposts->have_posts()) : $getposts->the_post(query('cat=1')); ?>
 					<div class="item">
 						<div class="row">
 							<div class="col-xs-12 col-sm-12 col-md-8">
@@ -44,9 +44,9 @@
 					
 					);
 				?>
-				<?php $getposts = new WP_query($args);$getposts->query('cat=1');?>
+				<?php $getposts = new WP_query($args);?>
 				<?php global $wp_query; $wp_query->in_the_loop = true; ?>
-				<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
+				<?php while ($getposts->have_posts()) : $getposts->the_post(query('cat=1')); ?>
 					<div class="item active">
 						<div class="row">
 							<div class="col-xs-12 col-sm-12 col-md-8">
