@@ -24,9 +24,9 @@
 								<?php the_content(); ?>
 							</article>
 						</div>
-						<div class="post-tag">
-							<span>Từ Khóa: </span><?php the_tags(''); ?>
-						</div>
+						<!--<div class="post-tag">
+							<span>Từ Khóa: </span><?php //the_tags(''); ?>
+						</div>-->
 						<div class="share">
 							<span class="like">
 								<div class="fb-like" data-href="<?php the_permalink(); ?>" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
