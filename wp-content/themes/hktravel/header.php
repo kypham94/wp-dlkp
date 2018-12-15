@@ -14,47 +14,41 @@
 	<?php global $hk_options; ?>
 	<div id="wrapper">
 		<header>
-			<div class="top-header">
-				<div class="container">
-					<div class="row">
-						<div class="site-header">
-							<div class="site-branding">
-								<div class="container">
-									<div class="row">
-										<div class="banner"> <!-- banner-->
-											<?php if(is_home()){ ?>
-												<h1><a href="<?php bloginfo('url'); ?>"><img src="<?php echo $hk_options[logo][url]; ?>" alt="<?php bloginfo('name'); ?>"></a></h1>
-											<?php } else { ?>
-												<a href="<?php bloginfo('url'); ?>"><img src="<?php echo $hk_options[logo][url]; ?>" alt="<?php bloginfo('name'); ?>"></a>
-											<?php } ?>
-										</div>  <!--end banner-->
+			<div class="site-header">
+				<div class="site-branding">
+					<div class="container">
+						<div class="row">
+							<div class="banner"> <!-- banner-->
+								<?php if(is_home()){ ?>
+									<h1><a href="<?php bloginfo('url'); ?>"><img src="<?php echo $hk_options[logo][url]; ?>" alt="<?php bloginfo('name'); ?>"></a></h1>
+								<?php } else { ?>
+									<a href="<?php bloginfo('url'); ?>"><img src="<?php echo $hk_options[logo][url]; ?>" alt="<?php bloginfo('name'); ?>"></a>
+								<?php } ?>
+							</div>  <!--end banner-->
 										
-										<div class="box">  <!--box-->
-											<div class="box-left">
-												<form role="search" method="get" class="searchform" action="https://dulichkhampha.net">
-													<label for="search-form-5c14531da93cb">
-														<span class="screen-reader-text">Tìm kiếm:</span>
-													</label>
-													<input type="search" class="search-field" onfocus="if (this.value == 'Search') {this.value = '';}" onblur="if (this.value == '')  {this.value = 'Search';}" id="s" name="s" value="Search">
+							<div class="box">  <!--box-->
+								<div class="box-left">
+									<form role="search" method="get" class="searchform" action="https://dulichkhampha.net">
+										<label for="search-form-5c14531da93cb">
+											<span class="screen-reader-text">Tìm kiếm:</span>
+										</label>
+										<input type="search" class="search-field" onfocus="if (this.value == 'Search') {this.value = '';}" onblur="if (this.value == '')  {this.value = 'Search';}" id="s" name="s" value="Search">
 													
-													<button type="submit" class="search-submit"><i class="fa fa-search" aria-hidden="true"></i><span class="screen-reader-text">Search</span></button>
-												</form>
-											</div>
+										<button type="submit" class="search-submit"><i class="fa fa-search" aria-hidden="true"></i><span class="screen-reader-text">Search</span></button>
+									</form>
+								</div>
 											
-											<div class="box-right">
-												<div class="box-right">
-													<aside id="text-13" class="widget widget_text">			
-														<div class="textwidget"><p><i class="fa fa-phone"></i> Hotline : 0979.027.181</p>
-															<p><i class="fa fa-envelope"></i> Email : dulichkhampha.net@gmail.com</p>
-															<p><i class="fa fa-map-marker"></i> Địa chỉ : G1110, Xuân Mai Complex, Hà Đông, Hà Nội</p>
-														</div>
-													</aside>					
-												</div>
+								<div class="box-right">
+									<div class="box-right">
+										<aside id="text-13" class="widget widget_text">			
+											<div class="textwidget"><p><i class="fa fa-phone"></i> Hotline : 0979.027.181</p>
+												<p><i class="fa fa-envelope"></i> Email : dulichkhampha.net@gmail.com</p>
+												<p><i class="fa fa-map-marker"></i> Địa chỉ : G1110, Xuân Mai Complex, Hà Đông, Hà Nội</p>
 											</div>
-										</div> <!--end box-->
+										</aside>					
 									</div>
 								</div>
-							</div>
+							</div> <!--end box-->
 						</div>
 					</div>
 				</div>
