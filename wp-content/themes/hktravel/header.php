@@ -9,7 +9,6 @@
 	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/style.css">
 	<link rel="shortcut icon" href="https://dulichkhampha.net/wp-content/uploads/2018/12/z6.jpg" />
 	<?php wp_head(); ?>
-	
 </head>
 <body>
 	<?php global $hk_options; ?>
