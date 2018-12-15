@@ -126,9 +126,14 @@
 											<li id="menu-item-279" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-279">
 												<a href="http://khomaudepraothue.com/dulich/?page_id=2">Trang Mẫu</a>
 											</li>
-											<li id="menu-item-280" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-280">
-												<a href="http://khomaudepraothue.com/dulich/?page_id=2">Trang Mẫu</a></li>
-											</ul>
+											<li id="menu-item-279" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-279">
+												<a href="http://khomaudepraothue.com/dulich/?page_id=2">Trang Mẫu</a>
+											</li>
+											
+											<li id="menu-item-279" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-279">
+												<a href="http://khomaudepraothue.com/dulich/?page_id=2">Trang Mẫu</a>
+											</li>
+										</ul>
 									</li>
 								</ul>
 							</div>
