@@ -8,9 +8,9 @@
 					<div class="box-left">
 						<div class="cate_list" style="background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/gioi-thieu.jpg);
 		background-size: cover;">
-							<a href="https://dulichkhampha.net/gioi-thieu"></a>
+							<a href="https://dulichkhampha.net/gioi-thieu" title="Giới thiệu"></a>
 							<h5 class="heading_title">
-								<a href="https://dulichkhampha.net/gioi-thieu"><i class="fa fa-map-marker"></i>Giới thiệu</a>
+								<a href="https://dulichkhampha.net/gioi-thieu" title="Giới thiệu"><i class="fa fa-map-marker"></i>Giới thiệu</a>
 							</h5>
 						</div>
 					</div>
@@ -18,33 +18,33 @@
 					<div class="box-right">
 						<div class="cate_list" style="background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/am-thuc.jpg);
 		background-size: cover;float:right">
-							<a href="https://dulichkhampha.net/am-thuc"></a>
+							<a href="https://dulichkhampha.net/am-thuc" title="Ẩm thực"></a>
 							<h5 class="heading_title">
-								<a href="https://dulichkhampha.net/am-thuc"><i class="fa fa-map-marker"></i>Ẩm thực</a>
+								<a href="https://dulichkhampha.net/am-thuc" title="Ẩm thực"><i class="fa fa-map-marker"></i>Ẩm thực</a>
 							</h5>
 						</div>
 						
 						<div class="cate_list" style="background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/du-lich.jpg);
 		background-size: cover;">
-							<a href="https://dulichkhampha.net/du-lich"></a>
+							<a href="https://dulichkhampha.net/du-lich" title="Du lịch"></a>
 							<h5 class="heading_title">
-								<a href="https://dulichkhampha.net/du-lich"><i class="fa fa-map-marker"></i>Du lịch</a>
+								<a href="https://dulichkhampha.net/du-lich" title="Du lịch"><i class="fa fa-map-marker"></i>Du lịch</a>
 							</h5>
 						</div>
 				
 						<div class="cate_list" style="background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/suc-khoe.jpg);
 		background-size: cover;float:right">
-							<a href="https://dulichkhampha.net/suc-khoe"></a>
+							<a href="https://dulichkhampha.net/suc-khoe" title="Sức khỏe"></a>
 							<h5 class="heading_title">
-								<a href="https://dulichkhampha.net/suc-khoe"><i class="fa fa-map-marker"></i>Sức khỏe</a>
+								<a href="https://dulichkhampha.net/suc-khoe" title="Sức khỏe"><i class="fa fa-map-marker"></i>Sức khỏe</a>
 							</h5>
 						</div>
 						
 						<div class="cate_list" style="background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/lam-dep.jpg);
 		background-size: cover;">
-							<a href="https://dulichkhampha.net/lam-dep"></a>
+							<a href="https://dulichkhampha.net/lam-dep" title="Làm đẹp"></a>
 							<h5 class="heading_title">
-								<a href="https://dulichkhampha.net/lam-dep"><i class="fa fa-map-marker"></i>Làm đẹp</a>
+								<a href="https://dulichkhampha.net/lam-dep" title="Làm đẹp"><i class="fa fa-map-marker"></i>Làm đẹp</a>
 							</h5>
 						</div>
 					</div>
