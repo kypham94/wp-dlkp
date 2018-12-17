@@ -7,8 +7,9 @@
 				<?php 
 					$args = array(
 						'post_status' => 'publish', // Chỉ lấy những bài viết được publish
-						'showposts' => 3, // số lượng bài viết
-						'cat'       => 1
+						'showposts'   => 3, // số lượng bài viết
+						'cat'         => 1,
+						'orderby'     => 'meta_value_num'
 					);
 				?>
 				<?php $getposts = new WP_query($args);?>
@@ -39,8 +40,9 @@
 				<?php 
 					$args = array(
 						'post_status' => 'publish', // Chỉ lấy những bài viết được publish
-						'cat' => 1, // số lượng bài viết 
-                                                'showposts' => 1
+						'cat'         => 1, // số lượng bài viết 
+                                                'showposts'   => 1,
+						'orderby'     => 'meta_value_num'
 					);
 				?>
 				<?php $getposts = new WP_query($args);?>
