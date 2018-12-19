@@ -2809,7 +2809,7 @@ function noindex() {
  * @since 3.3.0
  */
 function wp_no_robots() {
-	echo "<meta name='robots' content='noindex,follow' />\n";
+	echo "<meta name='robots' content='index,follow' />\n";
 }
 
 /**
