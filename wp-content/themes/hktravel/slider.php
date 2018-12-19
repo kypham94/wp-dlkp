@@ -17,9 +17,11 @@
 				<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
 					<div class="item">
 						<div class="row">
+							<a href="<?php the_permalink();?>">
 							<div class="col-xs-12 col-sm-12 col-md-8">
-								<a href="<?php the_permalink();?>"><?php echo get_the_post_thumbnail( get_the_id(), 'slider-thumb', array('alt' => get_the_title(), 'class' => 'images-slider')); ?></a>
+								<?php echo get_the_post_thumbnail( get_the_id(), 'slider-thumb', array('alt' => get_the_title(), 'class' => 'images-slider')); ?>
 							</div>
+							</a>
 							<div class="col-xs-12 col-sm-12 col-md-4">
 								<div class="info-slider">
 									<h4><a href="<?php the_permalink();?>"><?php the_title();?></a></h4>
