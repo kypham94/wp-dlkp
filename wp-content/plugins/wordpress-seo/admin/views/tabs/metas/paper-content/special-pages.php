@@ -13,7 +13,7 @@ $special_pages_help = new WPSEO_Admin_Help_Panel(
 	sprintf(
 		/* translators: %s expands to <code>noindex, follow</code>. */
 		__( 'These pages will be %s by default, so they will never show up in search results.', 'wordpress-seo' ),
-		'<code>index, follow</code>'
+		'<code>noindex, follow</code>'
 	),
 	'has-wrapper'
 );
