@@ -77,7 +77,7 @@ class WPSEO_Frontend {
 		remove_action( 'wp_head', 'index_rel_link' );
 		remove_action( 'wp_head', 'start_post_rel_link' );
 		remove_action( 'wp_head', 'adjacent_posts_rel_link_wp_head' );
-		remove_action( 'wp_head', 'index', 1 );
+		remove_action( 'wp_head', 'noindex', 1 );
 
 		// When using WP 4.4, just use the new hook.
 		add_filter( 'pre_get_document_title', array( $this, 'title' ), 15 );
