@@ -6,7 +6,7 @@
 			<div class="container"><!-- 
 				<div class="col-xs-12 col-sm-12 col-md-2 hidden-sm hidden-xs">
 					<div class="sidebar-left">
-						<?php get_sidebar('left'); ?>
+						<?php //get_sidebar('left'); ?>
 					</div>
 				</div> -->
 				<div class="col-xs-12 col-sm-12 col-md-9">
@@ -30,8 +30,8 @@
 						<div class="share">
 							<span class="like">
 								<div class="fb-like" data-href="<?php the_permalink(); ?>" data-layout="button_count" data-action="like" data-size="small" data-show-faces="true" data-share="true"></div>
-								<script src="https://apis.google.com/js/platform.js" async defer></script>
-							  	<g:plusone size="medium"></g:plusone>
+								<!--<script src="https://apis.google.com/js/platform.js" async defer></script>
+							  	<g:plusone size="medium"></g:plusone>-->
 							</span>
 							<div class="clear"></div>
 						</div>
