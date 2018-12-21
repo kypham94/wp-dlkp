@@ -36,9 +36,9 @@
 							<div class="clear"></div>
 						</div>
 						<div class="comment">
-							<!--<div class="cmt">
+							<div class="cmt">
 								<div class="fb-comments" data-width="100%" data-href="<?php //the_permalink(); ?>" data-numposts="3"></div>
-							</div>-->
+							</div>
 						</div>
 						<div class="post-rel">
 							<h3>Bài viết liên quan</h3>
