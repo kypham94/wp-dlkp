@@ -37,7 +37,7 @@
 						</div>
 						<div class="comment">
 							<div class="cmt">
-								<div class="fb-comments" data-width="100%" data-href="<?php the_permalink(); ?>" data-numposts="3"></div>
+								<div class="fb-comments" data-width="100%" data-href="<?php //the_permalink(); ?>" data-numposts="3"></div>
 							</div>
 						</div>
 						<div class="post-rel">
