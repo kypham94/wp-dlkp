@@ -67,20 +67,24 @@
 									<?php global $wp_query; $wp_query->in_the_loop = true; ?>
 									<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
 										<li>
+											<div class="time-line">
+												<span class="round"></span>
+												<span class="time"><?php echo get_the_date('d/m/Y'); ?></span>
+											</div>
 											<div class="info-post">
 												<div class="row">
+													<div class="col-xs-12 col-sm-12 col-md-8">
+														<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+														<div class="meta"><span>Chia sẻ bởi: <strong><?php the_author(); ?></strong></span></div>
+														<p><?php echo teaser(80); ?></p>
+														<div class="view"><span><?php echo getpostviews(get_the_id()); ?> Lượt xem</span></div>
+													</div>
 													<div class="col-xs-12 col-sm-12 col-md-4">
 														<div class="info-post-img">
 															<a href="<?php the_permalink(); ?>">
 																<?php echo get_the_post_thumbnail( get_the_id(), 'post-thumb', array("alt"=>get_the_title(), 'class' => 'img-post') ); ?>
 															</a>
 														</div>
-													</div>
-													<div class="col-xs-12 col-sm-12 col-md-8">
-														<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
-														<div class="meta"><span>Chia sẻ bởi: <strong><?php the_author(); ?></strong></span></div>
-														<p><?php echo teaser(80); ?></p>
-														<div class="view"><span><?php echo getpostviews(get_the_id()); ?> Lượt xem</span></div>
 													</div>
 												</div>
 											</div>
