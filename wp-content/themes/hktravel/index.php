@@ -61,29 +61,7 @@
 						</li>
 					</ul>
 					
-					<div class="post-inner">
-						<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=6&post_type=post&meta_key=views&orderby=meta_value_num'); ?>
-						<?php global $wp_query; $wp_query->in_the_loop = true; ?>
-						<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
-						<div class="box-post">
-							<div class="entry-thumb">
-								<a href="<?php the_permalink(); ?>">
-									<?php echo get_the_post_thumbnail( get_the_id(), 'post-thumb', array("alt"=>get_the_title(), 'class' => 'img-post') ); ?>
-								</a>
-							</div>
-							<div class="entry-content">
-								<h4><a href="<?php the_permalink(); ?>" title="<?php the_title(); ?>"><?php the_title(); ?></h4>
-							</div>
-							<div class="meta_box">
-								<span>Ngày đăng: <strong><?php echo get_the_date('d/m/Y'); ?></strong></span>
-								<span>Chia sẻ bởi: <strong><?php the_author(); ?></strong></span>
-							</div>				
-							<div class="meta-box"><?php echo teaser(80); ?></div>
-							<div class="clear"></div>
-						</div>
-						<?php endwhile; wp_reset_postdata(); ?>
-					</div>
-					<div class="clear"></div>
+					
 				</div>
 				</div>
 				</div>
