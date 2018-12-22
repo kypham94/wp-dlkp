@@ -62,7 +62,7 @@
 						<div class="box-post">
 							<div class="entry-thumb">
 								<a href="<?php the_permalink(); ?>">
-									<?php echo get_the_post_thumbnail( get_the_id(), 'post-thumb', array("alt"=>get_the_title(), 'class' => 'img-post') ); ?>
+									<img src="<?php echo get_the_post_thumbnail( get_the_id(), 'post-thumb', array("alt"=>get_the_title(), 'class' => 'img-post') ); ?>">
 								</a>
 							</div>
 							<div class="entry-content">
