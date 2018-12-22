@@ -55,10 +55,10 @@
 				<div class="tab-content">
 				<div class="container">
 					<h2><span>Bài viết xem nhiều</span></h2>
-					<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=6&post_type=post&meta_key=views&orderby=meta_value_num'); ?>
-					<?php global $wp_query; $wp_query->in_the_loop = true; ?>
-					<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
 					<div class="post-inner">
+						<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=6&post_type=post&meta_key=views&orderby=meta_value_num'); ?>
+						<?php global $wp_query; $wp_query->in_the_loop = true; ?>
+						<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
 						<div class="box-post">
 							<div class="entry-thumb">
 								<a href="<?php the_permalink(); ?>">
@@ -75,8 +75,8 @@
 							<div class="meta-box"><?php echo teaser(80); ?></div>
 							<div class="clear"></div>
 						</div>
+						<?php endwhile; wp_reset_postdata(); ?>
 					</div>
-					<?php endwhile; wp_reset_postdata(); ?>
 				</div>
 				</div>
 			</div>
