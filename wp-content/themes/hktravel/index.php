@@ -53,8 +53,8 @@
 			</div>
 			<div class="content-post">
 				<div class="tab-content">
-				<h2><span>Bài viết xem nhiều</span></h2>
 				<div class="container">
+					<h2><span>Bài viết xem nhiều</span></h2>
 					<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=6&post_type=post&meta_key=views&orderby=meta_value_num'); ?>
 					<?php global $wp_query; $wp_query->in_the_loop = true; ?>
 					<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
