@@ -52,6 +52,7 @@
 				</div>
 			</div>
 			<div class="content-post">
+				<div class="tab-content">
 				<h2><span>Bài viết xem nhiều</span></h2>
 				<div class="container">
 					<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=6&post_type=post&meta_key=views&orderby=meta_value_num'); ?>
@@ -74,6 +75,7 @@
 						<div class="clear"></div>
 					</div>
 					<?php endwhile; wp_reset_postdata(); ?>
+				</div>
 				</div>
 			</div>
 			<div class="title-head">
