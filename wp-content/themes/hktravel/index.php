@@ -65,7 +65,7 @@
 						<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=6&post_type=post&meta_key=views&orderby=meta_value_num'); ?>
 						<?php global $wp_query; $wp_query->in_the_loop = true; ?>
 						<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
-						<div class="col-xs-12 col-sm-12 col-md-4">
+						<div class="box-post">
 							<div class="entry-thumb">
 								<a href="<?php the_permalink(); ?>">
 									<?php echo get_the_post_thumbnail( get_the_id(), 'post-thumb', array("alt"=>get_the_title(), 'class' => 'img-post') ); ?>
