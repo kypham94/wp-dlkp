@@ -79,10 +79,9 @@
 								<span>Chia sẻ bởi: <strong><?php the_author(); ?></strong></span>
 							</div>				
 							<div class="meta-box"><?php echo teaser(80); ?></div>
-							<div class="clear"></div>
 						</div>
-						<?php endwhile; wp_reset_postdata(); ?>
 						<div class="clear"></div>
+						<?php endwhile; wp_reset_postdata(); ?>
 					</div>
 				</div>
 				</div>
