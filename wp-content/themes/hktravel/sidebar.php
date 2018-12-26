@@ -1,10 +1,10 @@
 <div class="widget">
 	<h3>
-		Bài mới
+		Bài viết mới
 	</h3>
 	<div class="content-w">
 		<ul>
-			<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=8&post_type=post'); ?>
+			<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=10&post_type=post'); ?>
 			<?php global $wp_query; $wp_query->in_the_loop = true; ?>
 			<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
 				<li>
