@@ -76,6 +76,15 @@
 			<div class="top-header">
 				<div class="container">
 					<div class="row">
+						<div class="col-xs-10 col-sm-6 col-md-2">
+							<div class="logo">
+								<?php if(is_home()){ ?>
+									<h1><a href="<?php bloginfo('url'); ?>"><img src="<?php echo $hk_options[logo][url]; ?>" alt="<?php bloginfo('name'); ?>"></a></h1>
+								<?php } else { ?>
+									<a href="<?php bloginfo('url'); ?>"><img src="<?php echo $hk_options[logo][url]; ?>" alt="<?php bloginfo('name'); ?>"></a>
+								<?php } ?>
+							</div>
+						</div>
 						<div class="col-xs-2 col-sm-6 col-md-10">
 							<nav id="main-menu" class="hidden-xs hidden-sm">
 								<?php wp_nav_menu( 
@@ -91,15 +100,6 @@
 							</nav>
 							<div class="hidden-bar hidden-md hidden-lg"><a href="#menu-mobile" class="menu-mobile"><i class="fa fa-bars" aria-hidden="true"></i></a></div>
 							<div class="clear"></div>
-						</div>
-						<div class="col-xs-10 col-sm-6 col-md-2">
-							<div class="logo">
-								<?php if(is_home()){ ?>
-									<h1><a href="<?php bloginfo('url'); ?>"><img src="<?php echo $hk_options[logo][url]; ?>" alt="<?php bloginfo('name'); ?>"></a></h1>
-								<?php } else { ?>
-									<a href="<?php bloginfo('url'); ?>"><img src="<?php echo $hk_options[logo][url]; ?>" alt="<?php bloginfo('name'); ?>"></a>
-								<?php } ?>
-							</div>
 						</div>
 					</div>
 				</div>
