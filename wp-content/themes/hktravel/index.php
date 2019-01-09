@@ -63,28 +63,21 @@
 						<div role="tabpanel" class="tab-pane active" id="tab1">
 							<div class="detail-post-main">
 								<div class="info-post">
-
 									<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=5&post_type=post&meta_key=views&orderby=meta_value_num'); ?>
 									<?php global $wp_query; $wp_query->in_the_loop = true; ?>
 									<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
-											
-													<div class="col-xs-12 col-sm-12 col-md-4" id="post_noibat">
-														<div class="info-post-img">
-															<a href="<?php the_permalink(); ?>">
-																<?php echo get_the_post_thumbnail( get_the_id(), 'post-thumb', array("alt"=>get_the_title(), 'class' => 'img-post') ); ?>
-															</a>
-														</div>
-														<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
-														<div class="meta"><span>Chia sẻ bởi: <strong><?php the_author(); ?></strong></span></div>
-														<p><?php echo teaser(80); ?></p>
-														<div class="view"><span><?php echo getpostviews(get_the_id()); ?> Lượt xem</span></div>
-													</div>
-												
-											
-										
+										<div class="col-xs-12 col-sm-12 col-md-4" id="post_noibat">
+											<div class="info-post-img">
+												<a href="<?php the_permalink(); ?>">
+													<?php echo get_the_post_thumbnail( get_the_id(), 'post-thumb', array("alt"=>get_the_title(), 'class' => 'img-post') ); ?>
+												</a>
+											</div>
+											<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+											<div class="meta"><span>Chia sẻ bởi: <strong><?php the_author(); ?></strong></span><span><?php echo getpostviews(get_the_id()); ?> Lượt xem</span></div>
+											<p><?php echo teaser(80); ?></p>
+										</div>
 									<?php endwhile; wp_reset_postdata(); ?>
 									<div class="clear"></div>
-								
 								</div>
 							</div>
 						</div>
