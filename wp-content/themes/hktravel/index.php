@@ -80,9 +80,10 @@
 														<div class="view"><span><?php echo getpostviews(get_the_id()); ?> Lượt xem</span></div>
 													</div>
 												
-											<div class="clear"></div>
+											
 										
 									<?php endwhile; wp_reset_postdata(); ?>
+									<div class="clear"></div>
 									</div>
 								</div>
 							</div>
