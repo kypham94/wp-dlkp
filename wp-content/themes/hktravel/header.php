@@ -70,7 +70,7 @@
 	</script>
 	
 	
-	// <![CDATA[
+	<![CDATA[
 var bits=80; // how many bits
 var speed=33; // how fast - smaller is faster
 var bangs=5; // how many can be launched simultaneously (note that using too many can slow the script down)
@@ -215,7 +215,7 @@ function set_width() {
   swide=sw_min;
   shigh=sh_min;
 }
-// ]]>
+]]>
 	
 </head>
 <body>
