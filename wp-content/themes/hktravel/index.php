@@ -106,10 +106,10 @@
 							<div role="tabpanel" class="tab-pane active" id="dulich">
 								<div class="content-tour-list">
 									<div class="row">
-										<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=8&post_type=post&cat=1'); ?>
+										<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=6&post_type=post&cat=1'); ?>
 										<?php global $wp_query; $wp_query->in_the_loop = true; ?>
 										<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
-											<div class="col-xs-12 col-sm-12 col-md-4" id="post_noibat">
+										<div class="col-xs-12 col-sm-12 col-md-4" id="post_noibat">
 											<div class="info-post-img">
 												<a href="<?php the_permalink(); ?>">
 													<?php echo get_the_post_thumbnail( get_the_id(), 'post-thumb', array("alt"=>get_the_title(), 'class' => 'img-post') ); ?>
@@ -126,18 +126,19 @@
 							<div role="tabpanel" class="tab-pane" id="amthuc">
 								<div class="content-tour-list">
 									<div class="row">
-										<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=8&post_type=post&cat=3'); ?>
+										<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=6&post_type=post&cat=3'); ?>
 										<?php global $wp_query; $wp_query->in_the_loop = true; ?>
 										<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
-											<div class="col-xs-6 col-sm-4 col-md-3">
-												<div class="detail-post">
-													<span class="line"></span>
-													<a href="<?php the_permalink(); ?>">
-														<?php echo get_the_post_thumbnail( get_the_id(), 'post-thumb', array("alt"=>get_the_title(), 'class' => 'img-post') ); ?>
-													</a>
-													<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
-												</div>
+											<div class="col-xs-12 col-sm-12 col-md-4" id="post_noibat">
+											<div class="info-post-img">
+												<a href="<?php the_permalink(); ?>">
+													<?php echo get_the_post_thumbnail( get_the_id(), 'post-thumb', array("alt"=>get_the_title(), 'class' => 'img-post') ); ?>
+												</a>
 											</div>
+											<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+											<div class="meta"><span><strong><i>View: </strong><?php echo getpostviews(get_the_id()); ?> Lượt xem</i></span></div>
+											<p><?php echo teaser(80); ?></p>
+										</div>
 										<?php endwhile; wp_reset_postdata(); ?>	
 									</div>
 								</div>
@@ -145,18 +146,19 @@
 							<div role="tabpanel" class="tab-pane" id="lamdep">
 								<div class="content-tour-list">
 									<div class="row">
-										<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=8&post_type=post&cat=35'); ?>
+										<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=6&post_type=post&cat=35'); ?>
 										<?php global $wp_query; $wp_query->in_the_loop = true; ?>
 										<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
-											<div class="col-xs-6 col-sm-4 col-md-3">
-												<div class="detail-post">
-													<span class="line"></span>
-													<a href="<?php the_permalink(); ?>">
-														<?php echo get_the_post_thumbnail( get_the_id(), 'post-thumb', array("alt"=>get_the_title(), 'class' => 'img-post') ); ?>
-													</a>
-													<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
-												</div>
+											<div class="col-xs-12 col-sm-12 col-md-4" id="post_noibat">
+											<div class="info-post-img">
+												<a href="<?php the_permalink(); ?>">
+													<?php echo get_the_post_thumbnail( get_the_id(), 'post-thumb', array("alt"=>get_the_title(), 'class' => 'img-post') ); ?>
+												</a>
 											</div>
+											<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+											<div class="meta"><span><strong><i>View: </strong><?php echo getpostviews(get_the_id()); ?> Lượt xem</i></span></div>
+											<p><?php echo teaser(80); ?></p>
+										</div>
 										<?php endwhile; wp_reset_postdata(); ?>	
 									</div>
 								</div>
@@ -164,17 +166,18 @@
 							<div role="tabpanel" class="tab-pane" id="suckhoe">
 								<div class="content-tour-list">
 									<div class="row">
-										<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=8&post_type=post&cat=37'); ?>
+										<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=6&post_type=post&cat=37'); ?>
 										<?php global $wp_query; $wp_query->in_the_loop = true; ?>
 										<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
-											<div class="col-xs-6 col-sm-4 col-md-3">
-												<div class="detail-post">
-													<span class="line"></span>
-													<a href="<?php the_permalink(); ?>">
-														<?php echo get_the_post_thumbnail( get_the_id(), 'post-thumb', array("alt"=>get_the_title(), 'class' => 'img-post') ); ?>
-													</a>
-													<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
-												</div>
+											<div class="col-xs-12 col-sm-12 col-md-4" id="post_noibat">
+											<div class="info-post-img">
+												<a href="<?php the_permalink(); ?>">
+													<?php echo get_the_post_thumbnail( get_the_id(), 'post-thumb', array("alt"=>get_the_title(), 'class' => 'img-post') ); ?>
+												</a>
+											</div>
+											<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
+											<div class="meta"><span><strong><i>View: </strong><?php echo getpostviews(get_the_id()); ?> Lượt xem</i></span></div>
+											<p><?php echo teaser(80); ?></p>
 											</div>
 										<?php endwhile; wp_reset_postdata(); ?>	
 									</div>
