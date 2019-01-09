@@ -69,7 +69,7 @@
 										<li>
 											<div class="time-line">
 												<span class="round"></span>
-												<span class="time"><?php //echo get_the_date('d/m/Y'); ?></span>
+												<span class="time"><?php echo get_the_date('d/m/Y'); ?></span>
 											</div>
 											<div class="info-post">
 												<div class="row">
