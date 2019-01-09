@@ -63,7 +63,7 @@
 						<div role="tabpanel" class="tab-pane active" id="tab1">
 							<div class="detail-post-main">
 								<div class="info-post">
-									<div class="row">
+
 									<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=5&post_type=post&meta_key=views&orderby=meta_value_num'); ?>
 									<?php global $wp_query; $wp_query->in_the_loop = true; ?>
 									<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
@@ -84,7 +84,7 @@
 										
 									<?php endwhile; wp_reset_postdata(); ?>
 									<div class="clear"></div>
-									</div>
+								
 								</div>
 							</div>
 						</div>
