@@ -67,13 +67,9 @@
 									<?php global $wp_query; $wp_query->in_the_loop = true; ?>
 									<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
 										<li>
-											<!--<div class="time-line">
-												<span class="round"></span>
-												<span class="time"><?php //echo get_the_date('d/m/Y'); ?></span>
-											</div>-->
 											<div class="time-line">
 												<span class="round"></span>
-												<span class="time"><?php the_parent(); ?></span>
+												<span class="time"><?php //echo get_the_date('d/m/Y'); ?></span>
 											</div>
 											<div class="info-post">
 												<div class="row">
