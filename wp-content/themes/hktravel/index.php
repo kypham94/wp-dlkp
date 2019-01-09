@@ -73,7 +73,7 @@
 												</a>
 											</div>
 											<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
-											<div class="meta"><span>Chia sẻ bởi: <strong><?php the_author(); ?></strong></span><span style="right">View:<strong><?php echo getpostviews(get_the_id()); ?> Lượt xem</strong></span></div>
+											<div class="meta"><span style="right">View:<strong><?php echo getpostviews(get_the_id()); ?> Lượt xem</strong></span></div>
 											<p><?php echo teaser(80); ?></p>
 										</div>
 									<?php endwhile; wp_reset_postdata(); ?>
