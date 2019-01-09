@@ -69,7 +69,7 @@
 		 }}
 	</script>
 	
-<script type="text/javascript" src="https://hocban.vn/wp-content/uploads/TrangTriTet2018/phaohoa.js"></script>
+	<script type="text/javascript" src="https://dulichkhampha.net/wp-content/uploads/2019/01/phaohoa.js"></script>
 </head>
 <body>
 	<?php global $hk_options; ?>
