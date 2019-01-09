@@ -73,7 +73,7 @@
 											</div>-->
 											<div class="time-line">
 												<span class="round"></span>
-												<span class="time"><?php single_cat_title(); ?></span>
+												<span class="time"><?php echo single_cat_title(); ?></span>
 											</div>
 											<div class="info-post">
 												<div class="row">
