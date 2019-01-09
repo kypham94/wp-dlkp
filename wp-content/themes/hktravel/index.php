@@ -125,7 +125,7 @@
 							</div>
 							<div role="tabpanel" class="tab-pane" id="amthuc">
 								<div class="content-tour-list">
-									<div class="row">
+									
 										<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=6&post_type=post&cat=3'); ?>
 										<?php global $wp_query; $wp_query->in_the_loop = true; ?>
 										<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
@@ -140,12 +140,12 @@
 											<p><?php echo teaser(80); ?></p>
 										</div>
 										<?php endwhile; wp_reset_postdata(); ?>	
-									</div>
+								
 								</div>
 							</div>
 							<div role="tabpanel" class="tab-pane" id="lamdep">
 								<div class="content-tour-list">
-									<div class="row">
+								
 										<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=6&post_type=post&cat=35'); ?>
 										<?php global $wp_query; $wp_query->in_the_loop = true; ?>
 										<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
@@ -160,12 +160,12 @@
 											<p><?php echo teaser(80); ?></p>
 										</div>
 										<?php endwhile; wp_reset_postdata(); ?>	
-									</div>
+						
 								</div>
 							</div>
 							<div role="tabpanel" class="tab-pane" id="suckhoe">
 								<div class="content-tour-list">
-									<div class="row">
+								
 										<?php $getposts = new WP_query(); $getposts->query('post_status=publish&showposts=6&post_type=post&cat=37'); ?>
 										<?php global $wp_query; $wp_query->in_the_loop = true; ?>
 										<?php while ($getposts->have_posts()) : $getposts->the_post(); ?>
@@ -180,7 +180,7 @@
 											<p><?php echo teaser(80); ?></p>
 											</div>
 										<?php endwhile; wp_reset_postdata(); ?>	
-									</div>
+								
 								</div>
 							</div>
 						</div>
