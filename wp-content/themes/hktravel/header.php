@@ -69,7 +69,6 @@
 		 }}
 	</script>
 	
-	<script type="text/javascript" src="https://dulichkhampha.net/wp-content/uploads/2019/01/phaohoa.js"></script>
 </head>
 <body>
 	<?php global $hk_options; ?>
