@@ -74,7 +74,7 @@
 											</div>
 											<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
 											<div class="meta"><span><strong><i>View: </strong><?php echo getpostviews(get_the_id()); ?> Lượt xem</i></span></div>
-											<p><?php echo teaser(50); ?></p>
+											<p><?php echo teaser(80); ?></p>
 										</div>
 									<?php endwhile; wp_reset_postdata(); ?>
 									<div class="clear"></div>
