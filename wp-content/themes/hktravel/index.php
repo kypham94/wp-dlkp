@@ -120,9 +120,11 @@
 													<?php echo get_the_post_thumbnail( get_the_id(), 'post-thumb', array("alt"=>get_the_title(), 'class' => 'img-post') ); ?>
 												</a>
 											</div>
+											<div class="box-mota">
 											<h4><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h4>
 											<div class="meta"><span><strong><i>View: </strong><?php echo getpostviews(get_the_id()); ?> Lượt xem</i></span></div>
-											<p><?php echo teaser(80); ?></p>
+											<p><?php echo teaser(30); ?></p>
+											</div>
 											</div>
 										</div>
 										<?php endwhile; wp_reset_postdata(); ?>	
