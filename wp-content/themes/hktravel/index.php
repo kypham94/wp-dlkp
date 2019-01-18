@@ -59,6 +59,11 @@
 							<a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab">Bài viết nổi bật</a>
 						</li>
 					</ul>
+					<div class="col-xs-12 col-sm-12 col-md-12" id="post-nb">
+						<h2>
+							<span>Bài viết nổi bật</span>
+						</h2>	
+					</div>
 					<div class="tab-content">
 						<div role="tabpanel" class="tab-pane active" id="tab1">
 							<div class="detail-post-main">
