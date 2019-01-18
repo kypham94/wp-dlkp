@@ -3,7 +3,11 @@
 		<?php get_template_part('slider'); ?>
 		<div class="content-featured">
 			<div class="container">
-				<h2><span>Danh mục nổi bật</span></h2>
+				<div class="col-xs-12 col-sm-12 col-md-12" id="post-nb">
+					<h2>
+						<span>Danh mục nổi bật</span>
+					</h2>	
+				</div>
 				<div class="main-featured">
 					<div class="box-left">
 						<div class="cate_list" style="background: url(https://dulichkhampha.net/wp-content/uploads/2018/12/gioi-thieu.jpg);
