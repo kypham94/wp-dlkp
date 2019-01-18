@@ -54,11 +54,6 @@
 		<div class="content-post">
 			<div class="container">
 				<div role="tabpanel">
-					<ul class="nav nav-tabs post-tabs" role="tablist">
-						<li role="presentation">
-							<a href="#tab1" aria-controls="tab1" role="tab" data-toggle="tab">Bài viết nổi bật</a>
-						</li>
-					</ul>
 					<div class="col-xs-12 col-sm-12 col-md-12" id="post-nb">
 						<h2>
 							<span>Bài viết nổi bật</span>
