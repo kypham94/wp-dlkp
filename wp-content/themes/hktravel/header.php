@@ -48,23 +48,7 @@
 						"https://www.tumblr.com/blog/du-lich-kham-pha"]
 		}
 	</script>
-	<script type="application/ld+json">{
-		  "@context": "http://schema.org/",
-		  "@type": "Person",
-		  "name": "Hoàn Nguyễn", 
-		  "jobTitle": "Ceo",
-		  "worksFor" : "Chia sẻ kinh nghiệm du lịch",
-		  "url": "https://dulichkhampha.net/",
-		  "sameAs":["https://www.facebook.com/Hoan2603", 
-		  "https://www.youtube.com/channel/UConaJZtT22qeTnHUmkxVtMQ?view_as=subscriber"],
-		  "AlumniOf" : [ "Trường Trung học phổ thông Xuân Trường", 
-		  "Học viện Nông nghiệp Việt Nam" ],
-		  "address": {
-		  "@type": "PostalAddress",
-	          "addressLocality": "Hà Nội",
-	          "addressRegion": "vietnam"
-		 }}
-	</script>
+	
 </head>
 <body>
 	<?php global $hk_options; ?>
