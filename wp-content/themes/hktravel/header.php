@@ -27,7 +27,7 @@
 		"addressCountry": "VIỆT NAM",
 		"addressRegion": "Hà Nội",
 		"postalCode":"100000",
-		"streetAddress": "G1110, Xuân Mai Complex, Hà Đông, Hà Nội",
+		"streetAddress": "G1110, Xuân Mai Complex, Hà Đông, Hà Nội"
 		},
 		"description": "Cùng khám phá những địa điểm du lịch, ăn uống; các kiến thức về sức khỏe, làm đẹp hữu ích nhất trên website: dulichkhampha.net",
 		"name": "Du lịch khám phá",
@@ -36,10 +36,8 @@
 		"geo": {
 		"@type": "GeoCoordinates",
 			"latitude": "20.9939653", 
-		"longitude": "105.8004992",
+		"longitude": "105.8004992" 
 			}, 			
-
-
 		"sameAs" : [    "https://www.facebook.com/dulichkhampha.net/",
 						"https://www.youtube.com/channel/UCyQhQaa3qYoeUFxhkQTfALg?view_as=subscriber",
 						"https://twitter.com/dulich_khampha",
@@ -47,10 +45,9 @@
 						"https://www.linkedin.com/in/du-l%E1%BB%8Bch-kh%C3%A1m-ph%C3%A1-9b1682176/",
 						"https://www.pinterest.com/dulichkhamphanet/",
 						"https://trello.com/dulichkhampha",
-						"https://www.tumblr.com/blog/du-lich-kham-pha"],
+						"https://www.tumblr.com/blog/du-lich-kham-pha"]
 		}
 	</script>
-
 	<script type="application/ld+json">{
 		  "@context": "http://schema.org/",
 		  "@type": "Person",
@@ -59,14 +56,17 @@
 		  "worksFor" : "Chia sẻ kinh nghiệm du lịch",
 		  "url": "https://dulichkhampha.net/",
 		  "sameAs":["https://www.facebook.com/Hoan2603", 
-		  "https://www.youtube.com/channel/UConaJZtT22qeTnHUmkxVtMQ?view_as=subscriber"],
-		  "AlumniOf" : [ "Trường Trung học phổ thông Xuân Trường", 
-		  "Học viện Nông nghiệp Việt Nam" ], 
-		  "address": {
-		  "@type": "PostalAddress",
-	          "addressLocality": "Hà Nội",
-	          "addressRegion": "vietnam",
-		 }}
+		  "https://www.youtube.com/channel/UConaJZtT22qeTnHUmkxVtMQ?view_as=subscriber"], 
+         "AlumniOf" : [ "Trường Trung học phổ thông Xuân Trường", 
+		  "Học viện Nông nghiệp Việt Nam" ],
+           "address": {
+		      "@type": "PostalAddress",
+              "addressLocality": "Hà Nội",
+              "addressCountry": "VIỆT NAM",
+              "addressRegion": "Hà Nội",
+              "streetAddress": "Số 9, Ngõ 565 Hồng Hà, Hoàn Kiếm, Hà Nội"
+		 }
+         }
 	</script>
 	
 </head>
