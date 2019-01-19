@@ -59,7 +59,7 @@
 		  "worksFor" : "Chia sẻ kinh nghiệm du lịch",
 		  "url": "https://dulichkhampha.net/",
 		  "sameAs":["https://www.facebook.com/Hoan2603", 
-		  "https://www.youtube.com/channel/UConaJZtT22qeTnHUmkxVtMQ?view_as=subscriber",
+		  "https://www.youtube.com/channel/UConaJZtT22qeTnHUmkxVtMQ?view_as=subscriber"],
 		  "AlumniOf" : [ "Trường Trung học phổ thông Xuân Trường", 
 		  "Học viện Nông nghiệp Việt Nam" ], 
 		  "address": {
