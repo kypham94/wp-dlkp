@@ -27,7 +27,7 @@
 		"addressCountry": "VIỆT NAM",
 		"addressRegion": "Hà Nội",
 		"postalCode":"100000",
-		"streetAddress": "G1110, Xuân Mai Complex, Hà Đông, Hà Nội"
+		"streetAddress": "G1110, Xuân Mai Complex, Hà Đông, Hà Nội",
 		},
 		"description": "Cùng khám phá những địa điểm du lịch, ăn uống; các kiến thức về sức khỏe, làm đẹp hữu ích nhất trên website: dulichkhampha.net",
 		"name": "Du lịch khám phá",
@@ -36,7 +36,7 @@
 		"geo": {
 		"@type": "GeoCoordinates",
 			"latitude": "20.9939653", 
-		"longitude": "105.8004992" 
+		"longitude": "105.8004992",
 			}, 			
 
 
@@ -47,7 +47,7 @@
 						"https://www.linkedin.com/in/du-l%E1%BB%8Bch-kh%C3%A1m-ph%C3%A1-9b1682176/",
 						"https://www.pinterest.com/dulichkhamphanet/",
 						"https://trello.com/dulichkhampha",
-						"https://www.tumblr.com/blog/du-lich-kham-pha"]
+						"https://www.tumblr.com/blog/du-lich-kham-pha"],
 		}
 	</script>
 
@@ -65,7 +65,7 @@
 		  "address": {
 		  "@type": "PostalAddress",
 	          "addressLocality": "Hà Nội",
-	          "addressRegion": "vietnam"
+	          "addressRegion": "vietnam",
 		 }}
 	</script>
 	
