@@ -225,3 +225,4 @@ add_action('do_feed_rss2_comments', 'fb_disable_feed', 1);
 add_action('do_feed_atom_comments', 'fb_disable_feed', 1);
 remove_action( 'wp_head', 'feed_links_extra', 3 );
 remove_action( 'wp_head', 'feed_links', 2 );
+?>
