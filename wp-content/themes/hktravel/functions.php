@@ -214,7 +214,7 @@ function wpdocs_theme_setup() {
 }
 
 function fb_disable_feed() {
-wp_die( __('Tính năng RSS đã bị vô hiệu. Vui lòng quay về <a href="'. get_bloginfo('url') .'">Trang Chủ</a>!') );
+wp_die( __('Website này đã tắt chức năng RSS. Vui lòng trở lại <a href="'. get_bloginfo('url') .'">Trang Chủ</a>!') );
 }
 add_action('do_feed', 'fb_disable_feed', 1);
 add_action('do_feed_rdf', 'fb_disable_feed', 1);
@@ -223,6 +223,4 @@ add_action('do_feed_rss2', 'fb_disable_feed', 1);
 add_action('do_feed_atom', 'fb_disable_feed', 1);
 add_action('do_feed_rss2_comments', 'fb_disable_feed', 1);
 add_action('do_feed_atom_comments', 'fb_disable_feed', 1);
-remove_action( 'wp_head', 'feed_links_extra', 3 );
-remove_action( 'wp_head', 'feed_links', 2 );
 ?>
