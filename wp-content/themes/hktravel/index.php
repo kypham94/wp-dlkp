@@ -1,4 +1,42 @@
 <?php get_header(); ?>
+	<script type="application/ld+json">{
+		"@context": "http://schema.org/",
+		"@type": "Professionalservice",
+	        "@id":"https://dulichkhampha.net/",
+		"url": "https://dulichkhampha.net/",
+		"logo": "https://dulichkhampha.net/wp-content/uploads/2018/12/du-lich-kham-pha.png",
+	        "image":"https://dulichkhampha.net/wp-content/uploads/2018/12/du-lich-kham-pha.png",
+	        "priceRange":"1000$-30000$",
+		"hasMap": "https://www.google.com/maps/dir/21.0296832,105.8004992/Xu%C3%A2n+Mai+Complex,+H%C3%A0+%C4%90%C3%B4ng,+H%C3%A0+N%E1%BB%99i/@20.9939653,105.7403791,13z/data=!3m1!4b1!4m9!4m8!1m1!4e1!1m5!1m1!1s0x313452fa04f0058f:0x9347c7d0fe6b8b05!2m2!1d105.7413187!2d20.9604323",	
+		"email": "mailto:dulichkhampha.net@gmail.com",
+	        "founder": "Hoàn Nguyễn",  
+		"address": {
+		"@type": "PostalAddress",
+		"addressLocality": "Hà Nội",
+		"addressCountry": "VIỆT NAM",
+		"addressRegion": "Hà Nội",
+		"postalCode":"100000",
+		"streetAddress": "G1110, Xuân Mai Complex, Hà Đông, Hà Nội"
+		},
+		"description": "Cùng khám phá những địa điểm du lịch, ăn uống; các kiến thức về sức khỏe, làm đẹp hữu ích nhất trên website: dulichkhampha.net",
+		"name": "Du lịch khám phá",
+		"telephone": "0979027181", 
+		"openingHours": [ "Mo-Sun 08:00-22:00" ],
+		"geo": {
+		"@type": "GeoCoordinates",
+			"latitude": "20.9939653", 
+		"longitude": "105.8004992" 
+			}, 			
+		"sameAs" : [    "https://www.facebook.com/dulichkhampha.net/",
+						"https://www.youtube.com/channel/UCyQhQaa3qYoeUFxhkQTfALg?view_as=subscriber",
+						"https://twitter.com/dulich_khampha",
+						"https://www.instagram.com/dulichkhampha.nett/",
+						"https://www.linkedin.com/in/du-l%E1%BB%8Bch-kh%C3%A1m-ph%C3%A1-9b1682176/",
+						"https://www.pinterest.com/dulichkhamphanet/",
+						"https://trello.com/dulichkhampha",
+						"https://www.tumblr.com/blog/du-lich-kham-pha"]
+		}
+	</script>
 	<div id="content">
 		<?php get_template_part('slider'); ?>
 		<div class="content-featured">
