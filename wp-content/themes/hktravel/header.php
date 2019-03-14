@@ -5,7 +5,7 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/libs/bootstrap/css/bootstrap.min.css"> 
-	<!--<link rel="stylesheet" href="<?php //bloginfo('template_directory'); ?>/libs/font-awesome/css/font-awesome.min.css">-->
+	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/libs/font-awesome/css/font-awesome.min.css">
 	<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/css/style.css">
 	<link rel="shortcut icon" href="https://dulichkhampha.net/wp-content/uploads/2018/12/z6.jpg" />
 	<meta name="google-site-verification" content="__eiLtWtIk2IcY9f156oJ3no0FPJ53CQo_ifEGII1aQ" />
