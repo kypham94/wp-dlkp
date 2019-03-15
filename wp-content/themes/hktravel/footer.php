@@ -85,7 +85,6 @@
 		<script src="<?php bloginfo('template_directory'); ?>/libs/bootstrap/js/bootstrap.min.js"></script>
 		<script src="<?php bloginfo('template_directory'); ?>/js/jquery.mmenu.all.min.js"></script>
 		<script src="<?php bloginfo('template_directory'); ?>/js/main.js"></script>
-		<link rel="stylesheet" href="<?php bloginfo('template_directory'); ?>/libs/font-awesome/css/font-awesome.min.css">
 		<?php wp_footer(); ?>
 		<div id="fb-root"></div>
 		<script>
