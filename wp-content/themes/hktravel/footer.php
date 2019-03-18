@@ -15,6 +15,8 @@
 									<img src="<?php echo $hk_options[logo][url]; ?>" alt="<?php bloginfo('name'); ?>">
 									<p><?php echo $hk_options['text-footer']; ?></p>
 									<p><a href="<?php bloginfo('url'); ?>/gioi-thieu">Xem thêm <i class="fa fa-angle-double-right"></i></a></p>
+									<p><a href="https://dulichkhampha.net/dieu-khoan-su-dung">Điều khoản sử dụng</p>
+									<p><a href="https://dulichkhampha.net/chinh-sach-bao-mat">Chính sách bảo mật</p>
 									<ul class="social-ft">
 					                    <li><a href="<?php echo $hk_options['tw'];?>"><i class="fa fa-twitter"></i></a></li>
 					                    <li><a href="<?php echo $hk_options['li'];?>"><i class="fa fa-linkedin-square"></i></a></li>
