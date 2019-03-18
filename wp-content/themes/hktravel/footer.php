@@ -26,13 +26,13 @@
 							</div>
 							<div class="col-xs-6 col-sm-6 col-md-2">
 								<div class="block-link">
-									<h3>Thông tin</h3>
+									<h3>Du lịch trong nước</h3>
 									<?php wp_nav_menu( array( 'theme_location' => 'info_nav', 'container' => 'false', 'menu_id' => 'info-nav', 'menu_class' => 'menu-info') ); ?>
 								</div>
 							</div>
 							<div class="col-xs-6 col-sm-6 col-md-2">
 								<div class="block-link">
-									<h3>Liên kết</h3>
+									<h3>Du lịch nước ngoài</h3>
 									<?php wp_nav_menu( array( 'theme_location' => 'link_nav', 'container' => 'false', 'menu_id' => 'info-link', 'menu_class' => 'menu-link') ); ?>
 								</div>
 							</div>
