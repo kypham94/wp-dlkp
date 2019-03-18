@@ -27,6 +27,7 @@
 							<div class="col-xs-6 col-sm-6 col-md-2">
 								<div class="block-link">
 									<h3>Du lịch trong nước</h3>
+									<?php wp_nav_menu( array( 'theme_location' => 'footer_nav', 'container' => 'false', 'menu_id' => 'footer-nav', 'menu_class' => 'menu-footer') ); ?>
 									<?php wp_nav_menu( array( 'theme_location' => 'info_nav', 'container' => 'false', 'menu_id' => 'info-nav', 'menu_class' => 'menu-info') ); ?>
 								</div>
 							</div>
