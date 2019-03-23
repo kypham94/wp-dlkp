@@ -137,15 +137,15 @@
 <script type="text/javascript">
  jQuery(document).ready(function($) {
   $(window).load(function() {
-   if ($('#cotphai').length > 0) {
-     var _top = $('#cotphai').offset().top - parseFloat($('#cotphai').css('marginTop').replace(/auto/, 0));
+   if ($('.sidebar').length > 0) {
+     var _top = $('.sidebar').offset().top - parseFloat($('.sidebar').css('marginTop').replace(/auto/, 0));
       $(window).scroll(function(evt) {
        var _y = $(this).scrollTop();
        if (_y > _top) {
-       $('#cotphai').addClass('fixed');
+       $('.sidebar').addClass('fixed');
        $('.main-1').css("margin-top", "30px")
        } else {
-       $('#cotphai').removeClass('fixed');
+       $('.sidebar').removeClass('fixed');
        $('.main-1').css("margin-top", "0")
      }
     })
