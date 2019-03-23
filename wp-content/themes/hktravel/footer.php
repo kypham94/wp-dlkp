@@ -134,20 +134,7 @@
 		  gtag('config', 'UA-130880742-1');
 		</script>
 
-<script>
-$(document).ready(function() {
- 
-    var div = $('.sidebar');
-    var start = $(div).offset().top;
- 
-    $.event.add(window, "scroll", function() {
-        var ul = $(window).scrollTop();
-        $(div).css('position',((ul)>start) ? 'fixed' : 'static');
-        $(div).css('top',((ul)>start) ? '0px' : '');
-    });
- 
-});
-</script>
+
 
 
 <!--<script type='text/javascript'>
