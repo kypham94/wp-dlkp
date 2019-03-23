@@ -134,24 +134,19 @@
 		  gtag('config', 'UA-130880742-1');
 		</script>
 
-<script type="text/javascript">
- jQuery(document).ready(function($) {
-  $(window).load(function() {
-   if ($('.sidebar').length > 0) {
-     var _top = $('.sidebar').offset().top - parseFloat($('.sidebar').css('marginTop').replace(/auto/, 0));
-      $(window).scroll(function(evt) {
-       var _y = $(this).scrollTop();
-       if (_y > _top) {
-       $('.sidebar').addClass('fixed');
-       $('.main-1').css("margin-top", "30px")
-       } else {
-       $('.sidebar').removeClass('fixed');
-       $('.main-1').css("margin-top", "0")
-     }
-    })
-   }
-  });
- });
+<script>
+$(document).ready(function() {
+ 
+    var div = $('.sidebar');
+    var start = $(div).offset().top;
+ 
+    $.event.add(window, "scroll", function() {
+        var p = $(window).scrollTop();
+        $(div).css('position',((p)>start) ? 'fixed' : 'static');
+        $(div).css('top',((p)>start) ? '0px' : '');
+    });
+ 
+});
 </script>
 
 
