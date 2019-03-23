@@ -85,8 +85,8 @@
 
 
 				</div>
-				<div class="col-xs-12 col-sm-12 col-md-3">
-					<div class="sidebar" style="position: fixed;">
+				<div class="col-xs-12 col-sm-12 col-md-3" id="cotphai">
+					<div class="sidebar">
 						<?php get_sidebar(); ?>
 					</div>
 				</div>
