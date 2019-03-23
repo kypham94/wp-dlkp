@@ -85,7 +85,7 @@
 
 
 				</div>
-				<div class="col-xs-12 col-sm-12 col-md-3">
+				<div class="col-xs-12 col-sm-12 col-md-3" style="position: fixed;">
 					<div class="sidebar">
 						<?php get_sidebar(); ?>
 					</div>
