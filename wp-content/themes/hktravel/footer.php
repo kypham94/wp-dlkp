@@ -134,6 +134,26 @@
 		  gtag('config', 'UA-130880742-1');
 		</script>
 
+<script type="text/javascript">
+ jQuery(document).ready(function($) {
+  $(window).load(function() {
+   if ($('#cotphai').length > 0) {
+     var _top = $('#cotphai').offset().top - parseFloat($('#cotphai').css('marginTop').replace(/auto/, 0));
+      $(window).scroll(function(evt) {
+       var _y = $(this).scrollTop();
+       if (_y > _top) {
+       $('#cotphai').addClass('fixed');
+       $('.main-1').css("margin-top", "30px")
+       } else {
+       $('#cotphai').removeClass('fixed');
+       $('.main-1').css("margin-top", "0")
+     }
+    })
+   }
+  });
+ });
+</script>
+
 
 <!--<script type='text/javascript'>
 //<![CDATA[
